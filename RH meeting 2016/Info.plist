@@ -2,6 +2,47 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AWS</key>
+	<dict>
+		<key>CredentialsProvider</key>
+		<dict>
+			<key>CognitoIdentity</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>PoolId</key>
+					<string>us-east-1:5f18fe5e-502e-40d1-bcf9-11200145baa4</string>
+					<key>Region</key>
+					<string>USEast1</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>IdentityManager</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+		<key>MobileHub</key>
+		<dict>
+			<key>ProjectClientId</key>
+			<string>MobileHub c1b26a9c-3f09-4ffc-b8f4-ee2eccbc5265 aws-my-sample-app-ios-swift-v0.2</string>
+		</dict>
+		<key>PushManager</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>USEast1</string>
+				<key>SNSConfiguredTopics</key>
+				<array>
+					<string>arn:aws:sns:us-east-1:534003673918:rhmeeting_alldevices_MOBILEHUB_1448306062</string>
+					<string></string>
+				</array>
+				<key>SNSPlatformApplicationARN</key>
+				<string>arn:aws:sns:us-east-1:534003673918:app/APNS/rhmeeting_MOBILEHUB_1448306062</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -30,11 +71,35 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>cloudfront.net</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+			<key>amazonaws.com</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>
