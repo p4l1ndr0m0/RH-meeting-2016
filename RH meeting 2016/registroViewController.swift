@@ -135,7 +135,7 @@ class registroViewController: UIViewController, UITextFieldDelegate, SRKComboBox
         
         else {
             
-            let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsi.palindromo.com.mx/APP/registro.php")!)
+            let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/registro.php")!)
             request.HTTPMethod = "POST"
             let postString = "nombre=\(nombreI.text!)&paterno=\(paternoI.text!)&materno=\(maternoI.text!)&area=\(Area)&correo=\(correoI.text)&passw=\(passwordI.text)"
             
