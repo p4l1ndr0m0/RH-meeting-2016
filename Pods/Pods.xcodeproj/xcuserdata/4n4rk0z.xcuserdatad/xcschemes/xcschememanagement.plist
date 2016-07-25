@@ -109,6 +109,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SRKControls-SRKControls.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SRKControls.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -142,11 +152,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64FDB78DF148A1C49C98299D544DA60B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>7051517F12CD2BBD8AE2AD214DB4EC0C</key>
 		<dict>
 			<key>primary</key>
@@ -158,6 +163,11 @@
 			<true/>
 		</dict>
 		<key>7BB24175093D7F20531C6FD7CB7D1C9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7FB607DD0F77E7A986CA209299505DA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -192,6 +202,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>BF4A3E99905E687D3BE851D023002848</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C3FB5DE1339FFE064A98868D1CA84176</key>
 		<dict>
 			<key>primary</key>
@@ -203,6 +218,11 @@
 			<true/>
 		</dict>
 		<key>D740CBFAFBEB8DAC35A62484B35562DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDA03E60F46050F2A5FDDAC328D4F05E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

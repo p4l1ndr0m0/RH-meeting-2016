@@ -34,6 +34,9 @@ PODS:
     - AWSCore (= 2.4.1)
   - AWSSQS (2.4.1):
     - AWSCore (= 2.4.1)
+  - SRKControls (3.0.5):
+    - SRKControls/Controls (= 3.0.5)
+  - SRKControls/Controls (3.0.5)
 
 DEPENDENCIES:
   - AWSAutoScaling
@@ -53,6 +56,7 @@ DEPENDENCIES:
   - AWSSimpleDB
   - AWSSNS
   - AWSSQS
+  - SRKControls (~> 3.0.1)
 
 SPEC CHECKSUMS:
   AWSAutoScaling: 3b87242dfe7a2a2ab32f19841303c20269ac517f
@@ -73,7 +77,8 @@ SPEC CHECKSUMS:
   AWSSimpleDB: 69c8e60cb2e8e6df83d9fad2b1cf64fe55cca9e4
   AWSSNS: 69bd0886bd48f175a9bcfef0f78d47370a4cabad
   AWSSQS: 735fb161c3046cef4c0c3ec1372538946fefcc34
+  SRKControls: ef82f31f3bdea31ab8ec5d36057f553c8b8815a5
 
-PODFILE CHECKSUM: 09a85d17c91be3b316a4d67e463707b760f6f122
+PODFILE CHECKSUM: befddbdc53865c001a8d97f8eb3b0996d98abc86
 
 COCOAPODS: 1.0.0

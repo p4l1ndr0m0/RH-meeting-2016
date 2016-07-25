@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'RH meeting 2016' do
+    pod 'SRKControls', '~> 3.0.1'
     pod 'AWSAutoScaling'
     pod 'AWSCloudWatch'
     pod 'AWSCognito'
