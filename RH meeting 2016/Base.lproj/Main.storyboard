@@ -155,7 +155,7 @@
                                     <constraint firstAttribute="width" secondItem="4IC-LF-fTV" secondAttribute="height" multiplier="28:3" id="CuQ-xp-ANg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y25-4D-Kvm">
                                 <rect key="frame" x="20" y="206" width="280" height="21"/>
@@ -172,7 +172,7 @@
                                     <constraint firstAttribute="width" secondItem="pgB-4j-fQP" secondAttribute="height" multiplier="28:3" id="GMi-2a-l3K"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sS1-N0-c8r">
                                 <rect key="frame" x="20" y="458" width="280" height="30"/>
