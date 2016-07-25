@@ -223,9 +223,9 @@
                         <outlet property="confPasswordI" destination="pgB-4j-fQP" id="WWE-4x-vKY"/>
                         <outlet property="correoI" destination="EQl-4D-iGI" id="J2b-F7-4es"/>
                         <outlet property="maternoI" destination="bWe-OO-yMb" id="o2v-pE-dog"/>
-                        <outlet property="nombreI" destination="sKx-Xf-XwI" id="mOp-ov-0Ox"/>
+                        <outlet property="nombreI" destination="hjp-bD-KBG" id="k2J-fs-Z3i"/>
                         <outlet property="passwordI" destination="4IC-LF-fTV" id="1eh-GS-Bjx"/>
-                        <outlet property="paternoI" destination="sKx-Xf-XwI" id="R3i-25-eb6"/>
+                        <outlet property="paternoI" destination="sKx-Xf-XwI" id="Gol-Mb-VN4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IX8-2W-1uE" userLabel="First Responder" sceneMemberID="firstResponder"/>
