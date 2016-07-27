@@ -9,5 +9,27 @@
 import UIKit
 
 class menuViewController: UIViewController {
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    
+    /*override func viewDidAppear(animated: Bool) {
+        
+        let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLoggedIn")
+        
+        if(!isUserLoggedIn){
+        
+            self.performSegueWithIdentifier("menuView", sender: self)
+        }
+    }*/
+    
+    
 
 }

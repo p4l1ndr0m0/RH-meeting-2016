@@ -41,6 +41,9 @@
                                     <constraint firstAttribute="width" secondItem="mql-He-9Ux" secondAttribute="height" multiplier="28:3" id="J7A-Nc-QHV"/>
                                 </constraints>
                                 <state key="normal" title="Ingresar"/>
+                                <connections>
+                                    <action selector="loginData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Wf-B4-Mps"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A98-xo-saG">
                                 <rect key="frame" x="20" y="385" width="280" height="30"/>
@@ -65,7 +68,7 @@
                                     <constraint firstAttribute="width" secondItem="E1v-Rv-HNz" secondAttribute="height" multiplier="40:3" id="U1Z-sM-LCP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -89,6 +92,10 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="correoData" destination="dWB-Vq-byy" id="hIc-H4-CGZ"/>
+                        <outlet property="passData" destination="mhe-Ec-hao" id="n4j-bJ-5Ix"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -163,7 +170,7 @@
                                     <constraint firstAttribute="width" secondItem="y25-4D-Kvm" secondAttribute="height" multiplier="40:3" id="ZNh-0c-E06"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmar Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pgB-4j-fQP">
@@ -243,13 +250,29 @@
                     <view key="view" contentMode="scaleToFill" id="Ipk-tP-cHD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1n-K5-nax">
+                                <rect key="frame" x="108" y="115" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7J-e4-vQS">
+                                <rect key="frame" x="123" y="269" width="75" height="30"/>
+                                <state key="normal" title="Regresar"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="wVe-Tp-ndX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Xlf-p8-DdH"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7v-2Z-Oil" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1212" y="202"/>
+            <point key="canvasLocation" x="1067" y="93"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yrm-3S-DFN">
@@ -269,16 +292,14 @@
                                     <constraint firstAttribute="width" secondItem="HA4-2x-yf3" secondAttribute="height" multiplier="40:3" id="aMb-80-6tT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVB-s3-KAH">
                                 <rect key="frame" x="20" y="295" width="280" height="30"/>
                                 <state key="normal" title="Continuar"/>
                                 <connections>
-                                    <segue destination="Ycu-Zo-yve" kind="popoverPresentation" popoverAnchorView="GVB-s3-KAH" id="uLt-cC-EXB">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="cFV-iP-ipW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -315,5 +336,27 @@
             </objects>
             <point key="canvasLocation" x="832" y="1019"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FQd-4h-ghq">
+            <objects>
+                <navigationController storyboardIdentifier="otherViewController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ipb-lE-ynz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yKP-6B-OKz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ycu-Zo-yve" kind="relationship" relationship="rootViewController" id="SZC-Ga-IbA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Thd-st-lDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1538" y="93"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="wVe-Tp-ndX"/>
+    </inferredMetricsTieBreakers>
 </document>
