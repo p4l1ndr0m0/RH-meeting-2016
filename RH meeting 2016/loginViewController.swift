@@ -15,6 +15,7 @@ class loginViewController: UIViewController {
     @IBOutlet weak var passData: UITextField!
     
     var resultado: String!
+    var data_alone: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,9 @@ class loginViewController: UIViewController {
     
     @IBAction func loginData(sender: AnyObject) {
         
+        let user_Correo = correoData.text
+        
+        
         if (correoData.text == "" || passData.text == ""){
             let alertController = UIAlertController(title: "Error", message: "Es necesario llenar los campos", preferredStyle: .Alert)
             let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
@@ -36,24 +40,10 @@ class loginViewController: UIViewController {
             self.presentViewController(alertController, animated: true, completion:nil)
         }
         
-        if(correoData.text == "billy@palindromo.com" || passData.text == "1234"){
-            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            
-            let vc: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("otherViewController") as! UINavigationController
-            
-            self.presentViewController(vc, animated: true, completion: nil)
-        }
+        
+        
+        
         else {
-            let alertController = UIAlertController(title: "Error", message: "Correo y/o Contraseña Invalido", preferredStyle: .Alert)
-            let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
-                print("boton apretado para cancelacion");
-            }
-            alertController.addAction(cancelAction)
-            self.presentViewController(alertController, animated: true, completion:nil)
-        }
-        
-        
-        /*else {
             
             let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/userLogin.php")!)
             request.HTTPMethod = "POST"
@@ -71,16 +61,41 @@ class loginViewController: UIViewController {
                 print("response = \(response)")
                 
                 let resultValue:String = NSString(data: data!, encoding: NSUTF8StringEncoding) as String!;
-                print(resultValue)
+                print("este es: \(resultValue)")
                 //print("responseString = \(resultValue)")
+                 self.resultado = resultValue
+                
+                self.resultado = self.resultado.stringByReplacingOccurrencesOfString("\"", withString: "", options: NSStringCompareOptions.LiteralSearch, range: nil)
+                
+                /*NSUserDefaults.standardUserDefaults().setObject(user_Correo, forKey:"isUserLoggedIn")
+                NSUserDefaults.standardUserDefaults().setObject(self.resultado, forKey: "UserCorreo")
+                NSUserDefaults.standardUserDefaults().synchronize()*/
+                
+                print("putamadre \(self.resultado)")
+                /*let d1 = NSUserDefaults.standardUserDefaults().stringForKey("isUserLoggedIn") as String!
+                let d2 = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo") as String!
+                
+                print(d1)
+                print(d2)*/
             
-                if(resultValue=="Success"){
+                
+                
+                
+                if(self.resultado == "Success"){
                     
-                    NSUserDefaults.standardUserDefaults().setBool(true, forKey:"isUserLoggedIn")
+                    
+                    NSUserDefaults.standardUserDefaults().setObject(self.resultado, forKey: "isUserLoggedIn")
+                    NSUserDefaults.standardUserDefaults().setObject(user_Correo, forKey:"UserCorreo")
                     NSUserDefaults.standardUserDefaults().synchronize()
                     self.dismissViewControllerAnimated(true, completion: nil)
-                 
-                }
+                    let d1 = NSUserDefaults.standardUserDefaults().stringForKey("isUserLoggedIn") as String!
+                    let d2 = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo") as String!
+                    
+                    print("d1 \(d1)")
+                    print("d2 \(d2)")
+                    
+                                    }
+    
                 
           
             
@@ -88,9 +103,38 @@ class loginViewController: UIViewController {
             
             task.resume()
             
+            /*let t1 = NSUserDefaults.standardUserDefaults().stringForKey("isUserLoggedIn") as String!
+            let t2 = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo") as String!
             
-        }*/
+            print("t1 \(t1)")
+            print("t2 \(t2)")
+            
+            if(t1 == "Success"){
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                
+                let vc: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("otherViewController") as! UINavigationController
+                
+                self.presentViewController(vc, animated: true, completion: nil)
+            }
+            else {
+                let alertController = UIAlertController(title: "Error", message: "Correo y/o Contraseña Incorrectos", preferredStyle: .Alert)
+                let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
+                    print("boton apretado para cancelacion");
+                }
+                alertController.addAction(cancelAction)
+                self.presentViewController(alertController, animated: true, completion:nil)
+                
+            }*/
+            
+            
+            
+        }
+        
+        
     }
+    
+    
+    
 
     
     }

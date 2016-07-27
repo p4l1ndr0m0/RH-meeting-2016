@@ -20,16 +20,5 @@ class menuViewController: UIViewController {
     }
     
     
-    /*override func viewDidAppear(animated: Bool) {
-        
-        let isUserLoggedIn = NSUserDefaults.standardUserDefaults().boolForKey("isUserLoggedIn")
-        
-        if(!isUserLoggedIn){
-        
-            self.performSegueWithIdentifier("menuView", sender: self)
-        }
-    }*/
-    
-    
 
 }
