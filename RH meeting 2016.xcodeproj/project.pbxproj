@@ -22,6 +22,7 @@
 		2834B6991D4AB8C5002057ED /* d3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6981D4AB8C5002057ED /* d3ViewController.swift */; };
 		2834B69B1D4AC749002057ED /* LocationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B69A1D4AC749002057ED /* LocationMenu.swift */; };
 		2834B69D1D4AC759002057ED /* HomeModelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B69C1D4AC759002057ED /* HomeModelMenu.swift */; };
+		2834B6A01D4AE928002057ED /* rallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B69F1D4AE928002057ED /* rallyViewController.swift */; };
 		86D62BC82A84EE8CF303E195 /* Pods_RH_meeting_2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158013449B2B85D19295A7D5 /* Pods_RH_meeting_2016Tests.framework */; };
 		9D5D632E1D468DF300EC6BE7 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D632D1D468DF300EC6BE7 /* loginViewController.swift */; };
 		9D5D63301D4690F000EC6BE7 /* registroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D632F1D4690F000EC6BE7 /* registroViewController.swift */; };
@@ -75,6 +76,7 @@
 		2834B6981D4AB8C5002057ED /* d3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d3ViewController.swift; sourceTree = "<group>"; };
 		2834B69A1D4AC749002057ED /* LocationMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMenu.swift; sourceTree = "<group>"; };
 		2834B69C1D4AC759002057ED /* HomeModelMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelMenu.swift; sourceTree = "<group>"; };
+		2834B69F1D4AE928002057ED /* rallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rallyViewController.swift; sourceTree = "<group>"; };
 		48E99A9620CD092068817BFF /* Pods-RH meeting 2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016Tests/Pods-RH meeting 2016Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6323A5CFD45AE77EEE8D73E0 /* Pods-RH meeting 2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016/Pods-RH meeting 2016.debug.xcconfig"; sourceTree = "<group>"; };
 		8694E1DF87ABD0D0DB1F331C /* Pods-RH meeting 2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016UITests/Pods-RH meeting 2016UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,14 @@
 			name = Agenda;
 			sourceTree = "<group>";
 		};
+		2834B69E1D4AE917002057ED /* rally */ = {
+			isa = PBXGroup;
+			children = (
+				2834B69F1D4AE928002057ED /* rallyViewController.swift */,
+			);
+			name = rally;
+			sourceTree = "<group>";
+		};
 		9D5D632B1D468DAD00EC6BE7 /* login */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +214,7 @@
 		9DF4FD0B1D43CA50007C8DC3 /* RH meeting 2016 */ = {
 			isa = PBXGroup;
 			children = (
+				2834B69E1D4AE917002057ED /* rally */,
 				2834B67F1D4A957D002057ED /* Agenda */,
 				9D5D63331D469E3A00EC6BE7 /* menu */,
 				9D5D632C1D468DB800EC6BE7 /* registro */,
@@ -527,6 +538,7 @@
 				2834B68F1D4AB7BA002057ED /* HomeModelUno.swift in Sources */,
 				2834B6871D4AB77C002057ED /* dia3ViewController.swift in Sources */,
 				9D5D63301D4690F000EC6BE7 /* registroViewController.swift in Sources */,
+				2834B6A01D4AE928002057ED /* rallyViewController.swift in Sources */,
 				2834B6891D4AB799002057ED /* LocationUno.swift in Sources */,
 				2834B68D1D4AB7AD002057ED /* LocationTres.swift in Sources */,
 				2834B6831D4AB72A002057ED /* dia1ViewController.swift in Sources */,
