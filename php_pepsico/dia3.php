@@ -1,7 +1,7 @@
 <?php
  
 // Create connection
-$con=mysqli_connect("50.62.209.194","admincmp","Tryt0b3n1c3w1thM3!","cmpdb");
+$con=mysqli_connect("localhost","adria_adminpepsi","Prefiero_coca_2016!","adrian_pepsidb");
  
 // Check connection
 if (mysqli_connect_errno())
@@ -10,7 +10,7 @@ if (mysqli_connect_errno())
 }
  mysqli_query($con, 'SET NAMES utf8'); 
 // This SQL statement selects ALL from the program ''
-$sql = "SELECT * FROM agenda WHERE fecha = 'lunes' ORDER BY id";
+$sql = "SELECT * FROM agenda WHERE dia = 'miercoles' ORDER BY id";
  
 // Check if there are results
 if ($result = mysqli_query($con, $sql))

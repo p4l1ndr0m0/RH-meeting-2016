@@ -10,9 +10,18 @@ import UIKit
 
 class menuViewController: UIViewController {
     
+    var resultado: String!
     
+    var selectedLocation : LocationMenu = LocationMenu()
+    @IBOutlet weak var equipoText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        equipoText.text = self.selectedLocation.equipo
+        
+    
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

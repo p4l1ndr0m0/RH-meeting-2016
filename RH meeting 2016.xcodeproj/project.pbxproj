@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2834B6811D4AB70A002057ED /* agendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6801D4AB70A002057ED /* agendaViewController.swift */; };
+		2834B6831D4AB72A002057ED /* dia1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6821D4AB72A002057ED /* dia1ViewController.swift */; };
+		2834B6851D4AB75C002057ED /* dia2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6841D4AB75C002057ED /* dia2ViewController.swift */; };
+		2834B6871D4AB77C002057ED /* dia3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6861D4AB77C002057ED /* dia3ViewController.swift */; };
+		2834B6891D4AB799002057ED /* LocationUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6881D4AB799002057ED /* LocationUno.swift */; };
+		2834B68B1D4AB7A3002057ED /* LocationDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B68A1D4AB7A3002057ED /* LocationDos.swift */; };
+		2834B68D1D4AB7AD002057ED /* LocationTres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B68C1D4AB7AD002057ED /* LocationTres.swift */; };
+		2834B68F1D4AB7BA002057ED /* HomeModelUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B68E1D4AB7BA002057ED /* HomeModelUno.swift */; };
+		2834B6911D4AB7C2002057ED /* HomeModelDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6901D4AB7C2002057ED /* HomeModelDos.swift */; };
+		2834B6931D4AB7CA002057ED /* HomeModelTres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6921D4AB7CA002057ED /* HomeModelTres.swift */; };
+		2834B6951D4AB8A9002057ED /* d1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6941D4AB8A9002057ED /* d1ViewController.swift */; };
+		2834B6971D4AB8B8002057ED /* d2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6961D4AB8B8002057ED /* d2ViewController.swift */; };
+		2834B6991D4AB8C5002057ED /* d3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B6981D4AB8C5002057ED /* d3ViewController.swift */; };
+		2834B69B1D4AC749002057ED /* LocationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B69A1D4AC749002057ED /* LocationMenu.swift */; };
+		2834B69D1D4AC759002057ED /* HomeModelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2834B69C1D4AC759002057ED /* HomeModelMenu.swift */; };
 		86D62BC82A84EE8CF303E195 /* Pods_RH_meeting_2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158013449B2B85D19295A7D5 /* Pods_RH_meeting_2016Tests.framework */; };
 		9D5D632E1D468DF300EC6BE7 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D632D1D468DF300EC6BE7 /* loginViewController.swift */; };
 		9D5D63301D4690F000EC6BE7 /* registroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D632F1D4690F000EC6BE7 /* registroViewController.swift */; };
@@ -45,6 +60,21 @@
 /* Begin PBXFileReference section */
 		0B2C8F70527072B2B7A9F51D /* Pods-RH meeting 2016UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016UITests/Pods-RH meeting 2016UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		158013449B2B85D19295A7D5 /* Pods_RH_meeting_2016Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RH_meeting_2016Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2834B6801D4AB70A002057ED /* agendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = agendaViewController.swift; sourceTree = "<group>"; };
+		2834B6821D4AB72A002057ED /* dia1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dia1ViewController.swift; sourceTree = "<group>"; };
+		2834B6841D4AB75C002057ED /* dia2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dia2ViewController.swift; sourceTree = "<group>"; };
+		2834B6861D4AB77C002057ED /* dia3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dia3ViewController.swift; sourceTree = "<group>"; };
+		2834B6881D4AB799002057ED /* LocationUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUno.swift; sourceTree = "<group>"; };
+		2834B68A1D4AB7A3002057ED /* LocationDos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDos.swift; sourceTree = "<group>"; };
+		2834B68C1D4AB7AD002057ED /* LocationTres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTres.swift; sourceTree = "<group>"; };
+		2834B68E1D4AB7BA002057ED /* HomeModelUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelUno.swift; sourceTree = "<group>"; };
+		2834B6901D4AB7C2002057ED /* HomeModelDos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelDos.swift; sourceTree = "<group>"; };
+		2834B6921D4AB7CA002057ED /* HomeModelTres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelTres.swift; sourceTree = "<group>"; };
+		2834B6941D4AB8A9002057ED /* d1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d1ViewController.swift; sourceTree = "<group>"; };
+		2834B6961D4AB8B8002057ED /* d2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d2ViewController.swift; sourceTree = "<group>"; };
+		2834B6981D4AB8C5002057ED /* d3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d3ViewController.swift; sourceTree = "<group>"; };
+		2834B69A1D4AC749002057ED /* LocationMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMenu.swift; sourceTree = "<group>"; };
+		2834B69C1D4AC759002057ED /* HomeModelMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelMenu.swift; sourceTree = "<group>"; };
 		48E99A9620CD092068817BFF /* Pods-RH meeting 2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016Tests/Pods-RH meeting 2016Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6323A5CFD45AE77EEE8D73E0 /* Pods-RH meeting 2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016/Pods-RH meeting 2016.debug.xcconfig"; sourceTree = "<group>"; };
 		8694E1DF87ABD0D0DB1F331C /* Pods-RH meeting 2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RH meeting 2016UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RH meeting 2016UITests/Pods-RH meeting 2016UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +132,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2834B67F1D4A957D002057ED /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				2834B6801D4AB70A002057ED /* agendaViewController.swift */,
+				2834B6821D4AB72A002057ED /* dia1ViewController.swift */,
+				2834B6841D4AB75C002057ED /* dia2ViewController.swift */,
+				2834B6861D4AB77C002057ED /* dia3ViewController.swift */,
+				2834B6881D4AB799002057ED /* LocationUno.swift */,
+				2834B68A1D4AB7A3002057ED /* LocationDos.swift */,
+				2834B68C1D4AB7AD002057ED /* LocationTres.swift */,
+				2834B68E1D4AB7BA002057ED /* HomeModelUno.swift */,
+				2834B6901D4AB7C2002057ED /* HomeModelDos.swift */,
+				2834B6921D4AB7CA002057ED /* HomeModelTres.swift */,
+				2834B6941D4AB8A9002057ED /* d1ViewController.swift */,
+				2834B6961D4AB8B8002057ED /* d2ViewController.swift */,
+				2834B6981D4AB8C5002057ED /* d3ViewController.swift */,
+			);
+			name = Agenda;
+			sourceTree = "<group>";
+		};
 		9D5D632B1D468DAD00EC6BE7 /* login */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				9D5D63341D469E5200EC6BE7 /* menuViewController.swift */,
+				2834B69A1D4AC749002057ED /* LocationMenu.swift */,
+				2834B69C1D4AC759002057ED /* HomeModelMenu.swift */,
 			);
 			name = menu;
 			sourceTree = "<group>";
@@ -152,6 +204,7 @@
 		9DF4FD0B1D43CA50007C8DC3 /* RH meeting 2016 */ = {
 			isa = PBXGroup;
 			children = (
+				2834B67F1D4A957D002057ED /* Agenda */,
 				9D5D63331D469E3A00EC6BE7 /* menu */,
 				9D5D632C1D468DB800EC6BE7 /* registro */,
 				9D5D632B1D468DAD00EC6BE7 /* login */,
@@ -471,11 +524,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5D632E1D468DF300EC6BE7 /* loginViewController.swift in Sources */,
+				2834B68F1D4AB7BA002057ED /* HomeModelUno.swift in Sources */,
+				2834B6871D4AB77C002057ED /* dia3ViewController.swift in Sources */,
 				9D5D63301D4690F000EC6BE7 /* registroViewController.swift in Sources */,
+				2834B6891D4AB799002057ED /* LocationUno.swift in Sources */,
+				2834B68D1D4AB7AD002057ED /* LocationTres.swift in Sources */,
+				2834B6831D4AB72A002057ED /* dia1ViewController.swift in Sources */,
+				2834B6991D4AB8C5002057ED /* d3ViewController.swift in Sources */,
 				9DF4FD0F1D43CA51007C8DC3 /* ViewController.swift in Sources */,
+				2834B6851D4AB75C002057ED /* dia2ViewController.swift in Sources */,
+				2834B6951D4AB8A9002057ED /* d1ViewController.swift in Sources */,
+				2834B69D1D4AC759002057ED /* HomeModelMenu.swift in Sources */,
 				9D5D63321D46975500EC6BE7 /* graciasViewController.swift in Sources */,
+				2834B68B1D4AB7A3002057ED /* LocationDos.swift in Sources */,
+				2834B6811D4AB70A002057ED /* agendaViewController.swift in Sources */,
 				9DF4FD0D1D43CA50007C8DC3 /* AppDelegate.swift in Sources */,
+				2834B6971D4AB8B8002057ED /* d2ViewController.swift in Sources */,
+				2834B6931D4AB7CA002057ED /* HomeModelTres.swift in Sources */,
+				2834B6911D4AB7C2002057ED /* HomeModelDos.swift in Sources */,
 				9D5D63351D469E5200EC6BE7 /* menuViewController.swift in Sources */,
+				2834B69B1D4AC749002057ED /* LocationMenu.swift in Sources */,
 				9DF4FD3B1D43D6AB007C8DC3 /* AWSMobileClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

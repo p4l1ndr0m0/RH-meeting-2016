@@ -1,16 +1,23 @@
 <?php
  
+$correo = $_GET['correo'];
+
+
+
+
 // Create connection
-$con=mysqli_connect("50.62.209.194","admincmp","Tryt0b3n1c3w1thM3!","cmpdb");
+$con=mysqli_connect("localhost","adria_adminpepsi","Prefiero_coca_2016!","adrian_pepsidb");
  
 // Check connection
 if (mysqli_connect_errno())
 {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
- mysqli_query($con, 'SET NAMES utf8'); 
-// This SQL statement selects ALL from the program ''
-$sql = "SELECT * FROM agenda WHERE fecha = 'miercoles' ORDER BY id";
+ 
+// This SQL statement selects ALL from the table 'Locations'
+	$sql = "SELECT equipo FROM regitro where correo = '$correo'";
+
+
  
 // Check if there are results
 if ($result = mysqli_query($con, $sql))
@@ -35,3 +42,5 @@ if ($result = mysqli_query($con, $sql))
 // Close connections
 mysqli_close($con);
 ?>
+
+

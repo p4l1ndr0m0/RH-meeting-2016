@@ -87,7 +87,7 @@ class loginViewController: UIViewController {
                     NSUserDefaults.standardUserDefaults().setObject(self.resultado, forKey: "isUserLoggedIn")
                     NSUserDefaults.standardUserDefaults().setObject(user_Correo, forKey:"UserCorreo")
                     NSUserDefaults.standardUserDefaults().synchronize()
-                    self.dismissViewControllerAnimated(true, completion: nil)
+                    //self.dismissViewControllerAnimated(true, completion: nil)
                     let d1 = NSUserDefaults.standardUserDefaults().stringForKey("isUserLoggedIn") as String!
                     let d2 = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo") as String!
                     
