@@ -24,7 +24,7 @@ class HomeModelMenu: NSObject, NSURLSessionDataDelegate {
     
     
     
-    let urlPath: String = "http://app-pepsico.palindromo.com.mx/APP/d1.php" //Path de PHP
+    let urlPath: String = "http://app-pepsico.palindromo.com.mx/APP/equipo.php" //Path de PHP
     
     
     func downloadItems() {

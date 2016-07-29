@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class menuViewController: UIViewController {
     
@@ -14,15 +15,20 @@ class menuViewController: UIViewController {
     
     var selectedLocation : LocationMenu = LocationMenu()
     @IBOutlet weak var equipoText: UILabel!
+    
+ 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         equipoText.text = self.selectedLocation.equipo
         
-    
+        
         
         
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
