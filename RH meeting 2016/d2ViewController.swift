@@ -21,11 +21,11 @@ class d2ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*UIGraphicsBeginImageContext(self.view.frame.size)
-         UIImage(named: "FondoApp.png")!.drawInRect(self.view.bounds)
-         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-         UIGraphicsEndImageContext()
-         self.view.backgroundColor = UIColor(patternImage: image)*/
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.view.backgroundColor = UIColor(patternImage: image)
         
         nombre.text = self.selectedLocation?.nombre
         salon.text = self.selectedLocation?.salon

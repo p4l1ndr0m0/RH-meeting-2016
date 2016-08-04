@@ -9,5 +9,14 @@
 import UIKit
 
 class agendaViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.view.backgroundColor = UIColor(patternImage: image)
+    }
 
 }

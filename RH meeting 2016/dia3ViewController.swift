@@ -28,11 +28,11 @@ class dia3ViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*UIGraphicsBeginImageContext(self.view.frame.size)
-         UIImage(named: "FondoApp.png")!.drawInRect(self.view.bounds)
-         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-         UIGraphicsEndImageContext()
-         self.view.backgroundColor = UIColor(patternImage: image)*/
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        self.view.backgroundColor = UIColor(patternImage: image)
         
         self.listTableView.delegate = self
         self.listTableView.dataSource = self
