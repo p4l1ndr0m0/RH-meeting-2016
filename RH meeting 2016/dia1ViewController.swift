@@ -41,7 +41,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         homeModel.delegate = self
         homeModel.downloadItems()
         
-        self.setLoadingScreen()
+        //self.setLoadingScreen()
         
         
         
@@ -50,7 +50,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.didReceiveMemoryWarning()
     }
     
-    private func setLoadingScreen() {
+    /*private func setLoadingScreen() {
         
         // Sets the view which contains the loading text and the spinner
         let width: CGFloat = 120
@@ -76,7 +76,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         self.listTableView.addSubview(loadingView)
         
-    }
+    }*/
     
     // Remove the activity indicator from the main view
     private func removeLoadingScreen() {

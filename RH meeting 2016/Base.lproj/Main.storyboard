@@ -338,6 +338,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gPt-e8-dta" secondAttribute="height" multiplier="28:3" id="VBx-JP-otD"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Pistas"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1s-pX-9bC">
@@ -794,7 +795,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thd-st-lDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="-485"/>
+            <point key="canvasLocation" x="1550" y="-611"/>
         </scene>
         <!--Dia2 View Controller-->
         <scene sceneID="JzT-oY-5iz">
@@ -1613,12 +1614,12 @@
         <image name="login_boton.png" width="558" height="138"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="h4o-d8-MBP"/>
-        <segue reference="ORl-NL-Pw3"/>
-        <segue reference="Xmf-fS-Qhr"/>
-        <segue reference="OSD-Oy-YcP"/>
-        <segue reference="kOT-ng-JAB"/>
-        <segue reference="rvr-KL-6BS"/>
+        <segue reference="cug-AL-66m"/>
+        <segue reference="SZC-Ga-IbA"/>
         <segue reference="cFV-iP-ipW"/>
+        <segue reference="kOT-ng-JAB"/>
+        <segue reference="8sh-Wf-mUN"/>
+        <segue reference="rvr-KL-6BS"/>
+        <segue reference="h4o-d8-MBP"/>
     </inferredMetricsTieBreakers>
 </document>

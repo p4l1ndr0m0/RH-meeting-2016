@@ -12,7 +12,7 @@ import Foundation
 class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, HomeModelDosProtocal {
     
     var feedItems: NSArray = NSArray()
-    var selectedLocation : LocationUno = LocationUno()
+    var selectedLocation : LocationDos = LocationDos()
     @IBOutlet weak var listTableView: UITableView!
     
     let loadingView = UIView()
@@ -41,7 +41,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         homeModel.delegate = self
         homeModel.downloadItems()
         
-        self.setLoadingScreen()
+        //self.setLoadingScreen()
         
         
         
@@ -50,7 +50,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.didReceiveMemoryWarning()
     }
     
-    private func setLoadingScreen() {
+    /*private func setLoadingScreen() {
         
         // Sets the view which contains the loading text and the spinner
         let width: CGFloat = 120
@@ -76,7 +76,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         self.listTableView.addSubview(loadingView)
         
-    }
+    }*/
     
     // Remove the activity indicator from the main view
     private func removeLoadingScreen() {
@@ -107,7 +107,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cellIdentifier: String = "cellDia2"
         let myCell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier)!
         // Get the location to be shown
-        let item: LocationUno = feedItems[indexPath.row] as! LocationUno
+        let item: LocationDos = feedItems[indexPath.row] as! LocationDos
         // Get references to labels of cell
         myCell.textLabel!.text = item.nombre
         
@@ -116,7 +116,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         // Set selected location to var
-        selectedLocation = feedItems[indexPath.row] as! LocationUno
+        selectedLocation = feedItems[indexPath.row] as! LocationDos
         // Manually call segue to detail view controller
         self.performSegueWithIdentifier("segueDia2", sender: self)
     }

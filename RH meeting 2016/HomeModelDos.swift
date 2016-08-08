@@ -21,7 +21,7 @@ class HomeModelDos: NSObject, NSURLSessionDataDelegate {
     
     var data : NSMutableData = NSMutableData()
     
-    let urlPath: String = "http://app-pepsico.palindromo.com.mx/APP/d2.php" //Path de PHP
+    let urlPath: String = "http://app-pepsico.palindromo.com.mx/APP/dia2.php" //Path de PHP
     
     
     func downloadItems() {
@@ -78,8 +78,7 @@ class HomeModelDos: NSObject, NSURLSessionDataDelegate {
             if let nombre = jsonElement["nombre"] as? String,
                 let salon = jsonElement["salon"] as? String,
                 let horario = jsonElement["horario"] as? String,
-                let codigo = jsonElement["codigo"] as? String,
-                let img = jsonElement["img"] as? String// los campos json deben de ir con los nombres iguales a los de la tabla correspondiente!!!!!!
+                let codigo = jsonElement["codigo"] as? String// los campos json deben de ir con los nombres iguales a los de la tabla correspondiente!!!!!!
             {
                 
                 
@@ -87,7 +86,7 @@ class HomeModelDos: NSObject, NSURLSessionDataDelegate {
                 location.salon = salon
                 location.horario = horario
                 location.codigo = codigo
-                location.img = img
+                
                 
                 
             }

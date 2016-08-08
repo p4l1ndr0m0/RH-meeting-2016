@@ -22,7 +22,7 @@ class d1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        UIImage(named: "fondo_agenda.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
@@ -31,8 +31,7 @@ class d1ViewController: UIViewController {
         salon.text = self.selectedLocation?.salon
         horario.text = self.selectedLocation?.horario
         codigo.text = self.selectedLocation?.codigo
-        imagenFinal = self.selectedLocation?.img
-        load_image(imagenFinal)
+        
         
     }
     
@@ -40,30 +39,5 @@ class d1ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    func load_image(urlString:String)
-    {
-        let imgURL: NSURL = NSURL(string: urlString)!
-        let request: NSURLRequest = NSURLRequest(URL: imgURL)
-        
-        let session = NSURLSession.sharedSession()
-        let task = session.dataTaskWithRequest(request){
-            (data, response, error) -> Void in
-            
-            if (error == nil && data != nil)
-            {
-                func display_image()
-                {
-                    self.imagen.image = UIImage(data: data!)
-                }
-                
-                dispatch_async(dispatch_get_main_queue(), display_image)
-            }
-            
-        }
-        
-        task.resume()
-        
-        
-    }
 
 }

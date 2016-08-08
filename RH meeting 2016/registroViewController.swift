@@ -30,7 +30,7 @@ class registroViewController: UIViewController, UITextFieldDelegate, SRKComboBox
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        UIImage(named: "fondo_registro.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)

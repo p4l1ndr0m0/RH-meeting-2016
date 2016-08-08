@@ -22,12 +22,12 @@ class menuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        UIImage(named: "fondo_menu.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
         
-        equipoText.text = self.selectedLocation.equipo
+        //equipoText.text = self.selectedLocation.equipo
         
         
         

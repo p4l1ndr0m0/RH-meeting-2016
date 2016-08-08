@@ -15,30 +15,33 @@ class p1ViewController: UIViewController {
     @IBOutlet weak var validarButton: UIButton!
     @IBOutlet weak var validacion: UILabel!
     @IBOutlet weak var codigo: UITextField!
+    var r1 : String! = "si"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        validarButton.enabled = false
         
-        if (codigo.text == code_final){
-            validarButton.enabled = true
-            validacion.text = "Corecto"
-            
-        }
-        else {
-            validarButton.enabled = false
-            validacion.text = "Incorrecto"
-        }
+        
+        
     }
     
     @IBAction func enviarResp(sender: AnyObject) {
         
+        if (codigo.text == code_final){
+            validacion.text = "Corecto"
+            NSUserDefaults.standardUserDefaults().setObject(r1, forKey:"respuesta1")
+            
+            
+        }
+        else {
+            validacion.text = "Incorrecto"
+        }
+        
         let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
         
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://app-daimler.palindromo.com.mx/APP/respuestas.php")!)
+        let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/respuestas.php")!)
         request.HTTPMethod = "POST"
-        let postString = "correo=\(correoData)"
+        let postString = "correo=\(correoData!)"
         
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
         

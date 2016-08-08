@@ -21,8 +21,14 @@ class rallyViewController: UIViewController {
     @IBOutlet weak var c8: UIButton!
     @IBOutlet weak var c9: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let resp1 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta1") as String!
+        print(resp1)
+        
+    
     }
     
     
