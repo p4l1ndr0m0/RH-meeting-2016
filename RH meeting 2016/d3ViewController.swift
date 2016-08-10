@@ -14,7 +14,6 @@ class d3ViewController: UIViewController {
     @IBOutlet weak var salon: UILabel!
     @IBOutlet weak var horario: UILabel!
     @IBOutlet weak var codigo: UILabel!
-    @IBOutlet weak var imagen: UIImageView!
     var selectedLocation : LocationTres!
     var imagenFinal: String!
     

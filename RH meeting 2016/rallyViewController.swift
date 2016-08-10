@@ -27,6 +27,23 @@ class rallyViewController: UIViewController {
         
         let resp1 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta1") as String!
         print(resp1)
+        let resp2 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta2") as String!
+        print(resp2)
+        let resp3 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta3") as String!
+        print(resp3)
+        let resp4 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta4") as String!
+        print(resp4)
+        let resp5 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta5") as String!
+        print(resp5)
+        let resp6 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta6") as String!
+        print(resp6)
+        let resp7 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta7") as String!
+        print(resp7)
+        let resp8 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta8") as String!
+        print(resp8)
+        let resp9 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta9") as String!
+        print(resp9)
+        
         
     
     }
