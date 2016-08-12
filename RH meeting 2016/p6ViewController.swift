@@ -42,7 +42,7 @@ class p6ViewController: UIViewController {
         
         let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
         
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/respuestas.php")!)
+        let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/respuestas6.php")!)
         request.HTTPMethod = "POST"
         let postString = "correo=\(correoData!)"
         

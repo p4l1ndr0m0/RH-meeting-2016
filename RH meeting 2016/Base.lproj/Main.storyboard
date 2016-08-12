@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -429,9 +429,6 @@
                                     <constraint firstAttribute="height" constant="80" id="d0f-eI-H5Q"/>
                                 </constraints>
                                 <state key="normal" title="1" image="boton_b1.png"/>
-                                <connections>
-                                    <segue destination="vF2-Zk-FqD" kind="presentation" id="qHQ-y5-5Dm"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u81-od-AwK">
                                 <rect key="frame" x="220" y="71" width="80" height="80"/>
@@ -439,9 +436,6 @@
                                     <constraint firstAttribute="width" secondItem="u81-od-AwK" secondAttribute="height" multiplier="1:1" id="eJn-GL-4N9"/>
                                 </constraints>
                                 <state key="normal" image="boton_b7.png"/>
-                                <connections>
-                                    <segue destination="H9G-dW-Q1n" kind="presentation" id="dK4-NE-1Gd"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUB-wP-2rQ">
                                 <rect key="frame" x="20" y="223" width="80" height="80"/>
@@ -450,9 +444,6 @@
                                     <constraint firstAttribute="height" constant="80" id="FVG-WB-ECu"/>
                                 </constraints>
                                 <state key="normal" image="boton_b2.png"/>
-                                <connections>
-                                    <segue destination="cvo-to-lKT" kind="presentation" id="38t-RV-LUv"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAn-Ls-kPW">
                                 <rect key="frame" x="120" y="223" width="80" height="80"/>
@@ -460,9 +451,6 @@
                                     <constraint firstAttribute="width" secondItem="IAn-Ls-kPW" secondAttribute="height" multiplier="1:1" id="06C-Do-RL7"/>
                                 </constraints>
                                 <state key="normal" image="boton_b5.png"/>
-                                <connections>
-                                    <segue destination="a22-By-Lhx" kind="presentation" id="zOd-cA-6Kz"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPm-9z-bLS">
                                 <rect key="frame" x="220" y="223" width="80" height="80"/>
@@ -470,9 +458,6 @@
                                     <constraint firstAttribute="width" secondItem="qPm-9z-bLS" secondAttribute="height" multiplier="1:1" id="yIP-Di-w9T"/>
                                 </constraints>
                                 <state key="normal" image="boton_b8.png"/>
-                                <connections>
-                                    <segue destination="AC5-kX-h24" kind="presentation" id="43n-YE-PI1"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaY-IR-1WD">
                                 <rect key="frame" x="120" y="71" width="80" height="80"/>
@@ -480,9 +465,6 @@
                                     <constraint firstAttribute="width" secondItem="UaY-IR-1WD" secondAttribute="height" multiplier="1:1" id="hto-0J-9K7"/>
                                 </constraints>
                                 <state key="normal" image="boton_b4.png"/>
-                                <connections>
-                                    <segue destination="8um-Ll-OxJ" kind="presentation" id="O1g-ha-cc8"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7U-gw-JeD">
                                 <rect key="frame" x="72" y="478" width="177" height="62"/>
@@ -501,9 +483,6 @@
                                     <constraint firstAttribute="height" constant="80" id="g9A-O6-Gq1"/>
                                 </constraints>
                                 <state key="normal" image="boton_b3.png"/>
-                                <connections>
-                                    <segue destination="gvO-Rb-exh" kind="presentation" id="hxY-4e-gvZ"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5I-UB-m0r">
                                 <rect key="frame" x="120" y="368" width="80" height="80"/>
@@ -519,9 +498,6 @@
                                         <exclude reference="hZ9-7T-RNy"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <segue destination="vVh-B4-uOX" kind="presentation" id="sRr-YV-Scr"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFX-a7-egb">
                                 <rect key="frame" x="220" y="368" width="80" height="80"/>
@@ -529,9 +505,6 @@
                                     <constraint firstAttribute="width" secondItem="rFX-a7-egb" secondAttribute="height" multiplier="1:1" id="sqQ-5U-Nav"/>
                                 </constraints>
                                 <state key="normal" image="boton_b9.png"/>
-                                <connections>
-                                    <segue destination="d6k-Ad-Fkt" kind="presentation" id="Qgq-qA-8fs"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -589,6 +562,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xK7-Ox-Vfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4904" y="906"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ib6-IP-Mdl">
+            <objects>
+                <viewController id="6aY-SU-0at" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oZk-1Y-3PV"/>
+                        <viewControllerLayoutGuide type="bottom" id="quu-wB-uf6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SpQ-NG-d37">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVa-Bp-TuU">
+                                <rect key="frame" x="20" y="117" width="280" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Respuestas:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-Xf-okt">
+                                <rect key="frame" x="20" y="294" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNd-v3-bOg">
+                                <rect key="frame" x="93" y="332" width="207" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOL-WR-70R">
+                                <rect key="frame" x="93" y="386" width="207" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGX-1j-QgQ">
+                                <rect key="frame" x="93" y="439" width="207" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ura-0Y-tCp">
+                                <rect key="frame" x="20" y="328" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="A)"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpS-Be-dkQ">
+                                <rect key="frame" x="20" y="382" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="B)"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTD-ua-ubv">
+                                <rect key="frame" x="20" y="435" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="C)"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hoo-Nh-KO9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4786" y="-76"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zsE-i1-VkN">
@@ -668,7 +707,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTa-Q3-7B1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5612" y="132"/>
+            <point key="canvasLocation" x="7876" y="-2500"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yrm-3S-DFN">
@@ -1640,7 +1679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lMe-qE-2mD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5612" y="757"/>
+            <point key="canvasLocation" x="10196" y="-1139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ab8-DV-Lt5">
@@ -1721,7 +1760,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7df-Um-UJK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5612" y="1418"/>
+            <point key="canvasLocation" x="9540" y="2914"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="A06-wY-mb0">
@@ -1802,7 +1841,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHk-9a-Bjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6024" y="132"/>
+            <point key="canvasLocation" x="9240" y="-2476"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dsV-8k-Mfl">
@@ -1883,7 +1922,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOQ-wv-nsQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6024" y="766"/>
+            <point key="canvasLocation" x="10664" y="-378"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tV3-BA-vOn">
@@ -1958,7 +1997,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEn-Tf-yWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6024" y="1418"/>
+            <point key="canvasLocation" x="10048" y="2298"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oHm-9y-gYo">
@@ -2033,7 +2072,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IaE-43-Fzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6408" y="123"/>
+            <point key="canvasLocation" x="9744" y="-1757"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="G6u-r1-DXU">
@@ -2108,7 +2147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEv-Yx-4Un" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6408" y="757"/>
+            <point key="canvasLocation" x="10224" y="669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Uf5-lS-c5k">
@@ -2183,7 +2222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3O2-g0-VTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6408" y="1409"/>
+            <point key="canvasLocation" x="10088" y="1537"/>
         </scene>
     </scenes>
     <resources>
@@ -2208,12 +2247,12 @@
         <image name="pleca_top.png" width="1200" height="226"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rvr-KL-6BS"/>
+        <segue reference="6kI-Uh-bRf"/>
+        <segue reference="40i-HF-ibD"/>
+        <segue reference="fsZ-kS-AXU"/>
+        <segue reference="h4o-d8-MBP"/>
         <segue reference="8sh-Wf-mUN"/>
         <segue reference="kOT-ng-JAB"/>
-        <segue reference="h4o-d8-MBP"/>
-        <segue reference="fsZ-kS-AXU"/>
-        <segue reference="Xmf-fS-Qhr"/>
-        <segue reference="cFV-iP-ipW"/>
+        <segue reference="rvr-KL-6BS"/>
     </inferredMetricsTieBreakers>
 </document>
