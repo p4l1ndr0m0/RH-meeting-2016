@@ -6,7 +6,7 @@
 //  Copyright © 2016 Palindromo. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class pr9ViewController: UIViewController {
 

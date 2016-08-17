@@ -52,7 +52,7 @@ class rallyViewController: UIViewController {
         let resp9 = NSUserDefaults.standardUserDefaults().stringForKey("respuesta9") as String!
         //print(resp9)
         
-        if (resp1 == "si"){
+        /*if (resp1 == "si"){
             c1.setImage(UIImage(named: "boton_d1.png"), forState: UIControlState.Normal)
         }
         if (resp2 == "si"){
@@ -78,7 +78,7 @@ class rallyViewController: UIViewController {
         }
         if (resp9 == "si"){
             c1.setImage(UIImage(named: "boton_d9.png"), forState: UIControlState.Normal)
-        }
+        }*/
 
     
     }
