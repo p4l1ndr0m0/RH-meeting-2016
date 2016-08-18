@@ -9,7 +9,7 @@
 import UIKit
 import SRKControls
 
-class registroViewController: UIViewController, UITextFieldDelegate, SRKComboBoxDelegate {
+class registroViewController: UIViewController, UITextFieldDelegate {
     
     var Area: String!
     
@@ -18,7 +18,6 @@ class registroViewController: UIViewController, UITextFieldDelegate, SRKComboBox
     @IBOutlet weak var paternoI: UITextField!
     @IBOutlet weak var maternoI: UITextField!
     
-    @IBOutlet weak var areaI: SRKComboBox!
     
     @IBOutlet weak var correoI: UITextField!
     
@@ -57,78 +56,14 @@ class registroViewController: UIViewController, UITextFieldDelegate, SRKComboBox
         return true
     }
     
-    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
-        if let txt = textField as? SRKComboBox {
-            txt.delegateForComboBox = self
-            txt.showOptions()
-            return false
-        }
-        
-        return true
-    }
+
     
     
-    
-    func comboBox(textField:SRKComboBox, didSelectRow row:Int) {
-        if textField == self.areaI {
-            self.areaI.text = self.arrayArea[row]
-        }
-        
-    }
-    
-    func comboBoxNumberOfRows(textField:SRKComboBox) -> Int {
-        if textField == self.areaI {
-            return self.arrayArea.count
-        }
-                else {
-            return 0
-        }
-    }
-    
-    func comboBox(textField:SRKComboBox, textForRow row:Int) -> String {
-        if textField == self.areaI {
-            return self.arrayArea[row]
-        }
-        
-        else {
-            return ""
-        }
-    }
-    
-    func comboBoxPresentingViewController(textField:SRKComboBox) -> UIViewController {
-        return self
-    }
-    
-    func comboBoxRectFromWhereToPresent(textField:SRKComboBox) -> CGRect {
-        return textField.frame
-    }
-    
-    func comboBoxFromBarButton(textField:SRKComboBox) -> UIBarButtonItem? {
-        return nil
-    }
-    
-    func comboBoxTintColor(textField:SRKComboBox) -> UIColor {
-        return UIColor.blackColor()
-    }
-    
-    func comboBoxToolbarColor(textField:SRKComboBox) -> UIColor {
-        return UIColor.whiteColor()
-    }
-    
-    func comboBoxDidTappedCancel(textField:SRKComboBox) {
-        textField.text = ""
-    }
-    
-    func comboBoxDidTappedDone(textField:SRKComboBox) {
-        print("Let's do some action here")
-        
-        Area = areaI.text
-        
-    }
+
 
     @IBAction func enviarRegistro(sender: AnyObject) {
         
-        if (nombreI.text == "" || paternoI.text == "" || maternoI.text == "" || areaI.text == "" ||
+        if (nombreI.text == "" || paternoI.text == "" || maternoI.text == "" ||
             correoI.text == "" ||
             passwordI.text == ""){
             let alertController = UIAlertController(title: "Error", message: "Es necesario llenar los campos de Nombre, Apellido Paterno, Apellido Materno, Area, Correo Electronico y contraseña", preferredStyle: .Alert)
@@ -143,7 +78,7 @@ class registroViewController: UIViewController, UITextFieldDelegate, SRKComboBox
             
             let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/registro.php")!)
             request.HTTPMethod = "POST"
-            let postString = "nombre=\(nombreI.text!)&paterno=\(paternoI.text!)&materno=\(maternoI.text!)&area=\(Area)&correo=\(correoI.text!)&passw=\(passwordI.text!)"
+            let postString = "nombre=\(nombreI.text!)&paterno=\(paternoI.text!)&materno=\(maternoI.text!)&correo=\(correoI.text!)&passw=\(passwordI.text!)"
             
             request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
             
