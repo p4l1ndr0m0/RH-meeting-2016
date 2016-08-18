@@ -79,6 +79,8 @@ class rallyViewController: UIViewController {
         if (resp9 == "si"){
             c1.setImage(UIImage(named: "boton_d9.png"), forState: UIControlState.Normal)
         }*/
+        
+        
 
     
     }
