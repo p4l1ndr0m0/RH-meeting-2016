@@ -27,20 +27,36 @@ class pr1ViewController: UIViewController {
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
         
-        
+        pregunta.text = "Jose manuel se duerme en junta?"
+        respA.setTitle("no", forState: UIControlState.Normal)
+        respB.setTitle("si", forState: UIControlState.Normal)
+        respC.setTitle("a veces", forState: UIControlState.Normal)
         
     }
     
-
-
-
-
 
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
+    @IBAction func ansA(sender: AnyObject) {
+        let alertController = UIAlertController(title: "Error", message: "Suerte para la Proxima", preferredStyle: .Alert)
+        let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
+            print("boton apretado para cancelacion");
+        }
+        alertController.addAction(cancelAction)
+        self.presentViewController(alertController, animated: true, completion:nil)
+    }
 
+
+    @IBAction func ansC(sender: AnyObject) {
+        let alertController = UIAlertController(title: "Error", message: "Suerte para la Proxima", preferredStyle: .Alert)
+        let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
+            print("boton apretado para cancelacion");
+        }
+        alertController.addAction(cancelAction)
+        self.presentViewController(alertController, animated: true, completion:nil)
+    }
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -22,6 +22,20 @@
             <string>Code-Bold</string>
         </mutableArray>
         <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
@@ -390,57 +404,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPt-e8-dta">
-                                <rect key="frame" x="20" y="129" width="280" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPt-e8-dta">
+                                <rect key="frame" x="70" y="103" width="180" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="gPt-e8-dta" secondAttribute="height" multiplier="28:3" id="VBx-JP-otD"/>
+                                    <constraint firstAttribute="width" secondItem="gPt-e8-dta" secondAttribute="height" multiplier="28:3" constant="-380" id="VBx-JP-otD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Pistas"/>
+                                <state key="normal" image="boton_pistas.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1s-pX-9bC">
-                                <rect key="frame" x="20" y="244" width="280" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1s-pX-9bC">
+                                <rect key="frame" x="70" y="224" width="180" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="o1s-pX-9bC" secondAttribute="height" multiplier="28:3" id="jUV-l4-PVz"/>
+                                    <constraint firstAttribute="width" secondItem="o1s-pX-9bC" secondAttribute="height" multiplier="28:3" constant="-380" id="jUV-l4-PVz"/>
                                 </constraints>
-                                <state key="normal" title="Rally"/>
+                                <state key="normal" image="boton_trofeos.png"/>
                                 <connections>
                                     <segue destination="2Um-4d-NUS" kind="presentation" id="cug-AL-66m"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSh-uh-6tq">
-                                <rect key="frame" x="20" y="377" width="280" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSh-uh-6tq">
+                                <rect key="frame" x="70" y="351" width="180" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="RSh-uh-6tq" secondAttribute="height" multiplier="28:3" id="FYM-KW-jxV"/>
+                                    <constraint firstAttribute="width" secondItem="RSh-uh-6tq" secondAttribute="height" multiplier="28:3" constant="-380" id="FYM-KW-jxV"/>
                                 </constraints>
-                                <state key="normal" title="Agenda"/>
+                                <state key="normal" image="boton_agenda.png"/>
                                 <connections>
                                     <segue destination="VQH-V1-8J5" kind="presentation" id="ORl-NL-Pw3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tea-RP-scl">
-                                <rect key="frame" x="20" y="518" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tea-RP-scl">
+                                <rect key="frame" x="20" y="508" width="40" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="6op-ej-uNM"/>
-                                    <constraint firstAttribute="height" constant="30" id="Lq3-Pl-2bv"/>
-                                    <constraint firstAttribute="width" secondItem="Tea-RP-scl" secondAttribute="height" multiplier="23:15" id="lHB-8s-g3Z"/>
+                                    <constraint firstAttribute="width" constant="40" id="6op-ej-uNM"/>
+                                    <constraint firstAttribute="height" constant="40" id="Lq3-Pl-2bv"/>
+                                    <constraint firstAttribute="width" secondItem="Tea-RP-scl" secondAttribute="height" multiplier="23:15" constant="-21.333333333333336" id="lHB-8s-g3Z"/>
                                 </constraints>
-                                <state key="normal" title="Inst"/>
+                                <state key="normal" image="boton_info.png"/>
+                                <connections>
+                                    <segue destination="e9n-VJ-Qyw" kind="presentation" id="sgO-WR-ABg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="o1s-pX-9bC" secondAttribute="trailing" id="2df-8p-mZ4"/>
-                            <constraint firstItem="o1s-pX-9bC" firstAttribute="top" secondItem="gPt-e8-dta" secondAttribute="bottom" constant="85" id="8gZ-ri-Tud"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o1s-pX-9bC" secondAttribute="trailing" constant="50" id="2df-8p-mZ4"/>
+                            <constraint firstItem="o1s-pX-9bC" firstAttribute="top" secondItem="gPt-e8-dta" secondAttribute="bottom" constant="61" id="8gZ-ri-Tud"/>
                             <constraint firstItem="PY8-O6-z82" firstAttribute="top" secondItem="Tea-RP-scl" secondAttribute="bottom" constant="20" id="B42-KT-oWF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="gPt-e8-dta" secondAttribute="trailing" id="BQz-NT-Ctu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gPt-e8-dta" secondAttribute="trailing" constant="50" id="BQz-NT-Ctu"/>
                             <constraint firstItem="Tea-RP-scl" firstAttribute="leading" secondItem="Ipk-tP-cHD" secondAttribute="leadingMargin" id="YLA-46-iLO"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="gPt-e8-dta" secondAttribute="leading" id="cn1-fS-meJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RSh-uh-6tq" secondAttribute="trailing" id="gOe-Fn-xf6"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="o1s-pX-9bC" secondAttribute="leading" id="ngW-tg-9za"/>
-                            <constraint firstItem="RSh-uh-6tq" firstAttribute="top" secondItem="o1s-pX-9bC" secondAttribute="bottom" constant="103" id="nrc-jS-4QH"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="RSh-uh-6tq" secondAttribute="leading" id="sdu-T9-tT0"/>
-                            <constraint firstItem="gPt-e8-dta" firstAttribute="top" secondItem="k9f-VE-UVF" secondAttribute="bottom" constant="109" id="uvU-2L-zlr"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="gPt-e8-dta" secondAttribute="leading" constant="-50" id="cn1-fS-meJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RSh-uh-6tq" secondAttribute="trailing" constant="50" id="gOe-Fn-xf6"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="o1s-pX-9bC" secondAttribute="leading" constant="-50" id="ngW-tg-9za"/>
+                            <constraint firstItem="RSh-uh-6tq" firstAttribute="top" secondItem="o1s-pX-9bC" secondAttribute="bottom" constant="67" id="nrc-jS-4QH"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="RSh-uh-6tq" secondAttribute="leading" constant="-50" id="sdu-T9-tT0"/>
+                            <constraint firstItem="gPt-e8-dta" firstAttribute="top" secondItem="k9f-VE-UVF" secondAttribute="bottom" constant="83" id="uvU-2L-zlr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xlf-p8-DdH"/>
@@ -448,7 +464,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7v-2Z-Oil" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1550" y="146"/>
+            <point key="canvasLocation" x="1850" y="1346"/>
         </scene>
         <!--Rally View Controller-->
         <scene sceneID="ACN-a9-Whd">
@@ -650,7 +666,7 @@
         <!--View Controller-->
         <scene sceneID="zsE-i1-VkN">
             <objects>
-                <viewController id="vF2-Zk-FqD" customClass="p1ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vF2-Zk-FqD" customClass="p13ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KKQ-BB-pzV"/>
                         <viewControllerLayoutGuide type="bottom" id="eJO-4U-7h5"/>
@@ -659,70 +675,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nd-of-Nz5">
-                                <rect key="frame" x="20" y="518" width="62" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mv-eh-gAX">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Wdu-kN-Hj0"/>
-                                    <constraint firstAttribute="width" constant="62" id="aKt-pD-kvO"/>
-                                    <constraint firstAttribute="width" secondItem="8Nd-of-Nz5" secondAttribute="height" multiplier="31:15" id="ze7-Ic-aHN"/>
+                                    <constraint firstAttribute="width" secondItem="3mv-eh-gAX" secondAttribute="height" multiplier="18:7" id="92e-9d-M5H"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Regresar"/>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="vF2-Zk-FqD" eventType="touchUpInside" id="GMb-hC-9h5"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-t2-Iao">
-                                <rect key="frame" x="20" y="262" width="280" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="k9w-Ha-hdF">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="8iq-t2-Iao" secondAttribute="height" multiplier="28:3" id="pZm-cP-FcL"/>
+                                    <constraint firstAttribute="width" secondItem="k9w-Ha-hdF" secondAttribute="height" multiplier="49:64" id="Nxx-6y-JG8"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8iq-t2-Iao">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8iq-t2-Iao" secondAttribute="height" multiplier="167:30" id="BTR-Du-hdc"/>
                                 </constraints>
                                 <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mv-eh-gAX">
-                                <rect key="frame" x="117" y="378" width="86" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nd-of-Nz5">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="3mv-eh-gAX" secondAttribute="height" multiplier="43:15" id="EKI-Mv-Uik"/>
+                                    <constraint firstAttribute="width" secondItem="8Nd-of-Nz5" secondAttribute="height" multiplier="17:6" id="UqF-pM-byI"/>
                                 </constraints>
-                                <state key="normal" title="Validar!"/>
+                                <state key="normal" image="boton_regresar.png"/>
                                 <connections>
-                                    <action selector="enviarResp:" destination="vF2-Zk-FqD" eventType="touchUpInside" id="GMb-hC-9h5"/>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="wEP-iz-CpG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZk-LZ-IvD">
-                                <rect key="frame" x="20" y="159" width="280" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="FZk-LZ-IvD" secondAttribute="height" multiplier="280:33" id="3o6-Lg-ffu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FZk-LZ-IvD" firstAttribute="top" secondItem="KKQ-BB-pzV" secondAttribute="bottom" constant="139" id="1I8-NY-Qeb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="3mv-eh-gAX" secondAttribute="trailing" constant="97" id="KTT-hv-KGW"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="8iq-t2-Iao" secondAttribute="leading" id="KpE-ue-snU"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="FZk-LZ-IvD" secondAttribute="leading" id="SAs-Ol-UPW"/>
-                            <constraint firstItem="eJO-4U-7h5" firstAttribute="top" secondItem="8Nd-of-Nz5" secondAttribute="bottom" constant="20" id="W5Y-Bx-W6H"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8iq-t2-Iao" secondAttribute="trailing" id="Zhp-ZN-n2s"/>
-                            <constraint firstItem="3mv-eh-gAX" firstAttribute="leading" secondItem="ckT-Kc-LzF" secondAttribute="leadingMargin" constant="97" id="bhh-oN-4Mt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="FZk-LZ-IvD" secondAttribute="trailing" id="fRj-n9-AwF"/>
-                            <constraint firstItem="8Nd-of-Nz5" firstAttribute="leading" secondItem="ckT-Kc-LzF" secondAttribute="leadingMargin" id="iYF-6Z-7vz"/>
-                            <constraint firstItem="8iq-t2-Iao" firstAttribute="top" secondItem="FZk-LZ-IvD" secondAttribute="bottom" constant="70" id="r0C-Cd-O5l"/>
-                            <constraint firstItem="3mv-eh-gAX" firstAttribute="top" secondItem="8iq-t2-Iao" secondAttribute="bottom" constant="86" id="vsB-uo-j8B"/>
+                            <constraint firstItem="3mv-eh-gAX" firstAttribute="leading" secondItem="ckT-Kc-LzF" secondAttribute="leadingMargin" constant="57" id="8Kr-eQ-sqT"/>
+                            <constraint firstItem="3mv-eh-gAX" firstAttribute="top" secondItem="8iq-t2-Iao" secondAttribute="bottom" constant="42" id="APS-3V-1ox"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Nd-of-Nz5" secondAttribute="trailing" constant="48" id="Aeq-N9-2YM"/>
+                            <constraint firstItem="3mv-eh-gAX" firstAttribute="top" secondItem="k9w-Ha-hdF" secondAttribute="bottom" constant="8" id="G3j-3t-tyV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k9w-Ha-hdF" secondAttribute="trailing" constant="17" id="TTK-4A-ShH"/>
+                            <constraint firstItem="8Nd-of-Nz5" firstAttribute="top" secondItem="3mv-eh-gAX" secondAttribute="bottom" constant="21" id="UuV-rk-lBF"/>
+                            <constraint firstItem="k9w-Ha-hdF" firstAttribute="top" secondItem="KKQ-BB-pzV" secondAttribute="bottom" constant="31" id="go2-yL-PFC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8iq-t2-Iao" secondAttribute="trailing" constant="56" id="iNO-YM-voK"/>
+                            <constraint firstItem="8Nd-of-Nz5" firstAttribute="leading" secondItem="ckT-Kc-LzF" secondAttribute="leadingMargin" constant="62" id="joK-4d-XHh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3mv-eh-gAX" secondAttribute="trailing" constant="43" id="l2e-uJ-5D6"/>
+                            <constraint firstItem="8iq-t2-Iao" firstAttribute="leading" secondItem="ckT-Kc-LzF" secondAttribute="leadingMargin" constant="57" id="mH0-Gj-o21"/>
+                            <constraint firstItem="k9w-Ha-hdF" firstAttribute="leading" secondItem="ckT-Kc-LzF" secondAttribute="leadingMargin" constant="18" id="uzd-8i-030"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="codigo" destination="8iq-t2-Iao" id="2tB-8W-L5S"/>
-                        <outlet property="validacion" destination="FZk-LZ-IvD" id="B8Y-F6-AIj"/>
                         <outlet property="validarButton" destination="3mv-eh-gAX" id="z0F-PM-QAJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTa-Q3-7B1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7876" y="-2500"/>
+            <point key="canvasLocation" x="4944" y="-3612"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yrm-3S-DFN">
@@ -849,7 +862,68 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TgZ-BU-Pf2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2523" y="1529"/>
+            <point key="canvasLocation" x="1835" y="2069"/>
+        </scene>
+        <!--Inst1 View Controller-->
+        <scene sceneID="Bo2-4D-cN3">
+            <objects>
+                <viewController storyboardIdentifier="inst1" id="e9n-VJ-Qyw" customClass="inst1ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ADt-Oz-jHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="hBV-bQ-h3d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3m3-b3-ISp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJ6-b6-CoB">
+                                <rect key="frame" x="20" y="143" width="280" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UJ6-b6-CoB" secondAttribute="height" multiplier="140:141" id="r7C-Sm-y1H"/>
+                                </constraints>
+                                <string key="text">Bienvenido a la aplicación de HR meeting.Aquí podrás encontrar información que te será de utilidad a lo largo de este evento.Puedes revisar el itinerario de actividades que tenemos preparado para ti en la sección de “Agenda”</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psr-GD-G7k">
+                                <rect key="frame" x="20" y="498" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2bz-U5-iaS"/>
+                                    <constraint firstAttribute="width" constant="120" id="HW0-vd-0Ti"/>
+                                    <constraint firstAttribute="width" secondItem="Psr-GD-G7k" secondAttribute="height" multiplier="12:5" id="yvx-Nd-weO"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="boton_regresar.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avQ-o1-1T3">
+                                <rect key="frame" x="169" y="488" width="140" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="avQ-o1-1T3" secondAttribute="height" multiplier="7:3" id="FKG-bd-8iT"/>
+                                    <constraint firstAttribute="height" constant="60" id="XLo-bZ-wal"/>
+                                    <constraint firstAttribute="width" constant="140" id="hjc-Om-k9R"/>
+                                </constraints>
+                                <state key="normal" image="boton_continuar.png"/>
+                                <connections>
+                                    <segue destination="9TR-tM-xTE" kind="presentation" id="MTH-vh-178"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hBV-bQ-h3d" firstAttribute="top" secondItem="avQ-o1-1T3" secondAttribute="bottom" constant="20" id="CUm-A8-TMP"/>
+                            <constraint firstItem="hBV-bQ-h3d" firstAttribute="top" secondItem="Psr-GD-G7k" secondAttribute="bottom" constant="20" id="CoU-hj-uRY"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="UJ6-b6-CoB" secondAttribute="leading" id="MmT-rt-QyO"/>
+                            <constraint firstItem="UJ6-b6-CoB" firstAttribute="top" secondItem="ADt-Oz-jHL" secondAttribute="bottom" constant="123" id="ZQr-w9-tie"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UJ6-b6-CoB" secondAttribute="trailing" id="kOe-Mk-xhr"/>
+                            <constraint firstItem="Psr-GD-G7k" firstAttribute="leading" secondItem="3m3-b3-ISp" secondAttribute="leadingMargin" id="urd-5E-xRL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="avQ-o1-1T3" secondAttribute="trailing" constant="-9" id="ydt-eI-KiG"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IcM-cF-JcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3194" y="2037"/>
         </scene>
         <!--Dia1 View Controller-->
         <scene sceneID="7nF-Rf-G6n">
@@ -944,7 +1018,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g88-Ua-76b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2307" y="2665"/>
+            <point key="canvasLocation" x="1419" y="2877"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tD2-Sl-w8Y">
@@ -982,7 +1056,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thd-st-lDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1550" y="-611"/>
+            <point key="canvasLocation" x="1850" y="589"/>
         </scene>
         <!--Dia2 View Controller-->
         <scene sceneID="JzT-oY-5iz">
@@ -1077,7 +1151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Oc-Dh-Oob" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2307" y="3320"/>
+            <point key="canvasLocation" x="1419" y="3532"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="El7-jx-F8V">
@@ -1225,7 +1299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LWs-gj-4LP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2777" y="2665"/>
+            <point key="canvasLocation" x="1889" y="2877"/>
         </scene>
         <!--Dia3 View Controller-->
         <scene sceneID="bM1-FO-3Am">
@@ -1320,7 +1394,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MY5-iI-eW8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2307" y="4071"/>
+            <point key="canvasLocation" x="1419" y="4283"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mjF-fu-J4P">
@@ -1465,7 +1539,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iSX-9q-KUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2777" y="3320"/>
+            <point key="canvasLocation" x="1889" y="3532"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yeA-55-2JN">
@@ -1613,7 +1687,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIZ-rY-4Bv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2777" y="4071"/>
+            <point key="canvasLocation" x="1889" y="4283"/>
         </scene>
         <!--Pr1 View Controller-->
         <scene sceneID="cKm-sQ-BQF">
@@ -1645,6 +1719,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ansA:" destination="r5Q-qA-evU" eventType="touchUpInside" id="hda-CZ-7g3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIu-lh-zvm">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -1655,6 +1732,9 @@
                                 <state key="normal" title="B)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Kyk-nb-wxD" kind="presentation" id="cL7-yr-2Pz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TM6-bY-rf9">
                                 <rect key="frame" x="20" y="398" width="280" height="30"/>
@@ -1665,6 +1745,9 @@
                                 <state key="normal" title="C)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ansC:" destination="r5Q-qA-evU" eventType="touchUpInside" id="dp5-e8-9hv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Respuestas:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tC1-qh-32m">
                                 <rect key="frame" x="20" y="245" width="280" height="21"/>
@@ -1681,6 +1764,9 @@
                                     <constraint firstAttribute="width" secondItem="oyM-ry-MYm" secondAttribute="height" multiplier="79:30" id="yie-dY-MYo"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="DZ6-dz-3hb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1747,6 +1833,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2YZ-1S-gdE" kind="presentation" id="wf6-Xg-x8u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nu-fp-j27">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -1783,6 +1872,9 @@
                                     <constraint firstAttribute="width" secondItem="LHU-j2-Hg8" secondAttribute="height" multiplier="79:30" id="5lS-uJ-y5w"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="o40-MZ-AKW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1863,6 +1955,9 @@
                                 <state key="normal" title="C)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Q2S-ne-spU" kind="presentation" id="Txd-xo-f1p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Respuestas:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL4-yq-zRI">
                                 <rect key="frame" x="20" y="245" width="280" height="21"/>
@@ -1879,6 +1974,9 @@
                                     <constraint firstAttribute="width" secondItem="S3k-aK-a8q" secondAttribute="height" multiplier="79:30" id="AVJ-hC-yjb"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="Vfa-6p-Lpo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1939,6 +2037,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5Tg-Zg-Apj" kind="presentation" id="Zyi-Mg-NmJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XE2-L1-QBY">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -1975,6 +2076,9 @@
                                     <constraint firstAttribute="width" secondItem="07o-Ba-jQv" secondAttribute="height" multiplier="79:30" id="40m-aI-y93"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="c1T-Dj-Kdn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2045,6 +2149,9 @@
                                 <state key="normal" title="B)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vF2-Zk-FqD" kind="presentation" id="MKq-Jk-lyz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCs-Ft-qZO">
                                 <rect key="frame" x="20" y="398" width="280" height="30"/>
@@ -2071,6 +2178,9 @@
                                     <constraint firstAttribute="width" secondItem="j2E-If-Z61" secondAttribute="height" multiplier="79:30" id="qmT-UP-cqV"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="VEn-Do-8aK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2141,6 +2251,9 @@
                                 <state key="normal" title="B)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="LHP-Qc-gQu" kind="presentation" id="RR1-AF-chf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLY-sk-p7w">
                                 <rect key="frame" x="20" y="398" width="280" height="30"/>
@@ -2167,6 +2280,9 @@
                                     <constraint firstAttribute="width" secondItem="ehy-Wp-Jup" secondAttribute="height" multiplier="79:30" id="maR-df-YoQ"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="aRM-em-thX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2227,6 +2343,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="GSr-r8-sp4" kind="presentation" id="9YN-b6-OLg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FY-uh-5hP">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -2263,6 +2382,9 @@
                                     <constraint firstAttribute="width" secondItem="ws7-yK-PS2" secondAttribute="height" multiplier="79:30" id="feJ-IN-aCx"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="7wl-Eg-qfB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2343,6 +2465,9 @@
                                 <state key="normal" title="C)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="24a-2K-kfQ" kind="presentation" id="LpO-H6-hbs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Respuestas:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCs-eh-Brt">
                                 <rect key="frame" x="20" y="245" width="280" height="21"/>
@@ -2359,6 +2484,9 @@
                                     <constraint firstAttribute="width" secondItem="d2K-DN-EjV" secondAttribute="height" multiplier="79:30" id="MLA-Db-uPS"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="OWS-53-ZBF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2419,6 +2547,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hfc-ah-bII" kind="presentation" id="RXg-wS-Whu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igP-G6-M5F">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -2455,6 +2586,9 @@
                                     <constraint firstAttribute="width" secondItem="YjP-jV-JSW" secondAttribute="height" multiplier="79:30" id="nsW-Kj-9po"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="gK6-BY-dU2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2525,6 +2659,9 @@
                                 <state key="normal" title="B)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ioM-q8-eYm" kind="presentation" id="PgP-J3-3Pd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDn-ZV-jtN">
                                 <rect key="frame" x="20" y="398" width="280" height="30"/>
@@ -2551,6 +2688,9 @@
                                     <constraint firstAttribute="width" secondItem="5w7-aj-GIY" secondAttribute="height" multiplier="79:30" id="JFG-5w-V8l"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="oBC-cU-3XS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2621,6 +2761,9 @@
                                 <state key="normal" title="B)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mLL-85-QIk" kind="presentation" id="hEL-gH-TcP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUs-rI-jDQ">
                                 <rect key="frame" x="20" y="398" width="280" height="30"/>
@@ -2647,6 +2790,9 @@
                                     <constraint firstAttribute="width" secondItem="zna-zH-Mkn" secondAttribute="height" multiplier="79:30" id="4qc-ea-Ce7"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="Cxi-UB-BAU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2707,6 +2853,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="og5-4z-DIc" kind="presentation" id="Mhf-Sk-zx2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mfg-b5-pg6">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -2743,6 +2892,9 @@
                                     <constraint firstAttribute="width" secondItem="z14-Ck-Wfj" secondAttribute="height" multiplier="79:30" id="yjX-QM-4tK"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="uct-ZE-Ghk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2823,6 +2975,9 @@
                                 <state key="normal" title="C)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2gZ-H1-osR" kind="presentation" id="YtD-cA-beD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Respuestas:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srh-aI-CB0">
                                 <rect key="frame" x="20" y="245" width="280" height="21"/>
@@ -2839,6 +2994,9 @@
                                     <constraint firstAttribute="width" secondItem="O8f-O7-lxY" secondAttribute="height" multiplier="79:30" id="SJU-Ds-bpw"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="xUY-oy-6FY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2899,6 +3057,9 @@
                                 <state key="normal" title="A)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qeF-fn-GyU" kind="presentation" id="raZ-hv-CYB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sby-8r-BMS">
                                 <rect key="frame" x="20" y="345" width="280" height="30"/>
@@ -2935,6 +3096,9 @@
                                     <constraint firstAttribute="width" secondItem="3We-8m-pCo" secondAttribute="height" multiplier="79:30" id="shP-bv-C2m"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="g4Z-ju-wp2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3005,6 +3169,9 @@
                                 <state key="normal" title="B)">
                                     <color key="titleColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kEG-4H-yIu" kind="presentation" id="bfp-Tc-lvB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJj-XR-BzW">
                                 <rect key="frame" x="20" y="398" width="280" height="30"/>
@@ -3031,6 +3198,9 @@
                                     <constraint firstAttribute="width" secondItem="o4B-NP-NMe" secondAttribute="height" multiplier="79:30" id="bzt-PG-jkD"/>
                                 </constraints>
                                 <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="xAL-td-ctp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3061,8 +3231,1301 @@
             </objects>
             <point key="canvasLocation" x="4904" y="-270"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FFx-4M-YFU">
+            <objects>
+                <viewController id="ioM-q8-eYm" customClass="p14ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wuj-2y-qOs"/>
+                        <viewControllerLayoutGuide type="bottom" id="elN-Nv-5DS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BIn-l7-B4Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBj-Ic-kfX">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lBj-Ic-kfX" secondAttribute="height" multiplier="18:7" id="INW-dD-Ehh"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="ioM-q8-eYm" eventType="touchUpInside" id="9Se-ob-1pi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="TT5-Xn-ebS">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TT5-Xn-ebS" secondAttribute="height" multiplier="49:64" id="3qN-Ux-NHB"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="AHD-G6-naf">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AHD-G6-naf" secondAttribute="height" multiplier="167:30" id="pJg-Mh-cBW"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWP-TF-ip1">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eWP-TF-ip1" secondAttribute="height" multiplier="17:6" id="t2T-9O-bT5"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="8mt-K6-uCy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eWP-TF-ip1" firstAttribute="top" secondItem="lBj-Ic-kfX" secondAttribute="bottom" constant="21" id="7Pe-wD-6ak"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AHD-G6-naf" secondAttribute="trailing" constant="56" id="EmC-0f-seY"/>
+                            <constraint firstItem="eWP-TF-ip1" firstAttribute="leading" secondItem="BIn-l7-B4Q" secondAttribute="leadingMargin" constant="62" id="F4r-E6-fz4"/>
+                            <constraint firstItem="lBj-Ic-kfX" firstAttribute="leading" secondItem="BIn-l7-B4Q" secondAttribute="leadingMargin" constant="57" id="NOn-GJ-0IA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eWP-TF-ip1" secondAttribute="trailing" constant="48" id="OOd-7j-23j"/>
+                            <constraint firstItem="TT5-Xn-ebS" firstAttribute="top" secondItem="Wuj-2y-qOs" secondAttribute="bottom" constant="31" id="QbR-eE-bog"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lBj-Ic-kfX" secondAttribute="trailing" constant="43" id="bW4-Kh-lZd"/>
+                            <constraint firstItem="AHD-G6-naf" firstAttribute="leading" secondItem="BIn-l7-B4Q" secondAttribute="leadingMargin" constant="57" id="bkk-67-dnH"/>
+                            <constraint firstItem="TT5-Xn-ebS" firstAttribute="leading" secondItem="BIn-l7-B4Q" secondAttribute="leadingMargin" constant="18" id="f3R-wd-91G"/>
+                            <constraint firstItem="lBj-Ic-kfX" firstAttribute="top" secondItem="AHD-G6-naf" secondAttribute="bottom" constant="42" id="sJS-Wu-D7G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TT5-Xn-ebS" secondAttribute="trailing" constant="17" id="wAT-1M-Kba"/>
+                            <constraint firstItem="lBj-Ic-kfX" firstAttribute="top" secondItem="TT5-Xn-ebS" secondAttribute="bottom" constant="8" id="y6g-fz-gfc"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="AHD-G6-naf" id="hpE-Qj-aUk"/>
+                        <outlet property="validarButton" destination="lBj-Ic-kfX" id="FgE-BO-RS6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aAw-q4-x9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4944" y="-2948"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uXZ-gD-uTw">
+            <objects>
+                <viewController id="kEG-4H-yIu" customClass="p15ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fyk-8U-r9Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="bXs-eh-kxs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vM6-PT-QNc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTB-Nw-Opa">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uTB-Nw-Opa" secondAttribute="height" multiplier="18:7" id="hvk-No-Qmv"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="kEG-4H-yIu" eventType="touchUpInside" id="z21-mK-wog"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fqb-Y5-JNE">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Fqb-Y5-JNE" secondAttribute="height" multiplier="49:64" id="b6i-f0-Upd"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WGr-wi-i0H">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WGr-wi-i0H" secondAttribute="height" multiplier="167:30" id="BtT-fA-6rI"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BsG-Qc-SL4">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BsG-Qc-SL4" secondAttribute="height" multiplier="17:6" id="n13-kH-Ohh"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="Rgt-df-pVt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fqb-Y5-JNE" firstAttribute="top" secondItem="fyk-8U-r9Q" secondAttribute="bottom" constant="31" id="0Al-9W-J30"/>
+                            <constraint firstItem="uTB-Nw-Opa" firstAttribute="leading" secondItem="vM6-PT-QNc" secondAttribute="leadingMargin" constant="57" id="3fQ-Xr-0qM"/>
+                            <constraint firstItem="uTB-Nw-Opa" firstAttribute="top" secondItem="Fqb-Y5-JNE" secondAttribute="bottom" constant="8" id="BdK-L9-pbj"/>
+                            <constraint firstItem="BsG-Qc-SL4" firstAttribute="leading" secondItem="vM6-PT-QNc" secondAttribute="leadingMargin" constant="62" id="FIL-3D-Kuq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WGr-wi-i0H" secondAttribute="trailing" constant="56" id="FaN-l5-UtQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uTB-Nw-Opa" secondAttribute="trailing" constant="43" id="L5g-eb-4QH"/>
+                            <constraint firstItem="Fqb-Y5-JNE" firstAttribute="leading" secondItem="vM6-PT-QNc" secondAttribute="leadingMargin" constant="18" id="QLz-Tq-H9g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fqb-Y5-JNE" secondAttribute="trailing" constant="17" id="RnF-jT-kX5"/>
+                            <constraint firstItem="BsG-Qc-SL4" firstAttribute="top" secondItem="uTB-Nw-Opa" secondAttribute="bottom" constant="21" id="aLs-mC-KUB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BsG-Qc-SL4" secondAttribute="trailing" constant="48" id="sqM-wj-pXx"/>
+                            <constraint firstItem="uTB-Nw-Opa" firstAttribute="top" secondItem="WGr-wi-i0H" secondAttribute="bottom" constant="42" id="wqr-YC-RPz"/>
+                            <constraint firstItem="WGr-wi-i0H" firstAttribute="leading" secondItem="vM6-PT-QNc" secondAttribute="leadingMargin" constant="57" id="ypT-te-CVj"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="WGr-wi-i0H" id="tC1-u7-pUQ"/>
+                        <outlet property="validarButton" destination="uTB-Nw-Opa" id="aZl-vl-bn6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1W8-Dy-HoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4944" y="-2308"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Prb-wj-mDU">
+            <objects>
+                <viewController id="5Tg-Zg-Apj" customClass="p10ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UDv-8v-BiS"/>
+                        <viewControllerLayoutGuide type="bottom" id="VmO-m6-m5Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JUo-s1-1H4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnF-Ld-D8b">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NnF-Ld-D8b" secondAttribute="height" multiplier="18:7" id="alx-d1-OHL"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="5Tg-Zg-Apj" eventType="touchUpInside" id="tpL-2H-dux"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="one-IS-Nba">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="one-IS-Nba" secondAttribute="height" multiplier="49:64" id="fL0-Y8-PEd"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RLE-7r-7UC">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RLE-7r-7UC" secondAttribute="height" multiplier="167:30" id="udC-Td-RMs"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFW-Pu-VU7">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KFW-Pu-VU7" secondAttribute="height" multiplier="17:6" id="vLf-GB-50J"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="tk9-pT-rtw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NnF-Ld-D8b" firstAttribute="top" secondItem="RLE-7r-7UC" secondAttribute="bottom" constant="42" id="36t-Cm-oRi"/>
+                            <constraint firstItem="NnF-Ld-D8b" firstAttribute="top" secondItem="one-IS-Nba" secondAttribute="bottom" constant="8" id="3DC-u2-jVo"/>
+                            <constraint firstItem="KFW-Pu-VU7" firstAttribute="leading" secondItem="JUo-s1-1H4" secondAttribute="leadingMargin" constant="62" id="B0p-Gv-TqP"/>
+                            <constraint firstItem="one-IS-Nba" firstAttribute="leading" secondItem="JUo-s1-1H4" secondAttribute="leadingMargin" constant="18" id="Y1M-u7-bzY"/>
+                            <constraint firstItem="KFW-Pu-VU7" firstAttribute="top" secondItem="NnF-Ld-D8b" secondAttribute="bottom" constant="21" id="bS0-ah-Pdf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RLE-7r-7UC" secondAttribute="trailing" constant="56" id="ds0-R4-LfM"/>
+                            <constraint firstItem="one-IS-Nba" firstAttribute="top" secondItem="UDv-8v-BiS" secondAttribute="bottom" constant="31" id="eir-jH-8HN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="one-IS-Nba" secondAttribute="trailing" constant="17" id="m9D-hR-aV6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KFW-Pu-VU7" secondAttribute="trailing" constant="48" id="yl9-XF-XAK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NnF-Ld-D8b" secondAttribute="trailing" constant="43" id="zHF-a8-KpZ"/>
+                            <constraint firstItem="RLE-7r-7UC" firstAttribute="leading" secondItem="JUo-s1-1H4" secondAttribute="leadingMargin" constant="57" id="zmd-vU-qQO"/>
+                            <constraint firstItem="NnF-Ld-D8b" firstAttribute="leading" secondItem="JUo-s1-1H4" secondAttribute="leadingMargin" constant="57" id="zvO-NN-gMy"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="RLE-7r-7UC" id="yv8-V1-eRS"/>
+                        <outlet property="validarButton" destination="NnF-Ld-D8b" id="hwL-5V-zG0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGw-Ym-oij" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4516" y="-3612"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sQB-7c-Lep">
+            <objects>
+                <viewController id="hfc-ah-bII" customClass="p11ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DVT-7J-t34"/>
+                        <viewControllerLayoutGuide type="bottom" id="ufg-eg-HHQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qbM-0G-2Nm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VC-N1-G4e">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9VC-N1-G4e" secondAttribute="height" multiplier="18:7" id="kIE-LQ-g8J"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="hfc-ah-bII" eventType="touchUpInside" id="fTZ-Bz-JNY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="d1x-7Z-WD1">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d1x-7Z-WD1" secondAttribute="height" multiplier="49:64" id="frr-NB-UfF"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QYk-TZ-IUQ">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QYk-TZ-IUQ" secondAttribute="height" multiplier="167:30" id="F7g-MP-sMK"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbp-30-2TV">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pbp-30-2TV" secondAttribute="height" multiplier="17:6" id="Mru-Oq-4eS"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="kRU-dS-mlC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="d1x-7Z-WD1" secondAttribute="trailing" constant="17" id="8W6-K3-s3X"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QYk-TZ-IUQ" secondAttribute="trailing" constant="56" id="CfD-I5-bu5"/>
+                            <constraint firstItem="QYk-TZ-IUQ" firstAttribute="leading" secondItem="qbM-0G-2Nm" secondAttribute="leadingMargin" constant="57" id="OaW-IV-758"/>
+                            <constraint firstItem="9VC-N1-G4e" firstAttribute="top" secondItem="QYk-TZ-IUQ" secondAttribute="bottom" constant="42" id="RA8-zn-A11"/>
+                            <constraint firstItem="d1x-7Z-WD1" firstAttribute="top" secondItem="DVT-7J-t34" secondAttribute="bottom" constant="31" id="UpY-Cx-5Vh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9VC-N1-G4e" secondAttribute="trailing" constant="43" id="VIi-v9-opM"/>
+                            <constraint firstItem="d1x-7Z-WD1" firstAttribute="leading" secondItem="qbM-0G-2Nm" secondAttribute="leadingMargin" constant="18" id="YpQ-og-S5a"/>
+                            <constraint firstItem="9VC-N1-G4e" firstAttribute="top" secondItem="d1x-7Z-WD1" secondAttribute="bottom" constant="8" id="eZd-On-LYG"/>
+                            <constraint firstItem="Pbp-30-2TV" firstAttribute="leading" secondItem="qbM-0G-2Nm" secondAttribute="leadingMargin" constant="62" id="gjx-Ux-87N"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pbp-30-2TV" secondAttribute="trailing" constant="48" id="mS2-8X-qwq"/>
+                            <constraint firstItem="9VC-N1-G4e" firstAttribute="leading" secondItem="qbM-0G-2Nm" secondAttribute="leadingMargin" constant="57" id="syg-3f-NSl"/>
+                            <constraint firstItem="Pbp-30-2TV" firstAttribute="top" secondItem="9VC-N1-G4e" secondAttribute="bottom" constant="21" id="vSg-6W-4Ft"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="QYk-TZ-IUQ" id="RMJ-0a-a8O"/>
+                        <outlet property="validarButton" destination="9VC-N1-G4e" id="9qp-Di-mLD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rUH-l4-qbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4516" y="-2948"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qtT-PW-1dg">
+            <objects>
+                <viewController id="qeF-fn-GyU" customClass="p12ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DzU-B5-c26"/>
+                        <viewControllerLayoutGuide type="bottom" id="euB-QH-pZk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0aH-L4-6AZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tZ-vb-UR0">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3tZ-vb-UR0" secondAttribute="height" multiplier="18:7" id="CXt-fe-OIE"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="qeF-fn-GyU" eventType="touchUpInside" id="98r-Tu-ofb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="crQ-R8-eoj">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="crQ-R8-eoj" secondAttribute="height" multiplier="49:64" id="EZt-l9-xEA"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jo8-UM-vY7">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jo8-UM-vY7" secondAttribute="height" multiplier="167:30" id="5JF-V6-Elk"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NU-yt-RRM">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4NU-yt-RRM" secondAttribute="height" multiplier="17:6" id="pKf-Xr-B4H"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="vkK-1c-taj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3tZ-vb-UR0" firstAttribute="leading" secondItem="0aH-L4-6AZ" secondAttribute="leadingMargin" constant="57" id="39Q-BC-kcN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jo8-UM-vY7" secondAttribute="trailing" constant="56" id="4Nb-I9-NZb"/>
+                            <constraint firstItem="4NU-yt-RRM" firstAttribute="top" secondItem="3tZ-vb-UR0" secondAttribute="bottom" constant="21" id="5eR-s2-9Ga"/>
+                            <constraint firstItem="crQ-R8-eoj" firstAttribute="leading" secondItem="0aH-L4-6AZ" secondAttribute="leadingMargin" constant="18" id="73Z-fW-LPl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="crQ-R8-eoj" secondAttribute="trailing" constant="17" id="8FU-Qn-ish"/>
+                            <constraint firstItem="3tZ-vb-UR0" firstAttribute="top" secondItem="crQ-R8-eoj" secondAttribute="bottom" constant="8" id="Dd7-8T-Gt8"/>
+                            <constraint firstItem="3tZ-vb-UR0" firstAttribute="top" secondItem="jo8-UM-vY7" secondAttribute="bottom" constant="42" id="HmV-bW-efb"/>
+                            <constraint firstItem="jo8-UM-vY7" firstAttribute="leading" secondItem="0aH-L4-6AZ" secondAttribute="leadingMargin" constant="57" id="JkD-0c-4na"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4NU-yt-RRM" secondAttribute="trailing" constant="48" id="Sgn-3e-tsE"/>
+                            <constraint firstItem="crQ-R8-eoj" firstAttribute="top" secondItem="DzU-B5-c26" secondAttribute="bottom" constant="31" id="UT4-ji-WyS"/>
+                            <constraint firstItem="4NU-yt-RRM" firstAttribute="leading" secondItem="0aH-L4-6AZ" secondAttribute="leadingMargin" constant="62" id="mf6-64-qw3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3tZ-vb-UR0" secondAttribute="trailing" constant="43" id="nAs-2k-WVP"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="jo8-UM-vY7" id="rJS-2i-IQs"/>
+                        <outlet property="validarButton" destination="3tZ-vb-UR0" id="ygf-oG-Sdi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9z-jc-93e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4516" y="-2308"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jho-lh-wqD">
+            <objects>
+                <viewController id="Q2S-ne-spU" customClass="p7ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iqq-Ua-hFY"/>
+                        <viewControllerLayoutGuide type="bottom" id="iRc-Jb-cvF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dyo-x6-UKI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gme-cR-qGQ">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gme-cR-qGQ" secondAttribute="height" multiplier="18:7" id="Yk7-3C-kCZ"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="Q2S-ne-spU" eventType="touchUpInside" id="A1F-Kh-iBj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sgv-iD-Ggj">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Sgv-iD-Ggj" secondAttribute="height" multiplier="49:64" id="CBv-2R-umb"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="jEn-wF-WOD">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jEn-wF-WOD" secondAttribute="height" multiplier="167:30" id="6Ub-os-bMA"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9d-yd-E0h">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="w9d-yd-E0h" secondAttribute="height" multiplier="17:6" id="WfW-XM-9Io"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="Rmp-rK-H41"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="jEn-wF-WOD" secondAttribute="trailing" constant="56" id="7M9-bm-Vpc"/>
+                            <constraint firstItem="Sgv-iD-Ggj" firstAttribute="top" secondItem="iqq-Ua-hFY" secondAttribute="bottom" constant="31" id="E0F-8v-bzg"/>
+                            <constraint firstItem="w9d-yd-E0h" firstAttribute="leading" secondItem="Dyo-x6-UKI" secondAttribute="leadingMargin" constant="62" id="IIx-FC-KwT"/>
+                            <constraint firstItem="gme-cR-qGQ" firstAttribute="top" secondItem="Sgv-iD-Ggj" secondAttribute="bottom" constant="8" id="KD3-Gj-stv"/>
+                            <constraint firstItem="Sgv-iD-Ggj" firstAttribute="leading" secondItem="Dyo-x6-UKI" secondAttribute="leadingMargin" constant="18" id="MVE-FV-SPR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w9d-yd-E0h" secondAttribute="trailing" constant="48" id="RjJ-9H-vtn"/>
+                            <constraint firstItem="gme-cR-qGQ" firstAttribute="leading" secondItem="Dyo-x6-UKI" secondAttribute="leadingMargin" constant="57" id="mZe-r0-8L6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sgv-iD-Ggj" secondAttribute="trailing" constant="17" id="md5-IN-yjx"/>
+                            <constraint firstItem="w9d-yd-E0h" firstAttribute="top" secondItem="gme-cR-qGQ" secondAttribute="bottom" constant="21" id="mfm-3e-R6L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gme-cR-qGQ" secondAttribute="trailing" constant="43" id="tN6-Oi-LjN"/>
+                            <constraint firstItem="gme-cR-qGQ" firstAttribute="top" secondItem="jEn-wF-WOD" secondAttribute="bottom" constant="42" id="wig-BM-xTq"/>
+                            <constraint firstItem="jEn-wF-WOD" firstAttribute="leading" secondItem="Dyo-x6-UKI" secondAttribute="leadingMargin" constant="57" id="yMm-84-Rie"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="jEn-wF-WOD" id="cpY-hr-FIM"/>
+                        <outlet property="validarButton" destination="gme-cR-qGQ" id="R9a-Wu-Lvb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hB-as-GYe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4118" y="-3664"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mnf-aa-HUY">
+            <objects>
+                <viewController id="24a-2K-kfQ" customClass="p8ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ijA-bg-lNT"/>
+                        <viewControllerLayoutGuide type="bottom" id="9mc-gH-bXW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iI2-xJ-hYS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2k-dc-8t1">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="X2k-dc-8t1" secondAttribute="height" multiplier="18:7" id="cbh-qX-l87"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="24a-2K-kfQ" eventType="touchUpInside" id="Ecu-Si-a7Y"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="034-hy-GcE">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="034-hy-GcE" secondAttribute="height" multiplier="49:64" id="3fa-cf-Muf"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ETg-86-9yG">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ETg-86-9yG" secondAttribute="height" multiplier="167:30" id="FM6-DD-CwQ"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-J4-WE6">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eH4-J4-WE6" secondAttribute="height" multiplier="17:6" id="X0Z-Ci-6yT"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="vwO-X0-iSq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ETg-86-9yG" secondAttribute="trailing" constant="56" id="0iJ-Kv-kca"/>
+                            <constraint firstItem="X2k-dc-8t1" firstAttribute="leading" secondItem="iI2-xJ-hYS" secondAttribute="leadingMargin" constant="57" id="2Kp-3m-NFF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="034-hy-GcE" secondAttribute="trailing" constant="17" id="DSM-nI-D6k"/>
+                            <constraint firstItem="eH4-J4-WE6" firstAttribute="top" secondItem="X2k-dc-8t1" secondAttribute="bottom" constant="21" id="HZZ-iI-XnR"/>
+                            <constraint firstItem="X2k-dc-8t1" firstAttribute="top" secondItem="034-hy-GcE" secondAttribute="bottom" constant="8" id="Iub-q3-v6j"/>
+                            <constraint firstItem="034-hy-GcE" firstAttribute="top" secondItem="ijA-bg-lNT" secondAttribute="bottom" constant="31" id="O57-tx-D0Z"/>
+                            <constraint firstItem="034-hy-GcE" firstAttribute="leading" secondItem="iI2-xJ-hYS" secondAttribute="leadingMargin" constant="18" id="OwW-Kb-f2D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X2k-dc-8t1" secondAttribute="trailing" constant="43" id="PQs-lF-2vR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eH4-J4-WE6" secondAttribute="trailing" constant="48" id="XMe-V8-MWj"/>
+                            <constraint firstItem="ETg-86-9yG" firstAttribute="leading" secondItem="iI2-xJ-hYS" secondAttribute="leadingMargin" constant="57" id="lM4-kM-Ywm"/>
+                            <constraint firstItem="X2k-dc-8t1" firstAttribute="top" secondItem="ETg-86-9yG" secondAttribute="bottom" constant="42" id="nru-Pz-ytF"/>
+                            <constraint firstItem="eH4-J4-WE6" firstAttribute="leading" secondItem="iI2-xJ-hYS" secondAttribute="leadingMargin" constant="62" id="rPr-D1-Lew"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="ETg-86-9yG" id="Liv-SU-JLf"/>
+                        <outlet property="validarButton" destination="X2k-dc-8t1" id="E9P-ZJ-lOl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C0N-wJ-2gA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4118" y="-3000"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="23R-2t-A1S">
+            <objects>
+                <viewController id="2gZ-H1-osR" customClass="p9ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZQm-of-rUu"/>
+                        <viewControllerLayoutGuide type="bottom" id="nP1-uJ-0sg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jTi-sQ-WeE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRg-da-NrW">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yRg-da-NrW" secondAttribute="height" multiplier="18:7" id="DoA-9K-kIh"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="2gZ-H1-osR" eventType="touchUpInside" id="JMa-f8-DcT"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="B2c-Qb-h34">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="B2c-Qb-h34" secondAttribute="height" multiplier="49:64" id="Ge8-Pd-MuQ"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="bWY-af-CkQ">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bWY-af-CkQ" secondAttribute="height" multiplier="167:30" id="4dx-Vh-6zh"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1q-dg-7js">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="c1q-dg-7js" secondAttribute="height" multiplier="17:6" id="JLP-F8-U5u"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="L99-TY-Wgg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="yRg-da-NrW" secondAttribute="trailing" constant="43" id="2Jn-8F-35N"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="B2c-Qb-h34" secondAttribute="trailing" constant="17" id="MRS-2L-p8U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="c1q-dg-7js" secondAttribute="trailing" constant="48" id="Nlp-nN-C89"/>
+                            <constraint firstItem="yRg-da-NrW" firstAttribute="top" secondItem="bWY-af-CkQ" secondAttribute="bottom" constant="42" id="QNo-Rz-tXL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bWY-af-CkQ" secondAttribute="trailing" constant="56" id="Zr6-1z-GaH"/>
+                            <constraint firstItem="c1q-dg-7js" firstAttribute="top" secondItem="yRg-da-NrW" secondAttribute="bottom" constant="21" id="bZu-qc-GfP"/>
+                            <constraint firstItem="yRg-da-NrW" firstAttribute="top" secondItem="B2c-Qb-h34" secondAttribute="bottom" constant="8" id="dNu-S4-WUu"/>
+                            <constraint firstItem="B2c-Qb-h34" firstAttribute="leading" secondItem="jTi-sQ-WeE" secondAttribute="leadingMargin" constant="18" id="dSf-XC-84d"/>
+                            <constraint firstItem="B2c-Qb-h34" firstAttribute="top" secondItem="ZQm-of-rUu" secondAttribute="bottom" constant="31" id="eQX-YF-a2R"/>
+                            <constraint firstItem="c1q-dg-7js" firstAttribute="leading" secondItem="jTi-sQ-WeE" secondAttribute="leadingMargin" constant="62" id="g3g-8k-tls"/>
+                            <constraint firstItem="yRg-da-NrW" firstAttribute="leading" secondItem="jTi-sQ-WeE" secondAttribute="leadingMargin" constant="57" id="thh-rb-eGx"/>
+                            <constraint firstItem="bWY-af-CkQ" firstAttribute="leading" secondItem="jTi-sQ-WeE" secondAttribute="leadingMargin" constant="57" id="yka-py-b5v"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="bWY-af-CkQ" id="bvI-hV-BL8"/>
+                        <outlet property="validarButton" destination="yRg-da-NrW" id="4ea-y2-5mB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wrf-EV-Q8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4118" y="-2360"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O5T-yk-Uy0">
+            <objects>
+                <viewController id="2YZ-1S-gdE" customClass="p4ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eVj-xY-idf"/>
+                        <viewControllerLayoutGuide type="bottom" id="5hl-wc-tqc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JLA-qB-YhM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ym1-jr-nhw">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ym1-jr-nhw" secondAttribute="height" multiplier="18:7" id="Qp2-OD-IZj"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="2YZ-1S-gdE" eventType="touchUpInside" id="IWQ-nZ-oFY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="SFH-8p-ltI">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SFH-8p-ltI" secondAttribute="height" multiplier="49:64" id="lFq-hb-fFB"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="QyQ-d4-aag">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QyQ-d4-aag" secondAttribute="height" multiplier="167:30" id="Ixj-YP-1cc"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtb-09-hc0">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gtb-09-hc0" secondAttribute="height" multiplier="17:6" id="TsY-Pc-Msc"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="sa4-ie-qs4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SFH-8p-ltI" firstAttribute="leading" secondItem="JLA-qB-YhM" secondAttribute="leadingMargin" constant="18" id="9P7-03-GjD"/>
+                            <constraint firstItem="Ym1-jr-nhw" firstAttribute="leading" secondItem="JLA-qB-YhM" secondAttribute="leadingMargin" constant="57" id="9kZ-zg-0lD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QyQ-d4-aag" secondAttribute="trailing" constant="56" id="DLh-SZ-ntn"/>
+                            <constraint firstItem="gtb-09-hc0" firstAttribute="leading" secondItem="JLA-qB-YhM" secondAttribute="leadingMargin" constant="62" id="H7a-Wc-hLw"/>
+                            <constraint firstItem="Ym1-jr-nhw" firstAttribute="top" secondItem="SFH-8p-ltI" secondAttribute="bottom" constant="8" id="Hro-JL-bFu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gtb-09-hc0" secondAttribute="trailing" constant="48" id="KNV-XR-LK9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SFH-8p-ltI" secondAttribute="trailing" constant="17" id="PUH-O0-KLt"/>
+                            <constraint firstItem="SFH-8p-ltI" firstAttribute="top" secondItem="eVj-xY-idf" secondAttribute="bottom" constant="31" id="Y4f-Sh-MLX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ym1-jr-nhw" secondAttribute="trailing" constant="43" id="hy5-et-wge"/>
+                            <constraint firstItem="QyQ-d4-aag" firstAttribute="leading" secondItem="JLA-qB-YhM" secondAttribute="leadingMargin" constant="57" id="jtl-Ra-mPb"/>
+                            <constraint firstItem="gtb-09-hc0" firstAttribute="top" secondItem="Ym1-jr-nhw" secondAttribute="bottom" constant="21" id="kIv-tS-eUG"/>
+                            <constraint firstItem="Ym1-jr-nhw" firstAttribute="top" secondItem="QyQ-d4-aag" secondAttribute="bottom" constant="42" id="yAQ-D5-Jrh"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="QyQ-d4-aag" id="kUk-gz-0OF"/>
+                        <outlet property="validarButton" destination="Ym1-jr-nhw" id="3Bw-ax-A6I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZK-Pw-ohb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3724" y="-3644"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MWw-4K-7JC">
+            <objects>
+                <viewController id="GSr-r8-sp4" customClass="p5ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tWK-kY-FT8"/>
+                        <viewControllerLayoutGuide type="bottom" id="hcV-44-dF0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="37f-Qf-YoL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-e2-XQ3">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Npk-e2-XQ3" secondAttribute="height" multiplier="18:7" id="5KG-M4-6sv"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="GSr-r8-sp4" eventType="touchUpInside" id="nHI-7j-52w"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="5mn-cA-fv9">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5mn-cA-fv9" secondAttribute="height" multiplier="49:64" id="gan-gj-Nuh"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="DdW-cg-dTc">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DdW-cg-dTc" secondAttribute="height" multiplier="167:30" id="25o-yP-ttS"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UK-Gd-uIb">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9UK-Gd-uIb" secondAttribute="height" multiplier="17:6" id="vVL-9v-Aoc"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="3LU-54-KaD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9UK-Gd-uIb" firstAttribute="leading" secondItem="37f-Qf-YoL" secondAttribute="leadingMargin" constant="62" id="4Xp-43-xXM"/>
+                            <constraint firstItem="5mn-cA-fv9" firstAttribute="leading" secondItem="37f-Qf-YoL" secondAttribute="leadingMargin" constant="18" id="5Pv-5b-IUC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5mn-cA-fv9" secondAttribute="trailing" constant="17" id="5UB-hL-LY3"/>
+                            <constraint firstItem="9UK-Gd-uIb" firstAttribute="top" secondItem="Npk-e2-XQ3" secondAttribute="bottom" constant="21" id="5Vu-Py-jN7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DdW-cg-dTc" secondAttribute="trailing" constant="56" id="I36-ZX-C3f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9UK-Gd-uIb" secondAttribute="trailing" constant="48" id="Sma-M5-Y32"/>
+                            <constraint firstItem="Npk-e2-XQ3" firstAttribute="top" secondItem="DdW-cg-dTc" secondAttribute="bottom" constant="42" id="U74-ON-ZLu"/>
+                            <constraint firstItem="Npk-e2-XQ3" firstAttribute="leading" secondItem="37f-Qf-YoL" secondAttribute="leadingMargin" constant="57" id="UDy-bv-5Wb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Npk-e2-XQ3" secondAttribute="trailing" constant="43" id="cOQ-vx-omh"/>
+                            <constraint firstItem="DdW-cg-dTc" firstAttribute="leading" secondItem="37f-Qf-YoL" secondAttribute="leadingMargin" constant="57" id="o53-rT-0t9"/>
+                            <constraint firstItem="5mn-cA-fv9" firstAttribute="top" secondItem="tWK-kY-FT8" secondAttribute="bottom" constant="31" id="rz4-yV-6Ny"/>
+                            <constraint firstItem="Npk-e2-XQ3" firstAttribute="top" secondItem="5mn-cA-fv9" secondAttribute="bottom" constant="8" id="vrf-PZ-x7W"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="DdW-cg-dTc" id="mh9-Zx-nhn"/>
+                        <outlet property="validarButton" destination="Npk-e2-XQ3" id="KB4-Wf-4Ez"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OwJ-Go-HEk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3724" y="-2980"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="a2C-OY-7VV">
+            <objects>
+                <viewController id="og5-4z-DIc" customClass="p6ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UjP-rs-PKF"/>
+                        <viewControllerLayoutGuide type="bottom" id="yxc-iZ-W0L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V26-Gy-dfF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DB-fO-sBh">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8DB-fO-sBh" secondAttribute="height" multiplier="18:7" id="eYx-wT-E4S"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="og5-4z-DIc" eventType="touchUpInside" id="yPg-LF-Yt9"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lWS-KT-pd8">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lWS-KT-pd8" secondAttribute="height" multiplier="49:64" id="qNe-3y-Rlm"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="GBv-FS-1MT">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GBv-FS-1MT" secondAttribute="height" multiplier="167:30" id="BIT-B3-EA8"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbN-FQ-5yS">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CbN-FQ-5yS" secondAttribute="height" multiplier="17:6" id="ktT-vN-QrR"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="aDw-El-eyC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CbN-FQ-5yS" firstAttribute="top" secondItem="8DB-fO-sBh" secondAttribute="bottom" constant="21" id="48u-Tn-eXK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CbN-FQ-5yS" secondAttribute="trailing" constant="48" id="9Qo-Xa-b1U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lWS-KT-pd8" secondAttribute="trailing" constant="17" id="CbE-R6-Jm2"/>
+                            <constraint firstItem="8DB-fO-sBh" firstAttribute="top" secondItem="GBv-FS-1MT" secondAttribute="bottom" constant="42" id="D2J-cK-rTR"/>
+                            <constraint firstItem="lWS-KT-pd8" firstAttribute="leading" secondItem="V26-Gy-dfF" secondAttribute="leadingMargin" constant="18" id="JLD-va-gxa"/>
+                            <constraint firstItem="GBv-FS-1MT" firstAttribute="leading" secondItem="V26-Gy-dfF" secondAttribute="leadingMargin" constant="57" id="PIA-XR-UTV"/>
+                            <constraint firstItem="lWS-KT-pd8" firstAttribute="top" secondItem="UjP-rs-PKF" secondAttribute="bottom" constant="31" id="Spr-AF-WzN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GBv-FS-1MT" secondAttribute="trailing" constant="56" id="h2k-wQ-Tgg"/>
+                            <constraint firstItem="8DB-fO-sBh" firstAttribute="top" secondItem="lWS-KT-pd8" secondAttribute="bottom" constant="8" id="ijd-Px-o0f"/>
+                            <constraint firstItem="8DB-fO-sBh" firstAttribute="leading" secondItem="V26-Gy-dfF" secondAttribute="leadingMargin" constant="57" id="vOd-5m-8lq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8DB-fO-sBh" secondAttribute="trailing" constant="43" id="yBe-3t-HRk"/>
+                            <constraint firstItem="CbN-FQ-5yS" firstAttribute="leading" secondItem="V26-Gy-dfF" secondAttribute="leadingMargin" constant="62" id="yw7-0n-thQ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="GBv-FS-1MT" id="2co-qX-0Vf"/>
+                        <outlet property="validarButton" destination="8DB-fO-sBh" id="3xw-4H-DYU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ard-JF-sO4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3724" y="-2340"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r4c-g3-AKd">
+            <objects>
+                <viewController id="Kyk-nb-wxD" customClass="p1ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Af6-XO-gZN"/>
+                        <viewControllerLayoutGuide type="bottom" id="qyr-pG-lsg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e6H-Ny-zNi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ip-aW-dPl">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1Ip-aW-dPl" secondAttribute="height" multiplier="18:7" id="qGV-XJ-TVJ"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="Kyk-nb-wxD" eventType="touchUpInside" id="Hiv-Ii-CM2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aV9-db-qQp">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aV9-db-qQp" secondAttribute="height" multiplier="49:64" id="DFi-2K-tmF"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kzh-ti-j5H">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kzh-ti-j5H" secondAttribute="height" multiplier="167:30" id="Lae-X2-EW5"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rai-Zx-HLg">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Rai-Zx-HLg" secondAttribute="height" multiplier="17:6" id="iKO-WC-okR"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="NI1-B4-H6R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="kzh-ti-j5H" secondAttribute="trailing" constant="56" id="45B-2b-kgM"/>
+                            <constraint firstItem="Rai-Zx-HLg" firstAttribute="leading" secondItem="e6H-Ny-zNi" secondAttribute="leadingMargin" constant="62" id="GHc-px-i3w"/>
+                            <constraint firstItem="Rai-Zx-HLg" firstAttribute="top" secondItem="1Ip-aW-dPl" secondAttribute="bottom" constant="21" id="HWX-d0-9t3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rai-Zx-HLg" secondAttribute="trailing" constant="48" id="Lau-p3-IE0"/>
+                            <constraint firstItem="1Ip-aW-dPl" firstAttribute="top" secondItem="aV9-db-qQp" secondAttribute="bottom" constant="8" id="Maa-kr-LwW"/>
+                            <constraint firstItem="aV9-db-qQp" firstAttribute="leading" secondItem="e6H-Ny-zNi" secondAttribute="leadingMargin" constant="18" id="Nmp-PJ-HMQ"/>
+                            <constraint firstItem="1Ip-aW-dPl" firstAttribute="top" secondItem="kzh-ti-j5H" secondAttribute="bottom" constant="42" id="PCt-rt-bUS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aV9-db-qQp" secondAttribute="trailing" constant="17" id="ccE-qK-Ed2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Ip-aW-dPl" secondAttribute="trailing" constant="43" id="gGZ-bA-RM2"/>
+                            <constraint firstItem="kzh-ti-j5H" firstAttribute="leading" secondItem="e6H-Ny-zNi" secondAttribute="leadingMargin" constant="57" id="l1U-aB-19D"/>
+                            <constraint firstItem="aV9-db-qQp" firstAttribute="top" secondItem="Af6-XO-gZN" secondAttribute="bottom" constant="31" id="oxS-8T-Ktz"/>
+                            <constraint firstItem="1Ip-aW-dPl" firstAttribute="leading" secondItem="e6H-Ny-zNi" secondAttribute="leadingMargin" constant="57" id="wfj-nU-DCk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="kzh-ti-j5H" id="Dgp-2b-pco"/>
+                        <outlet property="validarButton" destination="1Ip-aW-dPl" id="4sw-V8-wQW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yZU-V5-P3M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3292" y="-3644"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RVZ-FM-K10">
+            <objects>
+                <viewController id="LHP-Qc-gQu" customClass="p2ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JaR-J7-rHg"/>
+                        <viewControllerLayoutGuide type="bottom" id="7XZ-db-54Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gQE-Lr-Z6K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ln-RQ-83Y">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2ln-RQ-83Y" secondAttribute="height" multiplier="18:7" id="Ptd-kZ-KTN"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="LHP-Qc-gQu" eventType="touchUpInside" id="m7M-j3-6po"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hKD-4v-8fz">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hKD-4v-8fz" secondAttribute="height" multiplier="49:64" id="FlK-iF-WxG"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="MbF-1T-gO2">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MbF-1T-gO2" secondAttribute="height" multiplier="167:30" id="HDl-Ds-myI"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8Z-n3-U8M">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="n8Z-n3-U8M" secondAttribute="height" multiplier="17:6" id="KHB-Pm-yne"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="l8h-5v-83b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="MbF-1T-gO2" secondAttribute="trailing" constant="56" id="9T2-WO-NDZ"/>
+                            <constraint firstItem="n8Z-n3-U8M" firstAttribute="top" secondItem="2ln-RQ-83Y" secondAttribute="bottom" constant="21" id="Gir-3Z-dgx"/>
+                            <constraint firstItem="n8Z-n3-U8M" firstAttribute="leading" secondItem="gQE-Lr-Z6K" secondAttribute="leadingMargin" constant="62" id="IbK-Nb-6JG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hKD-4v-8fz" secondAttribute="trailing" constant="17" id="XeI-3G-nYf"/>
+                            <constraint firstItem="MbF-1T-gO2" firstAttribute="leading" secondItem="gQE-Lr-Z6K" secondAttribute="leadingMargin" constant="57" id="csQ-hA-Oei"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2ln-RQ-83Y" secondAttribute="trailing" constant="43" id="dJo-j6-fbK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n8Z-n3-U8M" secondAttribute="trailing" constant="48" id="h3K-1T-mrv"/>
+                            <constraint firstItem="2ln-RQ-83Y" firstAttribute="top" secondItem="hKD-4v-8fz" secondAttribute="bottom" constant="8" id="h5x-vB-HGJ"/>
+                            <constraint firstItem="hKD-4v-8fz" firstAttribute="top" secondItem="JaR-J7-rHg" secondAttribute="bottom" constant="31" id="kTh-6j-UWx"/>
+                            <constraint firstItem="hKD-4v-8fz" firstAttribute="leading" secondItem="gQE-Lr-Z6K" secondAttribute="leadingMargin" constant="18" id="lcq-5H-FPp"/>
+                            <constraint firstItem="2ln-RQ-83Y" firstAttribute="top" secondItem="MbF-1T-gO2" secondAttribute="bottom" constant="42" id="lhn-ma-x9x"/>
+                            <constraint firstItem="2ln-RQ-83Y" firstAttribute="leading" secondItem="gQE-Lr-Z6K" secondAttribute="leadingMargin" constant="57" id="tgk-1w-dfC"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="MbF-1T-gO2" id="o9t-EO-3HX"/>
+                        <outlet property="validarButton" destination="2ln-RQ-83Y" id="zAb-Lf-PfT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8LR-As-X7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3292" y="-2940"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VTB-3b-HDH">
+            <objects>
+                <viewController id="mLL-85-QIk" customClass="p3ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CZi-Gc-AL6"/>
+                        <viewControllerLayoutGuide type="bottom" id="3VE-hM-VWe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6zf-Rj-swN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIq-37-mYO">
+                                <rect key="frame" x="77" y="379" width="180" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OIq-37-mYO" secondAttribute="height" multiplier="18:7" id="Dj6-fK-hjD"/>
+                                </constraints>
+                                <state key="normal" image="boton_enviar.png"/>
+                                <connections>
+                                    <action selector="enviarResp:" destination="mLL-85-QIk" eventType="touchUpInside" id="XLL-8E-YOn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pista_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="76O-Dd-CA4">
+                                <rect key="frame" x="38" y="51" width="245" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="76O-Dd-CA4" secondAttribute="height" multiplier="49:64" id="HS7-ud-CVr"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ingresa el codigo" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="h7h-Ab-Y8m">
+                                <rect key="frame" x="77" y="307" width="167" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="h7h-Ab-Y8m" secondAttribute="height" multiplier="167:30" id="1bx-EI-Afg"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.30196078430000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4N-nQ-KlT">
+                                <rect key="frame" x="82" y="470" width="170" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="s4N-nQ-KlT" secondAttribute="height" multiplier="17:6" id="Ea2-Dx-AlF"/>
+                                </constraints>
+                                <state key="normal" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="2Um-4d-NUS" kind="presentation" id="5qS-2n-7ks"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="s4N-nQ-KlT" secondAttribute="trailing" constant="48" id="AEA-M5-7wJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OIq-37-mYO" secondAttribute="trailing" constant="43" id="AF4-Ft-4c9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h7h-Ab-Y8m" secondAttribute="trailing" constant="56" id="Ceh-87-FwX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="76O-Dd-CA4" secondAttribute="trailing" constant="17" id="EJP-AA-jNP"/>
+                            <constraint firstItem="OIq-37-mYO" firstAttribute="leading" secondItem="6zf-Rj-swN" secondAttribute="leadingMargin" constant="57" id="Krv-JA-Mmf"/>
+                            <constraint firstItem="s4N-nQ-KlT" firstAttribute="leading" secondItem="6zf-Rj-swN" secondAttribute="leadingMargin" constant="62" id="Qow-RX-l7T"/>
+                            <constraint firstItem="s4N-nQ-KlT" firstAttribute="top" secondItem="OIq-37-mYO" secondAttribute="bottom" constant="21" id="U99-Pg-yuk"/>
+                            <constraint firstItem="h7h-Ab-Y8m" firstAttribute="leading" secondItem="6zf-Rj-swN" secondAttribute="leadingMargin" constant="57" id="eeT-cG-H83"/>
+                            <constraint firstItem="76O-Dd-CA4" firstAttribute="leading" secondItem="6zf-Rj-swN" secondAttribute="leadingMargin" constant="18" id="fnB-gY-hRf"/>
+                            <constraint firstItem="OIq-37-mYO" firstAttribute="top" secondItem="h7h-Ab-Y8m" secondAttribute="bottom" constant="42" id="n5P-26-kT0"/>
+                            <constraint firstItem="76O-Dd-CA4" firstAttribute="top" secondItem="CZi-Gc-AL6" secondAttribute="bottom" constant="31" id="sbF-OY-Aaj"/>
+                            <constraint firstItem="OIq-37-mYO" firstAttribute="top" secondItem="76O-Dd-CA4" secondAttribute="bottom" constant="8" id="u0Z-cj-EHv"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="codigo" destination="h7h-Ab-Y8m" id="Ogo-TL-hkE"/>
+                        <outlet property="validarButton" destination="OIq-37-mYO" id="eIX-ev-rxn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GVm-dS-fpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3300" y="-2276"/>
+        </scene>
+        <!--Inst2 View Controller-->
+        <scene sceneID="QLB-Rb-JbA">
+            <objects>
+                <viewController storyboardIdentifier="inst2" id="9TR-tM-xTE" customClass="inst2ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xVW-Wd-xh2"/>
+                        <viewControllerLayoutGuide type="bottom" id="qIG-Oy-LhC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T2U-bM-KW7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-4N-H4i">
+                                <rect key="frame" x="20" y="143" width="280" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o1o-4N-H4i" secondAttribute="height" multiplier="140:141" id="O9b-mB-Su6"/>
+                                </constraints>
+                                <string key="text">También puedes participara en la dinámica de “Trofeos virtuales” que preparamos para ti, la cual esta basada en encontrar pistas y recolectar trofeos.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrE-5w-H9F">
+                                <rect key="frame" x="11" y="498" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="D5F-Kt-H68"/>
+                                    <constraint firstAttribute="width" secondItem="vrE-5w-H9F" secondAttribute="height" multiplier="12:5" id="DKy-FD-QS8"/>
+                                    <constraint firstAttribute="height" constant="50" id="rPR-Ja-IfT"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="e9n-VJ-Qyw" kind="presentation" id="qZo-hb-1TR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydM-Yz-Eul">
+                                <rect key="frame" x="160" y="488" width="140" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ydM-Yz-Eul" secondAttribute="height" multiplier="7:3" id="aVB-a4-hTt"/>
+                                    <constraint firstAttribute="height" constant="60" id="eFx-OA-DJY"/>
+                                    <constraint firstAttribute="width" constant="140" id="kp2-zd-dGw"/>
+                                </constraints>
+                                <state key="normal" image="boton_continuar.png"/>
+                                <connections>
+                                    <segue destination="7YQ-2v-Z6i" kind="presentation" id="kYv-bY-lG1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="o1o-4N-H4i" secondAttribute="trailing" id="4N3-Tu-HHd"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="o1o-4N-H4i" secondAttribute="leading" id="DJl-DD-4WT"/>
+                            <constraint firstItem="qIG-Oy-LhC" firstAttribute="top" secondItem="ydM-Yz-Eul" secondAttribute="bottom" constant="20" id="IEA-2A-eJS"/>
+                            <constraint firstItem="qIG-Oy-LhC" firstAttribute="top" secondItem="vrE-5w-H9F" secondAttribute="bottom" constant="20" id="Yca-EY-zFh"/>
+                            <constraint firstItem="vrE-5w-H9F" firstAttribute="leading" secondItem="T2U-bM-KW7" secondAttribute="leadingMargin" constant="-9" id="hL5-z2-KFV"/>
+                            <constraint firstItem="ydM-Yz-Eul" firstAttribute="trailing" secondItem="T2U-bM-KW7" secondAttribute="trailingMargin" id="k43-A9-2JF"/>
+                            <constraint firstItem="o1o-4N-H4i" firstAttribute="top" secondItem="xVW-Wd-xh2" secondAttribute="bottom" constant="123" id="sN5-cp-vMx"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hSC-6P-HJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3560" y="2031"/>
+        </scene>
+        <!--Inst3 View Controller-->
+        <scene sceneID="9aS-0s-pTa">
+            <objects>
+                <viewController storyboardIdentifier="inst3" id="7YQ-2v-Z6i" customClass="inst3ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3JQ-u9-e1A"/>
+                        <viewControllerLayoutGuide type="bottom" id="O0q-uf-Qb5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GFD-Xp-NWT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mab-gh-244">
+                                <rect key="frame" x="20" y="143" width="280" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mab-gh-244" secondAttribute="height" multiplier="140:141" id="Ev4-dN-kkp"/>
+                                </constraints>
+                                <string key="text">Para participar recolectar trofeos, debes de seguir los siguientes pasos:Paso1: Debes esperar a que las pistas se activen, si hay una pista activa lo puedes revisar en la sección de “Pistas”.Cuando una pista este activa, se te darán las instrucciones de cómo y en donde buscar el trofeo. Paso 2: Cuando llegues al lugar indicado deberás encontrar un dibujo o patrón impreso sobre una hoja. </string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTK-CK-4Pt">
+                                <rect key="frame" x="20" y="498" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="21r-me-pUO"/>
+                                    <constraint firstAttribute="width" secondItem="jTK-CK-4Pt" secondAttribute="height" multiplier="12:5" id="R0W-UZ-Eqc"/>
+                                    <constraint firstAttribute="height" constant="50" id="Vci-uI-HXf"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="9TR-tM-xTE" kind="presentation" id="lCw-Hx-POK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XzD-Du-NCE">
+                                <rect key="frame" x="169" y="488" width="140" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="4Ig-0m-f63"/>
+                                    <constraint firstAttribute="height" constant="60" id="Dhn-Vd-OPf"/>
+                                    <constraint firstAttribute="width" secondItem="XzD-Du-NCE" secondAttribute="height" multiplier="7:3" id="kIg-hz-X8P"/>
+                                </constraints>
+                                <state key="normal" image="boton_continuar.png"/>
+                                <connections>
+                                    <segue destination="Vkl-BA-cfk" kind="presentation" id="TUh-bO-pRT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jTK-CK-4Pt" firstAttribute="leading" secondItem="GFD-Xp-NWT" secondAttribute="leadingMargin" id="4kR-PM-ms0"/>
+                            <constraint firstItem="O0q-uf-Qb5" firstAttribute="top" secondItem="jTK-CK-4Pt" secondAttribute="bottom" constant="20" id="5Kl-vI-TUj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Mab-gh-244" secondAttribute="leading" id="EWS-0W-XeI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XzD-Du-NCE" secondAttribute="trailing" constant="-9" id="Jj0-Zv-Fti"/>
+                            <constraint firstItem="O0q-uf-Qb5" firstAttribute="top" secondItem="XzD-Du-NCE" secondAttribute="bottom" constant="20" id="bBa-eK-BTu"/>
+                            <constraint firstItem="Mab-gh-244" firstAttribute="top" secondItem="3JQ-u9-e1A" secondAttribute="bottom" constant="123" id="gmD-xK-Q5v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mab-gh-244" secondAttribute="trailing" id="uFN-Vb-PZd"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhv-g3-rI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3194" y="2653"/>
+        </scene>
+        <!--Inst4 View Controller-->
+        <scene sceneID="PUo-AD-Tab">
+            <objects>
+                <viewController storyboardIdentifier="inst4" id="Vkl-BA-cfk" customClass="inst4ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aIJ-fe-ody"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmZ-Q8-GFh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="09c-Tm-68P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmq-KP-R9n">
+                                <rect key="frame" x="20" y="143" width="280" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lmq-KP-R9n" secondAttribute="height" multiplier="140:141" id="7aw-Kh-8o5"/>
+                                </constraints>
+                                <string key="text">Paso 3: Activa el botón de cámara, que esta debajo de las instrucciones y escanea el patrón. Paso 4: Deberás visualizar una imagen en 3D con un código sobre la imagen. Guarda o escribe en algún lugar tu código, ya que lo necesitaras en el siguiente paso.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-pA-ERg">
+                                <rect key="frame" x="20" y="498" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ICg-pA-ERg" secondAttribute="height" multiplier="12:5" id="5hV-pv-ksv"/>
+                                    <constraint firstAttribute="width" constant="120" id="NUs-ok-zOn"/>
+                                    <constraint firstAttribute="height" constant="50" id="bGr-VQ-gbt"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="7YQ-2v-Z6i" kind="presentation" id="nQs-ji-wdP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3e-2f-qO9">
+                                <rect key="frame" x="169" y="488" width="140" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="P3e-2f-qO9" secondAttribute="height" multiplier="7:3" id="JSf-eT-Seo"/>
+                                    <constraint firstAttribute="width" constant="140" id="Ybn-vS-Huo"/>
+                                    <constraint firstAttribute="height" constant="60" id="hu0-xw-9iE"/>
+                                </constraints>
+                                <state key="normal" image="boton_continuar.png"/>
+                                <connections>
+                                    <segue destination="lES-HB-Dep" kind="presentation" id="oeG-jG-UeJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="lmq-KP-R9n" secondAttribute="leading" id="1xV-Ae-l0s"/>
+                            <constraint firstItem="ICg-pA-ERg" firstAttribute="leading" secondItem="09c-Tm-68P" secondAttribute="leadingMargin" id="3cj-FC-2Ri"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lmq-KP-R9n" secondAttribute="trailing" id="MYA-cg-pae"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P3e-2f-qO9" secondAttribute="trailing" constant="-9" id="NZo-8F-jkK"/>
+                            <constraint firstItem="hmZ-Q8-GFh" firstAttribute="top" secondItem="ICg-pA-ERg" secondAttribute="bottom" constant="20" id="V8Y-J1-uZi"/>
+                            <constraint firstItem="lmq-KP-R9n" firstAttribute="top" secondItem="aIJ-fe-ody" secondAttribute="bottom" constant="123" id="f9e-pq-1pu"/>
+                            <constraint firstItem="hmZ-Q8-GFh" firstAttribute="top" secondItem="P3e-2f-qO9" secondAttribute="bottom" constant="20" id="lS5-Xv-TYt"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="De1-yJ-egO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3560" y="2653"/>
+        </scene>
+        <!--Inst5 View Controller-->
+        <scene sceneID="KsW-rr-ZRi">
+            <objects>
+                <viewController storyboardIdentifier="inst5" id="lES-HB-Dep" customClass="inst5ViewController" customModule="RH_meeting_2016" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K3i-sN-I3Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="9uw-Jc-GnY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tEh-Tq-TQr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlu-FZ-54y">
+                                <rect key="frame" x="20" y="143" width="280" height="282"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vlu-FZ-54y" secondAttribute="height" multiplier="140:141" id="QKP-sa-ehd"/>
+                                </constraints>
+                                <string key="text">Paso 5: Abre la sección de trofeos y elige el trofeo que acabas de ver en 3D . Antes de poder meter el código deberás contestar una pregunta correctamente. Una vez contestada la pregunta, ingresa tu código y listo! Ya habrás recolectado la primera pista.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7Q-4Z-Thp">
+                                <rect key="frame" x="20" y="498" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FKk-QY-yIZ"/>
+                                    <constraint firstAttribute="width" constant="120" id="Jk3-fV-fcf"/>
+                                    <constraint firstAttribute="width" secondItem="N7Q-4Z-Thp" secondAttribute="height" multiplier="12:5" id="qfl-46-NtQ"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="boton_regresar.png"/>
+                                <connections>
+                                    <segue destination="Vkl-BA-cfk" kind="presentation" id="u2h-Ty-UO4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vei-Ll-zaY">
+                                <rect key="frame" x="169" y="488" width="140" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vei-Ll-zaY" secondAttribute="height" multiplier="7:3" id="BDn-j5-8YF"/>
+                                    <constraint firstAttribute="height" constant="60" id="bmU-Br-FNF"/>
+                                    <constraint firstAttribute="width" constant="140" id="goS-bG-4Yx"/>
+                                </constraints>
+                                <state key="normal" image="boton_continuar.png"/>
+                                <connections>
+                                    <segue destination="Ycu-Zo-yve" kind="presentation" id="Ydl-BR-r8Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9uw-Jc-GnY" firstAttribute="top" secondItem="vei-Ll-zaY" secondAttribute="bottom" constant="20" id="3c2-45-sqk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vei-Ll-zaY" secondAttribute="trailing" constant="-9" id="Ni5-yP-oKI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vlu-FZ-54y" secondAttribute="trailing" id="OJc-PG-1rG"/>
+                            <constraint firstItem="Vlu-FZ-54y" firstAttribute="top" secondItem="K3i-sN-I3Q" secondAttribute="bottom" constant="123" id="RuC-IH-03a"/>
+                            <constraint firstItem="N7Q-4Z-Thp" firstAttribute="leading" secondItem="tEh-Tq-TQr" secondAttribute="leadingMargin" id="Tt0-Y9-4D0"/>
+                            <constraint firstItem="9uw-Jc-GnY" firstAttribute="top" secondItem="N7Q-4Z-Thp" secondAttribute="bottom" constant="20" id="igw-r4-WVh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Vlu-FZ-54y" secondAttribute="leading" id="yYq-Nu-bsc"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wg5-tn-S4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3380" y="3293"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="boton_agenda.png" width="501" height="138"/>
         <image name="boton_b1.png" width="367" height="367"/>
         <image name="boton_b2.png" width="367" height="367"/>
         <image name="boton_b3.png" width="367" height="367"/>
@@ -3073,21 +4536,31 @@
         <image name="boton_b8.png" width="367" height="367"/>
         <image name="boton_b9.png" width="367" height="367"/>
         <image name="boton_cancelar.png" width="380" height="124"/>
+        <image name="boton_continuar.png" width="404" height="169"/>
         <image name="boton_enviar.png" width="338" height="128"/>
+        <image name="boton_info.png" width="96" height="96"/>
         <image name="boton_inicio.png" width="408" height="154"/>
         <image name="boton_lunes.png" width="501" height="138"/>
         <image name="boton_martes.png" width="571" height="189"/>
         <image name="boton_miercoles.png" width="562" height="193"/>
+        <image name="boton_pistas.png" width="501" height="138"/>
         <image name="boton_regresar.png" width="421" height="145"/>
+        <image name="boton_trofeos.png" width="501" height="138"/>
         <image name="login_boton.png" width="558" height="138"/>
+        <image name="pista_1.png" width="1158" height="1487"/>
         <image name="pleca_footer.png" width="1200" height="98"/>
         <image name="pleca_top.png" width="1200" height="226"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Xmf-fS-Qhr"/>
         <segue reference="rvr-KL-6BS"/>
-        <segue reference="1yf-zf-gxD"/>
-        <segue reference="6JG-cn-N9q"/>
+        <segue reference="ORl-NL-Pw3"/>
+        <segue reference="Ydl-BR-r8Z"/>
+        <segue reference="TUh-bO-pRT"/>
+        <segue reference="kYv-bY-lG1"/>
+        <segue reference="MTH-vh-178"/>
+        <segue reference="sgO-WR-ABg"/>
+        <segue reference="cug-AL-66m"/>
+        <segue reference="h4o-d8-MBP"/>
         <segue reference="kOT-ng-JAB"/>
         <segue reference="6kI-Uh-bRf"/>
     </inferredMetricsTieBreakers>
