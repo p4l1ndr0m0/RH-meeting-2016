@@ -1,5 +1,5 @@
 # Number of markers
-1
+4
 
 # Entries for each marker. Format is:
 #
@@ -17,3 +17,14 @@ hiro.patt
 SINGLE
 80.0
 
+kanji.patt
+SINGLE
+80.0
+
+sample1.patt
+SINGLE
+80.0
+
+sample2.patt
+SINGLE
+80.0

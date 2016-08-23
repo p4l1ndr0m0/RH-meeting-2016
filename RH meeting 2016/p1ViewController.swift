@@ -10,7 +10,7 @@ import UIKit
 
 class p1ViewController: UIViewController {
     
-    var code_final: String! = "camara"
+    var code_final: String! = "1946"
     
     @IBOutlet weak var validarButton: UIButton!
     @IBOutlet weak var codigo: UITextField!
@@ -37,6 +37,14 @@ class p1ViewController: UIViewController {
             NSUserDefaults.standardUserDefaults().setInteger(r1, forKey:"respuesta1")
              NSUserDefaults.standardUserDefaults().synchronize()
             print(r1)
+            
+            let alertController = UIAlertController(title: "Perfecto", message: "Codigo Correcto", preferredStyle: .Alert)
+            let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
+                print("boton apretado para cancelacion");
+            }
+            alertController.addAction(cancelAction)
+            self.presentViewController(alertController, animated: true, completion:nil)
+            
             let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
             
             let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/respuestas.php")!)
@@ -63,7 +71,7 @@ class p1ViewController: UIViewController {
         }
         else {
             
-            let alertController = UIAlertController(title: "Error", message: "Suerte para la Proxima", preferredStyle: .Alert)
+            let alertController = UIAlertController(title: "Error", message: "Codigo Incorrecto", preferredStyle: .Alert)
             let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
                 print("boton apretado para cancelacion");
             }

@@ -133,31 +133,21 @@
 		9DA646A91D6C6E050032A85C /* Trofeo_14_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A31D6C6E050032A85C /* Trofeo_14_gris.png */; };
 		9DA646AA1D6C6E050032A85C /* Trofeo_15_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A41D6C6E050032A85C /* Trofeo_15_color.png */; };
 		9DA646AB1D6C6E050032A85C /* Trofeo_15_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A51D6C6E050032A85C /* Trofeo_15_gris.png */; };
-		9DA646B61D6C8B370032A85C /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646AC1D6C8B370032A85C /* bin */; };
-		9DA646B71D6C8B370032A85C /* ChangeLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646AD1D6C8B370032A85C /* ChangeLog.txt */; };
-		9DA646B81D6C8B380032A85C /* doc in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646AE1D6C8B370032A85C /* doc */; };
-		9DA646B91D6C8B380032A85C /* examples in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646AF1D6C8B370032A85C /* examples */; };
-		9DA646BA1D6C8B380032A85C /* include in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646B01D6C8B370032A85C /* include */; };
-		9DA646BB1D6C8B380032A85C /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646B11D6C8B370032A85C /* lib */; };
-		9DA646BC1D6C8B380032A85C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646B21D6C8B370032A85C /* LICENSE.txt */; };
-		9DA646BD1D6C8B380032A85C /* README (ARToolKit for iOS).txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646B31D6C8B370032A85C /* README (ARToolKit for iOS).txt */; };
 		9DBA052D1D526E4C00F12F0E /* fondoApp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA052C1D526E4C00F12F0E /* fondoApp.jpg */; };
 		9DBA052F1D5276B700F12F0E /* boton_cancelar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA052E1D5276B700F12F0E /* boton_cancelar.png */; };
 		9DBA05311D5276CA00F12F0E /* boton_continuar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA05301D5276CA00F12F0E /* boton_continuar.png */; };
 		9DBA05331D5276E000F12F0E /* login_boton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA05321D5276E000F12F0E /* login_boton.png */; };
 		9DBA05351D5276ED00F12F0E /* boton_enviar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA05341D5276ED00F12F0E /* boton_enviar.png */; };
-		9DEFA0471D6C97A3009CE23B /* libAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA03B1D6C97A3009CE23B /* libAR.a */; };
-		9DEFA0481D6C97A3009CE23B /* libAR2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA03C1D6C97A3009CE23B /* libAR2.a */; };
-		9DEFA0491D6C97A3009CE23B /* libARgsub_es.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA03D1D6C97A3009CE23B /* libARgsub_es.a */; };
-		9DEFA04A1D6C97A3009CE23B /* libARgsub_es2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA03E1D6C97A3009CE23B /* libARgsub_es2.a */; };
-		9DEFA04B1D6C97A3009CE23B /* libARICP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA03F1D6C97A3009CE23B /* libARICP.a */; };
-		9DEFA04C1D6C97A3009CE23B /* libARMulti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0401D6C97A3009CE23B /* libARMulti.a */; };
-		9DEFA04D1D6C97A3009CE23B /* libARosg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0411D6C97A3009CE23B /* libARosg.a */; };
-		9DEFA04E1D6C97A3009CE23B /* libARUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0421D6C97A3009CE23B /* libARUtil.a */; };
-		9DEFA04F1D6C97A3009CE23B /* libARvideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0431D6C97A3009CE23B /* libARvideo.a */; };
-		9DEFA0501D6C97A3009CE23B /* libARWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0441D6C97A3009CE23B /* libARWrapper.a */; };
-		9DEFA0511D6C97A3009CE23B /* libEden.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0451D6C97A3009CE23B /* libEden.a */; };
-		9DEFA0521D6C97A3009CE23B /* libKPM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0461D6C97A3009CE23B /* libKPM.a */; };
+		9DDB2E751D6CA62B0079B3EC /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E6B1D6CA62B0079B3EC /* bin */; };
+		9DDB2E761D6CA62B0079B3EC /* ChangeLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E6C1D6CA62B0079B3EC /* ChangeLog.txt */; };
+		9DDB2E771D6CA62B0079B3EC /* doc in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E6D1D6CA62B0079B3EC /* doc */; };
+		9DDB2E781D6CA62B0079B3EC /* examples in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E6E1D6CA62B0079B3EC /* examples */; };
+		9DDB2E791D6CA62B0079B3EC /* include in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E6F1D6CA62B0079B3EC /* include */; };
+		9DDB2E7A1D6CA62B0079B3EC /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E701D6CA62B0079B3EC /* lib */; };
+		9DDB2E7B1D6CA62B0079B3EC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E711D6CA62B0079B3EC /* LICENSE.txt */; };
+		9DDB2E7C1D6CA62B0079B3EC /* README (ARToolKit for iOS).txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E721D6CA62B0079B3EC /* README (ARToolKit for iOS).txt */; };
+		9DDB2E7D1D6CA62B0079B3EC /* share in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E731D6CA62B0079B3EC /* share */; };
+		9DDB2E7E1D6CA62B0079B3EC /* Xcode in Resources */ = {isa = PBXBuildFile; fileRef = 9DDB2E741D6CA62B0079B3EC /* Xcode */; };
 		9DEFA0541D6C97E0009CE23B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0531D6C97E0009CE23B /* QuartzCore.framework */; };
 		9DEFA0561D6C97EA009CE23B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0551D6C97EA009CE23B /* CoreGraphics.framework */; };
 		9DEFA0581D6C97F4009CE23B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEFA0571D6C97F4009CE23B /* OpenGLES.framework */; };
@@ -330,14 +320,6 @@
 		9DA646A31D6C6E050032A85C /* Trofeo_14_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_14_gris.png; sourceTree = "<group>"; };
 		9DA646A41D6C6E050032A85C /* Trofeo_15_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_15_color.png; sourceTree = "<group>"; };
 		9DA646A51D6C6E050032A85C /* Trofeo_15_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_15_gris.png; sourceTree = "<group>"; };
-		9DA646AC1D6C8B370032A85C /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
-		9DA646AD1D6C8B370032A85C /* ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog.txt; sourceTree = "<group>"; };
-		9DA646AE1D6C8B370032A85C /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
-		9DA646AF1D6C8B370032A85C /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
-		9DA646B01D6C8B370032A85C /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
-		9DA646B11D6C8B370032A85C /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
-		9DA646B21D6C8B370032A85C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		9DA646B31D6C8B370032A85C /* README (ARToolKit for iOS).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README (ARToolKit for iOS).txt"; sourceTree = "<group>"; };
 		9DBA052C1D526E4C00F12F0E /* fondoApp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoApp.jpg; sourceTree = "<group>"; };
 		9DBA052E1D5276B700F12F0E /* boton_cancelar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_cancelar.png; sourceTree = "<group>"; };
 		9DBA05301D5276CA00F12F0E /* boton_continuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_continuar.png; sourceTree = "<group>"; };
@@ -347,6 +329,16 @@
 		9DBA05391D52776300F12F0E /* CODE Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CODE Light.otf"; sourceTree = "<group>"; };
 		9DBA053A1D52776300F12F0E /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
 		9DBA053B1D52776300F12F0E /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		9DDB2E6B1D6CA62B0079B3EC /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		9DDB2E6C1D6CA62B0079B3EC /* ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog.txt; sourceTree = "<group>"; };
+		9DDB2E6D1D6CA62B0079B3EC /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		9DDB2E6E1D6CA62B0079B3EC /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		9DDB2E6F1D6CA62B0079B3EC /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		9DDB2E701D6CA62B0079B3EC /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		9DDB2E711D6CA62B0079B3EC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9DDB2E721D6CA62B0079B3EC /* README (ARToolKit for iOS).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README (ARToolKit for iOS).txt"; sourceTree = "<group>"; };
+		9DDB2E731D6CA62B0079B3EC /* share */ = {isa = PBXFileReference; lastKnownFileType = folder; path = share; sourceTree = "<group>"; };
+		9DDB2E741D6CA62B0079B3EC /* Xcode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Xcode; sourceTree = "<group>"; };
 		9DEFA03B1D6C97A3009CE23B /* libAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAR.a; path = "RH meeting 2016/lib/libAR.a"; sourceTree = "<group>"; };
 		9DEFA03C1D6C97A3009CE23B /* libAR2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAR2.a; path = "RH meeting 2016/lib/libAR2.a"; sourceTree = "<group>"; };
 		9DEFA03D1D6C97A3009CE23B /* libARgsub_es.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARgsub_es.a; path = "RH meeting 2016/lib/libARgsub_es.a"; sourceTree = "<group>"; };
@@ -404,18 +396,6 @@
 				9DEFA0581D6C97F4009CE23B /* OpenGLES.framework in Frameworks */,
 				9DEFA0561D6C97EA009CE23B /* CoreGraphics.framework in Frameworks */,
 				9DEFA0541D6C97E0009CE23B /* QuartzCore.framework in Frameworks */,
-				9DEFA0471D6C97A3009CE23B /* libAR.a in Frameworks */,
-				9DEFA0481D6C97A3009CE23B /* libAR2.a in Frameworks */,
-				9DEFA0491D6C97A3009CE23B /* libARgsub_es.a in Frameworks */,
-				9DEFA04A1D6C97A3009CE23B /* libARgsub_es2.a in Frameworks */,
-				9DEFA04B1D6C97A3009CE23B /* libARICP.a in Frameworks */,
-				9DEFA04C1D6C97A3009CE23B /* libARMulti.a in Frameworks */,
-				9DEFA04D1D6C97A3009CE23B /* libARosg.a in Frameworks */,
-				9DEFA04E1D6C97A3009CE23B /* libARUtil.a in Frameworks */,
-				9DEFA04F1D6C97A3009CE23B /* libARvideo.a in Frameworks */,
-				9DEFA0501D6C97A3009CE23B /* libARWrapper.a in Frameworks */,
-				9DEFA0511D6C97A3009CE23B /* libEden.a in Frameworks */,
-				9DEFA0521D6C97A3009CE23B /* libKPM.a in Frameworks */,
 				9DF4FD3D1D43D6C9007C8DC3 /* AWSMobileHubHelper.framework in Frameworks */,
 				EB66D35CEDC4F6AD22826E83 /* Pods_RH_meeting_2016.framework in Frameworks */,
 			);
@@ -676,14 +656,16 @@
 		9DF4FD0B1D43CA50007C8DC3 /* RH meeting 2016 */ = {
 			isa = PBXGroup;
 			children = (
-				9DA646AC1D6C8B370032A85C /* bin */,
-				9DA646AD1D6C8B370032A85C /* ChangeLog.txt */,
-				9DA646AE1D6C8B370032A85C /* doc */,
-				9DA646AF1D6C8B370032A85C /* examples */,
-				9DA646B01D6C8B370032A85C /* include */,
-				9DA646B11D6C8B370032A85C /* lib */,
-				9DA646B21D6C8B370032A85C /* LICENSE.txt */,
-				9DA646B31D6C8B370032A85C /* README (ARToolKit for iOS).txt */,
+				9DDB2E6B1D6CA62B0079B3EC /* bin */,
+				9DDB2E6C1D6CA62B0079B3EC /* ChangeLog.txt */,
+				9DDB2E6D1D6CA62B0079B3EC /* doc */,
+				9DDB2E6E1D6CA62B0079B3EC /* examples */,
+				9DDB2E6F1D6CA62B0079B3EC /* include */,
+				9DDB2E701D6CA62B0079B3EC /* lib */,
+				9DDB2E711D6CA62B0079B3EC /* LICENSE.txt */,
+				9DDB2E721D6CA62B0079B3EC /* README (ARToolKit for iOS).txt */,
+				9DDB2E731D6CA62B0079B3EC /* share */,
+				9DDB2E741D6CA62B0079B3EC /* Xcode */,
 				9D6CFFC21D68DE2300861E5C /* pistas */,
 				9D71CEFD1D679FFA00ACCDCA /* instrucciones */,
 				9D05F8BB1D64DBB600583581 /* model_data preguntas */,
@@ -886,31 +868,32 @@
 				9DF4FD171D43CA51007C8DC3 /* LaunchScreen.storyboard in Resources */,
 				9DA646A81D6C6E050032A85C /* Trofeo_14_color.png in Resources */,
 				9D71CED91D6785A900ACCDCA /* boton_agenda.png in Resources */,
-				9DA646BA1D6C8B380032A85C /* include in Resources */,
+				9DDB2E791D6CA62B0079B3EC /* include in Resources */,
 				9D71CF391D67D14300ACCDCA /* Trofeo_12_gris.png in Resources */,
 				285EF0401D5BD0FF009C3CFD /* fondo_p.png in Resources */,
 				9DBA05351D5276ED00F12F0E /* boton_enviar.png in Resources */,
 				285EF03A1D5BCE33009C3CFD /* fondo_login_final.png in Resources */,
 				9D71CF271D67D14300ACCDCA /* Trofeo_3_gris.png in Resources */,
 				9D71CF581D68C53100ACCDCA /* pista2.png in Resources */,
-				9DA646B61D6C8B370032A85C /* bin in Resources */,
+				9DDB2E751D6CA62B0079B3EC /* bin in Resources */,
 				9D71CF311D67D14300ACCDCA /* Trofeo_8_gris.png in Resources */,
-				9DA646B71D6C8B370032A85C /* ChangeLog.txt in Resources */,
+				9DDB2E7E1D6CA62B0079B3EC /* Xcode in Resources */,
+				9DDB2E761D6CA62B0079B3EC /* ChangeLog.txt in Resources */,
 				9D71CF2A1D67D14300ACCDCA /* Trofeo_5_color.png in Resources */,
 				9DA646AB1D6C6E050032A85C /* Trofeo_15_gris.png in Resources */,
 				285EF03C1D5BCE57009C3CFD /* fondo_registro.png in Resources */,
 				9D71CF591D68C53100ACCDCA /* pista3.png in Resources */,
-				9DA646B81D6C8B380032A85C /* doc in Resources */,
+				9DDB2E771D6CA62B0079B3EC /* doc in Resources */,
 				9D71CF321D67D14300ACCDCA /* Trofeo_9_color.png in Resources */,
 				9D71CF281D67D14300ACCDCA /* Trofeo_4_color.png in Resources */,
 				9D71CF2F1D67D14300ACCDCA /* Trofeo_7_gris.png in Resources */,
 				9D71CF381D67D14300ACCDCA /* Trofeo_12_color.png in Resources */,
-				9DA646BD1D6C8B380032A85C /* README (ARToolKit for iOS).txt in Resources */,
+				9DDB2E7C1D6CA62B0079B3EC /* README (ARToolKit for iOS).txt in Resources */,
 				9D35A4A01D58031100661C21 /* pleca_footer.png in Resources */,
 				9D71CF5B1D68C53100ACCDCA /* pista5.png in Resources */,
 				9D35A49B1D5800A700661C21 /* fondo_menu_agenda.png in Resources */,
 				9D71CF2E1D67D14300ACCDCA /* Trofeo_7_color.png in Resources */,
-				9DA646BB1D6C8B380032A85C /* lib in Resources */,
+				9DDB2E7A1D6CA62B0079B3EC /* lib in Resources */,
 				9D71CF331D67D14300ACCDCA /* Trofeo_9_gris.png in Resources */,
 				9DF4FD141D43CA51007C8DC3 /* Assets.xcassets in Resources */,
 				9D71CF5C1D68C53100ACCDCA /* pista6.png in Resources */,
@@ -919,11 +902,12 @@
 				9D71CEDC1D6785A900ACCDCA /* boton_trofeos.png in Resources */,
 				9DBA05331D5276E000F12F0E /* login_boton.png in Resources */,
 				9DA646A91D6C6E050032A85C /* Trofeo_14_gris.png in Resources */,
-				9DA646B91D6C8B380032A85C /* examples in Resources */,
+				9DDB2E781D6CA62B0079B3EC /* examples in Resources */,
 				9D71CF351D67D14300ACCDCA /* Trofeo_10_gris.png in Resources */,
 				9D71CF251D67D14300ACCDCA /* Trofeo_2_gris.png in Resources */,
 				9D71CF611D68C53100ACCDCA /* pista11.png in Resources */,
-				9DA646BC1D6C8B380032A85C /* LICENSE.txt in Resources */,
+				9DDB2E7D1D6CA62B0079B3EC /* share in Resources */,
+				9DDB2E7B1D6CA62B0079B3EC /* LICENSE.txt in Resources */,
 				28C40FE41D5A859B00DB9FC6 /* boton_regresar.png in Resources */,
 				9D71CF651D68C53100ACCDCA /* pista15.png in Resources */,
 				9D71CF601D68C53100ACCDCA /* pista10.png in Resources */,
@@ -1315,7 +1299,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6323A5CFD45AE77EEE8D73E0 /* Pods-RH meeting 2016.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1338,7 +1321,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D7E4EB52278B6CD043AE780 /* Pods-RH meeting 2016.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
