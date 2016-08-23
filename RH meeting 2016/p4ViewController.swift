@@ -14,13 +14,13 @@ class p4ViewController: UIViewController {
     @IBOutlet weak var validarButton: UIButton!
     @IBOutlet weak var validacion: UILabel!
     @IBOutlet weak var codigo: UITextField!
-    var r1 : String! = "si"
+    var r1 : Int! = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "fondo_p.png")!.drawInRect(self.view.bounds)
+        UIImage(named: "pista4.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
@@ -31,14 +31,14 @@ class p4ViewController: UIViewController {
     @IBAction func enviarResp(sender: AnyObject) {
         
         if (codigo.text == code_final){
-            validacion.text = "Corecto"
-            NSUserDefaults.standardUserDefaults().setObject(r1, forKey:"respuesta4")
+            
+            NSUserDefaults.standardUserDefaults().setInteger(r1, forKey:"respuesta4")
+            NSUserDefaults.standardUserDefaults().synchronize()
             
             
         }
         else {
             validacion.text = "Incorrecto"
-        }
         
         let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
         
@@ -64,4 +64,5 @@ class p4ViewController: UIViewController {
         task.resume()
     }
 
+}
 }

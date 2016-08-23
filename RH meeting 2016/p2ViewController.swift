@@ -13,7 +13,7 @@ class p2ViewController: UIViewController {
     var code_final: String! = "camara"
     
     @IBOutlet weak var validarButton: UIButton!
-    @IBOutlet weak var validacion: UILabel!
+
     @IBOutlet weak var codigo: UITextField!
     
     
@@ -21,7 +21,7 @@ class p2ViewController: UIViewController {
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "fondo_p.png")!.drawInRect(self.view.bounds)
+        UIImage(named: "pista2.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
@@ -32,39 +32,40 @@ class p2ViewController: UIViewController {
     @IBAction func enviarResp(sender: AnyObject) {
         
         if (codigo.text == code_final){
-            validacion.text = "Corecto"
-            var r1 : String! = "si"
-            NSUserDefaults.standardUserDefaults().setObject(r1, forKey:"respuesta2")
-            
-            
-        }
-        else {
-            validacion.text = "Incorrecto"
-        }
-        
-        let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
-        
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/respuestas2.php")!)
-        request.HTTPMethod = "POST"
-        let postString = "correo=\(correoData!)"
-        
-        request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
-        
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request){
-            data, response, error in
-            
-            if error != nil {
-                print("error\(error)")
-                return
-            }
-            print("response = \(response)")
-            
-            let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
-            print("responseString = \(responseString)")
-        }
-        
-        task.resume()
-    }
-    
-}
 
+            var r1 : Int! = 1
+            NSUserDefaults.standardUserDefaults().setInteger(r1, forKey:"respuesta2")
+            NSUserDefaults.standardUserDefaults().synchronize()
+            let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
+            
+            let request = NSMutableURLRequest(URL: NSURL(string: "http://app-pepsico.palindromo.com.mx/APP/respuestas2.php")!)
+            request.HTTPMethod = "POST"
+            let postString = "correo=\(correoData!)"
+            
+            request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
+            
+            let task = NSURLSession.sharedSession().dataTaskWithRequest(request){
+                data, response, error in
+                
+                if error != nil {
+                    print("error\(error)")
+                    return
+                }
+                print("response = \(response)")
+                
+                let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
+                print("responseString = \(responseString)")
+            }
+            
+            task.resume()
+        }
+
+
+            
+        else {
+
+        }
+        
+        
+}
+}
