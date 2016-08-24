@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -1025,7 +1025,7 @@
                                 <string key="text">Aquí podrás encontrar información que te será de utilidad a lo largo de este evento.
 Puedes revisar el itinerario de actividades que tenemos preparado para ti en la sección de “Agenda”</string>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -4310,7 +4310,7 @@ Puedes revisar el itinerario de actividades que tenemos preparado para ti en la 
                                 </constraints>
                                 <string key="text">También puedes participara en la dinámica de “Trofeos virtuales” que preparamos para ti, la cual esta basada en encontrar pistas y recolectar trofeos.</string>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrE-5w-H9F">
@@ -4376,7 +4376,7 @@ Puedes revisar el itinerario de actividades que tenemos preparado para ti en la 
 Cuando una pista este activa, se te darán las instrucciones de cómo y en donde buscar el trofeo. 
 Paso 2: Cuando llegues al lugar indicado deberás encontrar un dibujo o patrón impreso sobre una hoja. </string>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTK-CK-4Pt">
@@ -4409,7 +4409,7 @@ Paso 2: Cuando llegues al lugar indicado deberás encontrar un dibujo o patrón 
                                     <constraint firstAttribute="width" secondItem="CRO-5F-h5I" secondAttribute="height" multiplier="4:1" id="Z2r-7T-LHu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -4453,7 +4453,7 @@ Paso 2: Cuando llegues al lugar indicado deberás encontrar un dibujo o patrón 
                                 <string key="text">Paso 3: Activa el botón de cámara, que esta debajo de las instrucciones y escanea el patrón. 
 Paso 4: Deberás visualizar una imagen en 3D con un código sobre la imagen. Guarda o escribe en algún lugar tu código, ya que lo necesitaras en el siguiente paso.</string>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-pA-ERg">
@@ -4517,7 +4517,7 @@ Paso 4: Deberás visualizar una imagen en 3D con un código sobre la imagen. Gua
                                 </constraints>
                                 <string key="text">Paso 5: Abre la sección de trofeos y elige el trofeo que acabas de ver en 3D . Antes de poder meter el código deberás contestar una pregunta correctamente. Una vez contestada la pregunta, ingresa tu código y listo! Ya habrás recolectado la primera pista.</string>
                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7Q-4Z-Thp">
@@ -4597,16 +4597,16 @@ Paso 4: Deberás visualizar una imagen en 3D con un código sobre la imagen. Gua
         <image name="pleca_top.png" width="1200" height="226"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="u2h-Ty-UO4"/>
-        <segue reference="nQs-ji-wdP"/>
-        <segue reference="lCw-Hx-POK"/>
-        <segue reference="qZo-hb-1TR"/>
-        <segue reference="Ydl-BR-r8Z"/>
-        <segue reference="cug-AL-66m"/>
+        <segue reference="wEP-iz-CpG"/>
         <segue reference="h4o-d8-MBP"/>
         <segue reference="8sh-Wf-mUN"/>
         <segue reference="kOT-ng-JAB"/>
         <segue reference="rvr-KL-6BS"/>
         <segue reference="6kI-Uh-bRf"/>
+        <segue reference="Ydl-BR-r8Z"/>
+        <segue reference="u2h-Ty-UO4"/>
+        <segue reference="nQs-ji-wdP"/>
+        <segue reference="lCw-Hx-POK"/>
+        <segue reference="qZo-hb-1TR"/>
     </inferredMetricsTieBreakers>
 </document>
