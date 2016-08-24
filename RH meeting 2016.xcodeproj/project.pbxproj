@@ -133,6 +133,15 @@
 		9DA646A91D6C6E050032A85C /* Trofeo_14_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A31D6C6E050032A85C /* Trofeo_14_gris.png */; };
 		9DA646AA1D6C6E050032A85C /* Trofeo_15_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A41D6C6E050032A85C /* Trofeo_15_color.png */; };
 		9DA646AB1D6C6E050032A85C /* Trofeo_15_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A51D6C6E050032A85C /* Trofeo_15_gris.png */; };
+		9DA87E841D6DEC6700C61501 /* ARApp2Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA87E811D6DEC6700C61501 /* ARApp2Delegate.m */; };
+		9DA87E851D6DEC6700C61501 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA87E831D6DEC6700C61501 /* ARViewController.m */; };
+		9DA87E871D6DECBC00C61501 /* Data2 in Resources */ = {isa = PBXBuildFile; fileRef = 9DA87E861D6DECBC00C61501 /* Data2 */; };
+		9DA87E901D6DEE3600C61501 /* libAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8A1D6DEE3600C61501 /* libAR.a */; };
+		9DA87E911D6DEE3600C61501 /* libARgsub_es.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8B1D6DEE3600C61501 /* libARgsub_es.a */; };
+		9DA87E921D6DEE3600C61501 /* libARICP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8C1D6DEE3600C61501 /* libARICP.a */; };
+		9DA87E931D6DEE3600C61501 /* libARMulti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8D1D6DEE3600C61501 /* libARMulti.a */; };
+		9DA87E941D6DEE3600C61501 /* libARvideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8E1D6DEE3600C61501 /* libARvideo.a */; };
+		9DA87E951D6DEE3600C61501 /* libEden.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8F1D6DEE3600C61501 /* libEden.a */; };
 		9DBA052D1D526E4C00F12F0E /* fondoApp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA052C1D526E4C00F12F0E /* fondoApp.jpg */; };
 		9DBA052F1D5276B700F12F0E /* boton_cancelar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA052E1D5276B700F12F0E /* boton_cancelar.png */; };
 		9DBA05311D5276CA00F12F0E /* boton_continuar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA05301D5276CA00F12F0E /* boton_continuar.png */; };
@@ -310,6 +319,20 @@
 		9DA646A31D6C6E050032A85C /* Trofeo_14_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_14_gris.png; sourceTree = "<group>"; };
 		9DA646A41D6C6E050032A85C /* Trofeo_15_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_15_color.png; sourceTree = "<group>"; };
 		9DA646A51D6C6E050032A85C /* Trofeo_15_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_15_gris.png; sourceTree = "<group>"; };
+		9DA87E7E1D6DEC6500C61501 /* RH meeting 2016-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RH meeting 2016-Bridging-Header.h"; sourceTree = "<group>"; };
+		9DA87E7F1D6DEC6700C61501 /* ARApp2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARApp2_Prefix.pch; sourceTree = "<group>"; };
+		9DA87E801D6DEC6700C61501 /* ARApp2Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARApp2Delegate.h; sourceTree = "<group>"; };
+		9DA87E811D6DEC6700C61501 /* ARApp2Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARApp2Delegate.m; sourceTree = "<group>"; };
+		9DA87E821D6DEC6700C61501 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		9DA87E831D6DEC6700C61501 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		9DA87E861D6DECBC00C61501 /* Data2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data2; sourceTree = "<group>"; };
+		9DA87E881D6DEE0200C61501 /* AR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AR; sourceTree = "<group>"; };
+		9DA87E8A1D6DEE3600C61501 /* libAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAR.a; path = AR/lib/libAR.a; sourceTree = "<group>"; };
+		9DA87E8B1D6DEE3600C61501 /* libARgsub_es.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARgsub_es.a; path = AR/lib/libARgsub_es.a; sourceTree = "<group>"; };
+		9DA87E8C1D6DEE3600C61501 /* libARICP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARICP.a; path = AR/lib/libARICP.a; sourceTree = "<group>"; };
+		9DA87E8D1D6DEE3600C61501 /* libARMulti.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARMulti.a; path = AR/lib/libARMulti.a; sourceTree = "<group>"; };
+		9DA87E8E1D6DEE3600C61501 /* libARvideo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARvideo.a; path = AR/lib/libARvideo.a; sourceTree = "<group>"; };
+		9DA87E8F1D6DEE3600C61501 /* libEden.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEden.a; path = AR/lib/libEden.a; sourceTree = "<group>"; };
 		9DBA052C1D526E4C00F12F0E /* fondoApp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoApp.jpg; sourceTree = "<group>"; };
 		9DBA052E1D5276B700F12F0E /* boton_cancelar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_cancelar.png; sourceTree = "<group>"; };
 		9DBA05301D5276CA00F12F0E /* boton_continuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_continuar.png; sourceTree = "<group>"; };
@@ -366,6 +389,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA87E901D6DEE3600C61501 /* libAR.a in Frameworks */,
+				9DA87E911D6DEE3600C61501 /* libARgsub_es.a in Frameworks */,
+				9DA87E921D6DEE3600C61501 /* libARICP.a in Frameworks */,
+				9DA87E931D6DEE3600C61501 /* libARMulti.a in Frameworks */,
+				9DA87E941D6DEE3600C61501 /* libARvideo.a in Frameworks */,
+				9DA87E951D6DEE3600C61501 /* libEden.a in Frameworks */,
 				9DEFA0661D6C984A009CE23B /* Accelerate.framework in Frameworks */,
 				9DEFA0641D6C983B009CE23B /* AudioToolbox.framework in Frameworks */,
 				9DEFA0621D6C982C009CE23B /* CoreVideo.framework in Frameworks */,
@@ -522,6 +551,20 @@
 			name = instrucciones;
 			sourceTree = "<group>";
 		};
+		9DA87E7D1D6DEB7600C61501 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				9DA87E7F1D6DEC6700C61501 /* ARApp2_Prefix.pch */,
+				9DA87E801D6DEC6700C61501 /* ARApp2Delegate.h */,
+				9DA87E811D6DEC6700C61501 /* ARApp2Delegate.m */,
+				9DA87E821D6DEC6700C61501 /* ARViewController.h */,
+				9DA87E831D6DEC6700C61501 /* ARViewController.m */,
+				9DA87E7E1D6DEC6500C61501 /* RH meeting 2016-Bridging-Header.h */,
+				9DA87E861D6DECBC00C61501 /* Data2 */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
 		9DBA052B1D526E3F00F12F0E /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,6 +679,7 @@
 		9DF4FD0B1D43CA50007C8DC3 /* RH meeting 2016 */ = {
 			isa = PBXGroup;
 			children = (
+				9DA87E7D1D6DEB7600C61501 /* AR */,
 				9D6CFFC21D68DE2300861E5C /* pistas */,
 				9D71CEFD1D679FFA00ACCDCA /* instrucciones */,
 				9D05F8BB1D64DBB600583581 /* model_data preguntas */,
@@ -679,6 +723,13 @@
 		A048027C15FC5F7241886A86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DA87E8A1D6DEE3600C61501 /* libAR.a */,
+				9DA87E8B1D6DEE3600C61501 /* libARgsub_es.a */,
+				9DA87E8C1D6DEE3600C61501 /* libARICP.a */,
+				9DA87E8D1D6DEE3600C61501 /* libARMulti.a */,
+				9DA87E8E1D6DEE3600C61501 /* libARvideo.a */,
+				9DA87E8F1D6DEE3600C61501 /* libEden.a */,
+				9DA87E881D6DEE0200C61501 /* AR */,
 				9DEFA0651D6C984A009CE23B /* Accelerate.framework */,
 				9DEFA0631D6C983B009CE23B /* AudioToolbox.framework */,
 				9DEFA0611D6C982C009CE23B /* CoreVideo.framework */,
@@ -901,6 +952,7 @@
 				9D71CF631D68C53100ACCDCA /* pista13.png in Resources */,
 				9DF4FD121D43CA51007C8DC3 /* Main.storyboard in Resources */,
 				9D05F8AE1D64D5A100583581 /* fondo_preguntas.png in Resources */,
+				9DA87E871D6DECBC00C61501 /* Data2 in Resources */,
 				9D71CF301D67D14300ACCDCA /* Trofeo_8_color.png in Resources */,
 				9D71CF371D67D14300ACCDCA /* Trofeo_11_gris.png in Resources */,
 				9D71CEDB1D6785A900ACCDCA /* boton_pistas.png in Resources */,
@@ -1109,6 +1161,7 @@
 				2834B6971D4AB8B8002057ED /* d2ViewController.swift in Sources */,
 				9D13A5BB1D53C76900EDBF42 /* p9ViewController.swift in Sources */,
 				9D13A5B91D53C75F00EDBF42 /* p8ViewController.swift in Sources */,
+				9DA87E841D6DEC6700C61501 /* ARApp2Delegate.m in Sources */,
 				9D49192F1D623FE6008A929C /* pr7ViewController.swift in Sources */,
 				2834B6931D4AB7CA002057ED /* HomeModelTres.swift in Sources */,
 				2834B6911D4AB7C2002057ED /* HomeModelDos.swift in Sources */,
@@ -1118,6 +1171,7 @@
 				2834B69B1D4AC749002057ED /* LocationMenu.swift in Sources */,
 				9DF4FD3B1D43D6AB007C8DC3 /* AWSMobileClient.swift in Sources */,
 				9D49192B1D623FCF008A929C /* pr5ViewController.swift in Sources */,
+				9DA87E851D6DEC6700C61501 /* ARViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1260,6 +1314,7 @@
 			baseConfigurationReference = 6323A5CFD45AE77EEE8D73E0 /* Pods-RH meeting 2016.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1272,9 +1327,12 @@
 					"$(PROJECT_DIR)/RH",
 					meeting,
 					2016/lib,
+					"$(PROJECT_DIR)/AR/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.palindromo.RH-meeting-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RH meeting 2016/RH meeting 2016-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -1283,6 +1341,7 @@
 			baseConfigurationReference = 8D7E4EB52278B6CD043AE780 /* Pods-RH meeting 2016.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1295,9 +1354,11 @@
 					"$(PROJECT_DIR)/RH",
 					meeting,
 					2016/lib,
+					"$(PROJECT_DIR)/AR/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.palindromo.RH-meeting-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RH meeting 2016/RH meeting 2016-Bridging-Header.h";
 			};
 			name = Release;
 		};
