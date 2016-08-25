@@ -133,8 +133,6 @@
 		9DA646A91D6C6E050032A85C /* Trofeo_14_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A31D6C6E050032A85C /* Trofeo_14_gris.png */; };
 		9DA646AA1D6C6E050032A85C /* Trofeo_15_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A41D6C6E050032A85C /* Trofeo_15_color.png */; };
 		9DA646AB1D6C6E050032A85C /* Trofeo_15_gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA646A51D6C6E050032A85C /* Trofeo_15_gris.png */; };
-		9DA87E841D6DEC6700C61501 /* ARApp2Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA87E811D6DEC6700C61501 /* ARApp2Delegate.m */; };
-		9DA87E851D6DEC6700C61501 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA87E831D6DEC6700C61501 /* ARViewController.m */; };
 		9DA87E871D6DECBC00C61501 /* Data2 in Resources */ = {isa = PBXBuildFile; fileRef = 9DA87E861D6DECBC00C61501 /* Data2 */; };
 		9DA87E901D6DEE3600C61501 /* libAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8A1D6DEE3600C61501 /* libAR.a */; };
 		9DA87E911D6DEE3600C61501 /* libARgsub_es.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8B1D6DEE3600C61501 /* libARgsub_es.a */; };
@@ -319,12 +317,6 @@
 		9DA646A31D6C6E050032A85C /* Trofeo_14_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_14_gris.png; sourceTree = "<group>"; };
 		9DA646A41D6C6E050032A85C /* Trofeo_15_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_15_color.png; sourceTree = "<group>"; };
 		9DA646A51D6C6E050032A85C /* Trofeo_15_gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trofeo_15_gris.png; sourceTree = "<group>"; };
-		9DA87E7E1D6DEC6500C61501 /* RH meeting 2016-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RH meeting 2016-Bridging-Header.h"; sourceTree = "<group>"; };
-		9DA87E7F1D6DEC6700C61501 /* ARApp2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARApp2_Prefix.pch; sourceTree = "<group>"; };
-		9DA87E801D6DEC6700C61501 /* ARApp2Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARApp2Delegate.h; sourceTree = "<group>"; };
-		9DA87E811D6DEC6700C61501 /* ARApp2Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARApp2Delegate.m; sourceTree = "<group>"; };
-		9DA87E821D6DEC6700C61501 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
-		9DA87E831D6DEC6700C61501 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		9DA87E861D6DECBC00C61501 /* Data2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data2; sourceTree = "<group>"; };
 		9DA87E881D6DEE0200C61501 /* AR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AR; sourceTree = "<group>"; };
 		9DA87E8A1D6DEE3600C61501 /* libAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAR.a; path = AR/lib/libAR.a; sourceTree = "<group>"; };
@@ -342,18 +334,6 @@
 		9DBA05391D52776300F12F0E /* CODE Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CODE Light.otf"; sourceTree = "<group>"; };
 		9DBA053A1D52776300F12F0E /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
 		9DBA053B1D52776300F12F0E /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
-		9DEFA03B1D6C97A3009CE23B /* libAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAR.a; path = "RH meeting 2016/lib/libAR.a"; sourceTree = "<group>"; };
-		9DEFA03C1D6C97A3009CE23B /* libAR2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAR2.a; path = "RH meeting 2016/lib/libAR2.a"; sourceTree = "<group>"; };
-		9DEFA03D1D6C97A3009CE23B /* libARgsub_es.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARgsub_es.a; path = "RH meeting 2016/lib/libARgsub_es.a"; sourceTree = "<group>"; };
-		9DEFA03E1D6C97A3009CE23B /* libARgsub_es2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARgsub_es2.a; path = "RH meeting 2016/lib/libARgsub_es2.a"; sourceTree = "<group>"; };
-		9DEFA03F1D6C97A3009CE23B /* libARICP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARICP.a; path = "RH meeting 2016/lib/libARICP.a"; sourceTree = "<group>"; };
-		9DEFA0401D6C97A3009CE23B /* libARMulti.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARMulti.a; path = "RH meeting 2016/lib/libARMulti.a"; sourceTree = "<group>"; };
-		9DEFA0411D6C97A3009CE23B /* libARosg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARosg.a; path = "RH meeting 2016/lib/libARosg.a"; sourceTree = "<group>"; };
-		9DEFA0421D6C97A3009CE23B /* libARUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARUtil.a; path = "RH meeting 2016/lib/libARUtil.a"; sourceTree = "<group>"; };
-		9DEFA0431D6C97A3009CE23B /* libARvideo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARvideo.a; path = "RH meeting 2016/lib/libARvideo.a"; sourceTree = "<group>"; };
-		9DEFA0441D6C97A3009CE23B /* libARWrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARWrapper.a; path = "RH meeting 2016/lib/libARWrapper.a"; sourceTree = "<group>"; };
-		9DEFA0451D6C97A3009CE23B /* libEden.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEden.a; path = "RH meeting 2016/lib/libEden.a"; sourceTree = "<group>"; };
-		9DEFA0461D6C97A3009CE23B /* libKPM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKPM.a; path = "RH meeting 2016/lib/libKPM.a"; sourceTree = "<group>"; };
 		9DEFA0531D6C97E0009CE23B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9DEFA0551D6C97EA009CE23B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9DEFA0571D6C97F4009CE23B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -554,12 +534,6 @@
 		9DA87E7D1D6DEB7600C61501 /* AR */ = {
 			isa = PBXGroup;
 			children = (
-				9DA87E7F1D6DEC6700C61501 /* ARApp2_Prefix.pch */,
-				9DA87E801D6DEC6700C61501 /* ARApp2Delegate.h */,
-				9DA87E811D6DEC6700C61501 /* ARApp2Delegate.m */,
-				9DA87E821D6DEC6700C61501 /* ARViewController.h */,
-				9DA87E831D6DEC6700C61501 /* ARViewController.m */,
-				9DA87E7E1D6DEC6500C61501 /* RH meeting 2016-Bridging-Header.h */,
 				9DA87E861D6DECBC00C61501 /* Data2 */,
 			);
 			name = AR;
@@ -740,18 +714,6 @@
 				9DEFA0571D6C97F4009CE23B /* OpenGLES.framework */,
 				9DEFA0551D6C97EA009CE23B /* CoreGraphics.framework */,
 				9DEFA0531D6C97E0009CE23B /* QuartzCore.framework */,
-				9DEFA03B1D6C97A3009CE23B /* libAR.a */,
-				9DEFA03C1D6C97A3009CE23B /* libAR2.a */,
-				9DEFA03D1D6C97A3009CE23B /* libARgsub_es.a */,
-				9DEFA03E1D6C97A3009CE23B /* libARgsub_es2.a */,
-				9DEFA03F1D6C97A3009CE23B /* libARICP.a */,
-				9DEFA0401D6C97A3009CE23B /* libARMulti.a */,
-				9DEFA0411D6C97A3009CE23B /* libARosg.a */,
-				9DEFA0421D6C97A3009CE23B /* libARUtil.a */,
-				9DEFA0431D6C97A3009CE23B /* libARvideo.a */,
-				9DEFA0441D6C97A3009CE23B /* libARWrapper.a */,
-				9DEFA0451D6C97A3009CE23B /* libEden.a */,
-				9DEFA0461D6C97A3009CE23B /* libKPM.a */,
 				9DF4FD3C1D43D6C9007C8DC3 /* AWSMobileHubHelper.framework */,
 				C4297D80827B157838CBD855 /* Pods_RH_meeting_2016.framework */,
 				158013449B2B85D19295A7D5 /* Pods_RH_meeting_2016Tests.framework */,
@@ -1161,7 +1123,6 @@
 				2834B6971D4AB8B8002057ED /* d2ViewController.swift in Sources */,
 				9D13A5BB1D53C76900EDBF42 /* p9ViewController.swift in Sources */,
 				9D13A5B91D53C75F00EDBF42 /* p8ViewController.swift in Sources */,
-				9DA87E841D6DEC6700C61501 /* ARApp2Delegate.m in Sources */,
 				9D49192F1D623FE6008A929C /* pr7ViewController.swift in Sources */,
 				2834B6931D4AB7CA002057ED /* HomeModelTres.swift in Sources */,
 				2834B6911D4AB7C2002057ED /* HomeModelDos.swift in Sources */,
@@ -1171,7 +1132,6 @@
 				2834B69B1D4AC749002057ED /* LocationMenu.swift in Sources */,
 				9DF4FD3B1D43D6AB007C8DC3 /* AWSMobileClient.swift in Sources */,
 				9D49192B1D623FCF008A929C /* pr5ViewController.swift in Sources */,
-				9DA87E851D6DEC6700C61501 /* ARViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1313,9 +1273,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6323A5CFD45AE77EEE8D73E0 /* Pods-RH meeting 2016.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AmazonAws",
@@ -1331,7 +1291,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.palindromo.RH-meeting-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RH meeting 2016/RH meeting 2016-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1340,9 +1299,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D7E4EB52278B6CD043AE780 /* Pods-RH meeting 2016.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AmazonAws",
@@ -1358,7 +1317,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.palindromo.RH-meeting-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RH meeting 2016/RH meeting 2016-Bridging-Header.h";
 			};
 			name = Release;
 		};

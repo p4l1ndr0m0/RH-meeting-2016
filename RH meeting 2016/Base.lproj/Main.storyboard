@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -857,7 +857,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GRACIAS! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HA4-2x-yf3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="¡GRACIAS! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HA4-2x-yf3">
                                 <rect key="frame" x="20" y="139" width="280" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HA4-2x-yf3" secondAttribute="height" multiplier="35:4" id="Bsg-6e-A5P"/>
@@ -926,7 +926,7 @@
                                 </constraints>
                                 <state key="normal" image="boton_martes.png"/>
                                 <connections>
-                                    <segue destination="6Ft-WN-ufv" kind="presentation" id="rvr-KL-6BS"/>
+                                    <segue destination="6Ft-WN-ufv" kind="presentation" id="gjT-1P-lSM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbM-2a-HP7">
@@ -936,7 +936,7 @@
                                 </constraints>
                                 <state key="normal" image="boton_lunes.png"/>
                                 <connections>
-                                    <segue destination="K8w-wZ-DZQ" kind="presentation" id="kOT-ng-JAB"/>
+                                    <segue destination="K8w-wZ-DZQ" kind="presentation" id="yrs-GI-5mu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwc-Hd-ozn">
@@ -946,7 +946,7 @@
                                 </constraints>
                                 <state key="normal" image="boton_miercoles.png"/>
                                 <connections>
-                                    <segue destination="LeW-zU-BC4" kind="presentation" id="h4o-d8-MBP"/>
+                                    <segue destination="LeW-zU-BC4" kind="presentation" id="iOm-SZ-HT7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -970,7 +970,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TgZ-BU-Pf2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1835" y="2069"/>
+            <point key="canvasLocation" x="748" y="3384"/>
         </scene>
         <!--Inst1 View Controller-->
         <scene sceneID="Bo2-4D-cN3">
@@ -1008,12 +1008,12 @@
                                     <segue destination="9TR-tM-xTE" kind="presentation" id="MTH-vh-178"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bienvenido a la aplicación de HR meeting." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqw-3d-sLT">
-                                <rect key="frame" x="20" y="81" width="280" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bienvenido a la aplicación de HR meeting." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqw-3d-sLT">
+                                <rect key="frame" x="20" y="50" width="280" height="136"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="wqw-3d-sLT" secondAttribute="height" multiplier="8:3" id="jqd-Yi-VDc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Gotham-Black" family="Gotham" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Gotham-Black" family="Gotham" pointSize="34"/>
                                 <color key="textColor" red="0.93725490199999995" green="0.56862745100000001" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -4597,16 +4597,16 @@ Paso 4: Deberás visualizar una imagen en 3D con un código sobre la imagen. Gua
         <image name="pleca_top.png" width="1200" height="226"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wEP-iz-CpG"/>
-        <segue reference="h4o-d8-MBP"/>
-        <segue reference="8sh-Wf-mUN"/>
-        <segue reference="kOT-ng-JAB"/>
-        <segue reference="rvr-KL-6BS"/>
-        <segue reference="6kI-Uh-bRf"/>
-        <segue reference="Ydl-BR-r8Z"/>
-        <segue reference="u2h-Ty-UO4"/>
-        <segue reference="nQs-ji-wdP"/>
-        <segue reference="lCw-Hx-POK"/>
+        <segue reference="cug-AL-66m"/>
+        <segue reference="Lxg-1B-evb"/>
         <segue reference="qZo-hb-1TR"/>
+        <segue reference="MTH-vh-178"/>
+        <segue reference="iOm-SZ-HT7"/>
+        <segue reference="1yf-zf-gxD"/>
+        <segue reference="gjT-1P-lSM"/>
+        <segue reference="yrs-GI-5mu"/>
+        <segue reference="6kI-Uh-bRf"/>
+        <segue reference="nQs-ji-wdP"/>
+        <segue reference="u2h-Ty-UO4"/>
     </inferredMetricsTieBreakers>
 </document>
