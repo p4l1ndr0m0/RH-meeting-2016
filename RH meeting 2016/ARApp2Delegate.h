@@ -45,10 +45,11 @@
 //
 //  Author(s): Philip Lamb
 //
+#import <UIKit/UIKit.h>
 
 @class ARViewController;
 
-@interface ARApp2Delegate : NSObject  : NSObject  : NSObject <UIApplicationDelegate> {
+@interface ARApp2Delegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     ARViewController *viewController;
 }

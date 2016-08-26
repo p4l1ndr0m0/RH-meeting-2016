@@ -45,7 +45,7 @@
 //
 //  Author(s): Philip Lamb
 //
-
+#import <UIKit/UIKit.h>
 #import "ARApp2Delegate.h"
 #import "ARViewController.h"
 
@@ -82,9 +82,9 @@
 
 - (void)dealloc {
     
-    [viewController release];
-    [window release];
-    [super dealloc];
+    //[viewController release];
+    //[window release];
+    //[super dealloc];
 }
 
 @end

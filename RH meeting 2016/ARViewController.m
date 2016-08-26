@@ -47,9 +47,9 @@
 //
 
 #import "ARViewController.h"
-#import <AR/gsub_es.h>
-#import "../ARAppCore/ARMarkerSquare.h"
-#import "../ARAppCore/ARMarkerMulti.h"
+#import "gsub_es.h"
+#import "ARMarkerSquare.h"
+#import "ARMarkerMulti.h"
 
 #define VIEW_DISTANCE_MIN        5.0f          // Objects closer to the camera than this will not be displayed.
 #define VIEW_DISTANCE_MAX        2000.0f        // Objects further away from the camera than this will not be displayed.
@@ -508,7 +508,7 @@ static void startCallback(void *userData)
 }
 
 - (void)dealloc {
-    [super dealloc];
+    //[super dealloc];
 }
 
 // ARToolKit-specific methods.

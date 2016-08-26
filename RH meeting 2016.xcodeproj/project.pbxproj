@@ -35,7 +35,6 @@
 		289EC0E81D6FCC9700CF8709 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EC0DB1D6FCC9700CF8709 /* ARViewController.m */; };
 		289EC0EA1D6FCC9700CF8709 /* VEObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EC0E21D6FCC9700CF8709 /* VEObject.m */; };
 		289EC0EB1D6FCC9700CF8709 /* VirtualEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EC0E51D6FCC9700CF8709 /* VirtualEnvironment.m */; };
-		289EC0ED1D6FCD8700CF8709 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289EC0EC1D6FCD8700CF8709 /* MainWindow.xib */; };
 		289EC0FA1D6FD03C00CF8709 /* ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EC0F71D6FD03C00CF8709 /* ARView.m */; };
 		289EC0FB1D6FD03C00CF8709 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EC0F91D6FD03C00CF8709 /* EAGLView.m */; };
 		289EC0FE1D6FD14B00CF8709 /* ARMarkerSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 289EC0FD1D6FD14B00CF8709 /* ARMarkerSquare.m */; };
@@ -152,6 +151,7 @@
 		9DA87E931D6DEE3600C61501 /* libARMulti.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8D1D6DEE3600C61501 /* libARMulti.a */; };
 		9DA87E941D6DEE3600C61501 /* libARvideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8E1D6DEE3600C61501 /* libARvideo.a */; };
 		9DA87E951D6DEE3600C61501 /* libEden.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA87E8F1D6DEE3600C61501 /* libEden.a */; };
+		9DA87E9C1D70137100C61501 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA87E9B1D70137100C61501 /* MainWindow.xib */; };
 		9DBA052D1D526E4C00F12F0E /* fondoApp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA052C1D526E4C00F12F0E /* fondoApp.jpg */; };
 		9DBA052F1D5276B700F12F0E /* boton_cancelar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA052E1D5276B700F12F0E /* boton_cancelar.png */; };
 		9DBA05311D5276CA00F12F0E /* boton_continuar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA05301D5276CA00F12F0E /* boton_continuar.png */; };
@@ -243,7 +243,6 @@
 		289EC0E31D6FCC9700CF8709 /* video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video.h; sourceTree = "<group>"; };
 		289EC0E41D6FCC9700CF8709 /* VirtualEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualEnvironment.h; sourceTree = "<group>"; };
 		289EC0E51D6FCC9700CF8709 /* VirtualEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualEnvironment.m; sourceTree = "<group>"; };
-		289EC0EC1D6FCD8700CF8709 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		289EC0EE1D6FCE1100CF8709 /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
 		289EC0EF1D6FCE2D00CF8709 /* icp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = icp.h; sourceTree = "<group>"; };
 		289EC0F01D6FCE5A00CF8709 /* icpCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = icpCore.h; sourceTree = "<group>"; };
@@ -379,6 +378,7 @@
 		9DA87E8D1D6DEE3600C61501 /* libARMulti.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARMulti.a; path = AR/lib/libARMulti.a; sourceTree = "<group>"; };
 		9DA87E8E1D6DEE3600C61501 /* libARvideo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libARvideo.a; path = AR/lib/libARvideo.a; sourceTree = "<group>"; };
 		9DA87E8F1D6DEE3600C61501 /* libEden.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEden.a; path = AR/lib/libEden.a; sourceTree = "<group>"; };
+		9DA87E9B1D70137100C61501 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		9DBA052C1D526E4C00F12F0E /* fondoApp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoApp.jpg; sourceTree = "<group>"; };
 		9DBA052E1D5276B700F12F0E /* boton_cancelar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_cancelar.png; sourceTree = "<group>"; };
 		9DBA05301D5276CA00F12F0E /* boton_continuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_continuar.png; sourceTree = "<group>"; };
@@ -586,7 +586,6 @@
 		9DA87E7D1D6DEB7600C61501 /* AR */ = {
 			isa = PBXGroup;
 			children = (
-				289EC0EC1D6FCD8700CF8709 /* MainWindow.xib */,
 				289EC1031D6FD30B00CF8709 /* gsub_mtx.h */,
 				289EC1021D6FD1EB00CF8709 /* Eden.h */,
 				289EC1041D6FD3E500CF8709 /* arMulti.h */,
@@ -762,6 +761,7 @@
 				9D5D632C1D468DB800EC6BE7 /* registro */,
 				9D5D632B1D468DAD00EC6BE7 /* login */,
 				9DF4FD0C1D43CA50007C8DC3 /* AppDelegate.swift */,
+				9DA87E9B1D70137100C61501 /* MainWindow.xib */,
 				9DF4FD0E1D43CA51007C8DC3 /* ViewController.swift */,
 				9DF4FD3A1D43D6AB007C8DC3 /* AWSMobileClient.swift */,
 				9DF4FD101D43CA51007C8DC3 /* Main.storyboard */,
@@ -1020,7 +1020,7 @@
 				9D71CEDB1D6785A900ACCDCA /* boton_pistas.png in Resources */,
 				9D71CF2D1D67D14300ACCDCA /* Trofeo_6_gris.png in Resources */,
 				9D35A4971D58003400661C21 /* fondo_agenda.png in Resources */,
-				289EC0ED1D6FCD8700CF8709 /* MainWindow.xib in Resources */,
+				9DA87E9C1D70137100C61501 /* MainWindow.xib in Resources */,
 				9D71CF5D1D68C53100ACCDCA /* pista7.png in Resources */,
 				9D35A4A11D58031100661C21 /* pleca_top.png in Resources */,
 				9D71CF341D67D14300ACCDCA /* Trofeo_10_color.png in Resources */,
