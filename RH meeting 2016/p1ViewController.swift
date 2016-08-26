@@ -8,27 +8,50 @@
 
 import UIKit
 
-class p1ViewController: UIViewController {
+class p1ViewController: UIViewController, UITextFieldDelegate {
     
     var code_final: String! = "1946"
     
     @IBOutlet weak var validarButton: UIButton!
     @IBOutlet weak var codigo: UITextField!
+    @IBOutlet weak var scrollView: UIScrollView!
     var r1 : Int! = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "pista1.png")!.drawInRect(self.view.bounds)
+        UIImage(named: "fondo_preguntas.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
-        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(registroViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         
         
         
     }
+    
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+    func textFieldDidBeginEditing(textField: UITextField){
+        
+        if( textField == codigo) {
+            scrollView.setContentOffset(CGPointMake(0, 200), animated: true)
+        }
+        
+    }
+
     
     @IBAction func enviarResp(sender: AnyObject) {
         
@@ -37,13 +60,19 @@ class p1ViewController: UIViewController {
             NSUserDefaults.standardUserDefaults().setInteger(r1, forKey:"respuesta1")
              NSUserDefaults.standardUserDefaults().synchronize()
             print(r1)
+            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            
             
             let alertController = UIAlertController(title: "Perfecto", message: "Codigo Correcto", preferredStyle: .Alert)
             let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
                 print("boton apretado para cancelacion");
             }
             alertController.addAction(cancelAction)
+            
             self.presentViewController(alertController, animated: true, completion:nil)
+            
+            
+            
             
             let correoData = NSUserDefaults.standardUserDefaults().stringForKey("UserCorreo")
             
@@ -67,6 +96,8 @@ class p1ViewController: UIViewController {
             }
             
             task.resume()
+            
+            
             
         }
         else {

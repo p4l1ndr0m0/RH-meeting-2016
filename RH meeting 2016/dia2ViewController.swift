@@ -29,7 +29,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        UIImage(named: "fondoApp.jpg")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)

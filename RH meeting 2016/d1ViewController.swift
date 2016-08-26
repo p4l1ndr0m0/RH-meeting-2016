@@ -16,7 +16,7 @@ class d1ViewController: UIViewController {
     @IBOutlet weak var codigo: UILabel!
 
     var selectedLocation : LocationUno!
-    var imagenFinal: String!
+
     
     
     override func viewDidLoad() {

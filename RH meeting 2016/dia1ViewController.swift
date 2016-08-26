@@ -15,13 +15,13 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
     var selectedLocation : LocationUno = LocationUno()
     @IBOutlet weak var listTableView: UITableView!
     
-    let loadingView = UIView()
+    ///let loadingView = UIView()
     
     /// Spinner shown during load the TableView
-    let spinner = UIActivityIndicatorView()
+    //let spinner = UIActivityIndicatorView()
     
     /// Text shown during load the TableView
-    let loadingLabel = UILabel()
+    //let loadingLabel = UILabel()
     
     
     
@@ -29,7 +29,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "FondoApp.jpg")!.drawInRect(self.view.bounds)
+        UIImage(named: "fondoApp.jpg")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
@@ -76,7 +76,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         self.listTableView.addSubview(loadingView)
         
-    }*/
+    }
     
     // Remove the activity indicator from the main view
     private func removeLoadingScreen() {
@@ -85,7 +85,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.spinner.stopAnimating()
         self.loadingLabel.hidden = true
         
-    }
+    }*/
     
     
     
@@ -93,7 +93,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         feedItems = items
         self.listTableView.reloadData()
-        self.removeLoadingScreen()
+        //self.removeLoadingScreen()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

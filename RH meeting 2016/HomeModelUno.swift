@@ -15,7 +15,6 @@ protocol HomeModelUnoProtocal: class {
 
 class HomeModelUno: NSObject, NSURLSessionDataDelegate {
     
-    //properties
     
     weak var delegate: HomeModelUnoProtocal!
     
@@ -86,7 +85,7 @@ class HomeModelUno: NSObject, NSURLSessionDataDelegate {
                 location.salon = salon
                 location.horario = horario
                 location.codigo = codigo
-                
+
                 
                 
             }

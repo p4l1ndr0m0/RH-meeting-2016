@@ -7,14 +7,10 @@
 //
 
 import UIKit
-import Foundation
+
 
 class menuViewController: UIViewController {
     
-    var resultado: String!
-    
-    var selectedLocation : LocationMenu = LocationMenu()
-    @IBOutlet weak var equipoText: UILabel!
     
  
     
@@ -27,7 +23,6 @@ class menuViewController: UIViewController {
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
         
-        //equipoText.text = self.selectedLocation.equipo
         
         
         
