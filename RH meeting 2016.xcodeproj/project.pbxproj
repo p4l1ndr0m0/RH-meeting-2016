@@ -872,7 +872,7 @@
 				TargetAttributes = {
 					9DF4FD081D43CA50007C8DC3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = B9E9GA7RYJ;
+						DevelopmentTeam = DFBLCR2QW2;
 					};
 					9DF4FD1C1D43CA52007C8DC3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1357,6 +1357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6323A5CFD45AE77EEE8D73E0 /* Pods-RH meeting 2016.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1375,7 +1376,7 @@
 					2016/lib,
 					"$(PROJECT_DIR)/AR/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.palindromo.RH-meeting-2016";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.switch.rh-meeting-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -1387,6 +1388,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D7E4EB52278B6CD043AE780 /* Pods-RH meeting 2016.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1405,7 +1407,7 @@
 					2016/lib,
 					"$(PROJECT_DIR)/AR/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.palindromo.RH-meeting-2016";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.switch.rh-meeting-2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
