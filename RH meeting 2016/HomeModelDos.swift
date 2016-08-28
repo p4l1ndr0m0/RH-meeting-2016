@@ -21,7 +21,7 @@ class HomeModelDos: NSObject, NSURLSessionDataDelegate {
     
     var data : NSMutableData = NSMutableData()
     
-    let urlPath: String = "http://app-pepsico.palindromo.com.mx/APP/dia2.php" //Path de PHP
+    let urlPath: String = "http://app-ecodsa.com.mx/daimler/martes.php" //Path de PHP
     
     
     func downloadItems() {

@@ -21,7 +21,7 @@ class p1ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         UIGraphicsBeginImageContext(self.view.frame.size)
-        UIImage(named: "fondo_preguntas.png")!.drawInRect(self.view.bounds)
+        UIImage(named: "1_FondoCompletoInput.png")!.drawInRect(self.view.bounds)
         var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
@@ -44,13 +44,7 @@ class p1ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    func textFieldDidBeginEditing(textField: UITextField){
-        
-        if( textField == codigo) {
-            scrollView.setContentOffset(CGPointMake(0, 200), animated: true)
-        }
-        
-    }
+    
 
     
     @IBAction func enviarResp(sender: AnyObject) {

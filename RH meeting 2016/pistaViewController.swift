@@ -61,8 +61,7 @@ class pistaViewController: UIViewController {
 
     @IBAction func switchCamara(sender: AnyObject) {
         
-        let newview = ARApp2Delegate(nibName: "ARViewController", bundle: nil)
-        self.presentViewController(newview, animated: true, completion: nil)
+        
     }
 
 }
