@@ -15,7 +15,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
     var selectedLocation : LocationUno = LocationUno()
     @IBOutlet weak var listTableView: UITableView!
     
-    ///let loadingView = UIView()
+   // let loadingView = UIView()
     
     /// Spinner shown during load the TableView
     //let spinner = UIActivityIndicatorView()
@@ -50,7 +50,7 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.didReceiveMemoryWarning()
     }
     
-    /*private func setLoadingScreen() {
+   /* private func setLoadingScreen() {
         
         // Sets the view which contains the loading text and the spinner
         let width: CGFloat = 120
@@ -76,16 +76,16 @@ class dia1ViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         self.listTableView.addSubview(loadingView)
         
-    }
+    }*/
     
     // Remove the activity indicator from the main view
     private func removeLoadingScreen() {
         
         // Hides and stops the text and the spinner
-        self.spinner.stopAnimating()
-        self.loadingLabel.hidden = true
+        //self.spinner.stopAnimating()
+        //self.loadingLabel.hidden = true
         
-    }*/
+    }
     
     
     

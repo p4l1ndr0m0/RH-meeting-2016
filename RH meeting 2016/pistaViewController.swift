@@ -61,6 +61,24 @@ class pistaViewController: UIViewController {
 
     @IBAction func switchCamara(sender: AnyObject) {
         
+        var instagramHooks = "rh://"
+        var instagramUrl = NSURL(string: instagramHooks)
+        if UIApplication.sharedApplication().canOpenURL(instagramUrl!)
+        {
+            UIApplication.sharedApplication().openURL(instagramUrl!)
+            
+        } else {
+            
+            let alertController = UIAlertController(title: "Error", message: "Falla", preferredStyle: .Alert)
+            let cancelAction = UIAlertAction(title: "Regresar", style: .Cancel) { (action:UIAlertAction!) in
+                print("boton apretado para cancelacion");
+            }
+            alertController.addAction(cancelAction)
+            self.presentViewController(alertController, animated: true, completion:nil)
+            //redirect to safari because the user doesn't have Instagram
+            //UIApplication.sharedApplication().openURL(NSURL(string: "http://instagram.com/")!)
+        }
+        
         
     }
 

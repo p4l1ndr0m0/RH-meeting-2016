@@ -310,13 +310,6 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHw-z0-cY1">
-                                        <rect key="frame" x="20" y="522" width="133" height="55"/>
-                                        <state key="normal" title="Cancelar" image="boton_cancelar.png"/>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" id="6kI-Uh-bRf"/>
-                                        </connections>
-                                    </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Correo Electronico" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EQl-4D-iGI">
                                         <rect key="frame" x="20" y="266" width="280" height="31"/>
                                         <constraints>
@@ -326,9 +319,13 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sS1-N0-c8r">
-                                        <rect key="frame" x="167" y="520" width="133" height="57"/>
-                                        <state key="normal" title="Registrate" image="boton_enviar.png"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sS1-N0-c8r">
+                                        <rect key="frame" x="202" y="522" width="110" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="sS1-N0-c8r" secondAttribute="height" multiplier="11:4" id="Ylu-rX-Voh"/>
+                                            <constraint firstAttribute="width" constant="110" id="op7-aE-enL"/>
+                                        </constraints>
+                                        <state key="normal" title="Registrate" image="boton_enviar_2.png"/>
                                         <connections>
                                             <action selector="enviarRegistro:" destination="GYI-Ea-FFX" eventType="touchUpInside" id="8Ok-F8-ACX"/>
                                         </connections>
@@ -342,17 +339,32 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHw-z0-cY1">
+                                        <rect key="frame" x="15" y="522" width="110" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wHw-z0-cY1" secondAttribute="height" multiplier="11:4" id="IUx-vY-zHu"/>
+                                            <constraint firstAttribute="width" constant="110" id="Llr-yy-eAW"/>
+                                        </constraints>
+                                        <state key="normal" title="Cancelar" image="boton_cancelar_2.png"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="6kI-Uh-bRf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="sS1-N0-c8r" firstAttribute="top" secondItem="LmR-X3-UfN" secondAttribute="top" constant="522" id="8xo-Is-Wu6"/>
                                     <constraint firstItem="NuG-Ih-xTh" firstAttribute="leading" secondItem="hjp-bD-KBG" secondAttribute="leading" id="EEx-ac-gcH"/>
                                     <constraint firstItem="pgB-4j-fQP" firstAttribute="top" secondItem="4IC-LF-fTV" secondAttribute="bottom" constant="16" id="FBd-f4-Zk3"/>
                                     <constraint firstItem="EQl-4D-iGI" firstAttribute="leading" secondItem="LmR-X3-UfN" secondAttribute="leading" constant="20" id="Gen-bH-ELZ"/>
+                                    <constraint firstItem="wHw-z0-cY1" firstAttribute="top" secondItem="LmR-X3-UfN" secondAttribute="top" constant="522" id="HoU-Fj-rOn"/>
                                     <constraint firstAttribute="trailing" secondItem="EQl-4D-iGI" secondAttribute="trailing" constant="20" id="Lyy-h5-ebi"/>
                                     <constraint firstItem="NuG-Ih-xTh" firstAttribute="trailing" secondItem="bWe-OO-yMb" secondAttribute="trailing" id="ND5-6G-gSa"/>
                                     <constraint firstItem="4IC-LF-fTV" firstAttribute="leading" secondItem="LmR-X3-UfN" secondAttribute="leading" constant="20" id="OSV-qC-8Gw"/>
                                     <constraint firstItem="sKx-Xf-XwI" firstAttribute="top" secondItem="hjp-bD-KBG" secondAttribute="bottom" constant="27" id="QJF-Id-PQG"/>
+                                    <constraint firstAttribute="trailing" secondItem="sS1-N0-c8r" secondAttribute="trailing" constant="8" id="SXM-vK-TCf"/>
                                     <constraint firstItem="NuG-Ih-xTh" firstAttribute="leading" secondItem="LmR-X3-UfN" secondAttribute="leading" constant="20" id="TV7-Ib-Nk5"/>
                                     <constraint firstAttribute="trailing" secondItem="pgB-4j-fQP" secondAttribute="trailing" constant="20" id="Tej-Om-db3"/>
+                                    <constraint firstItem="wHw-z0-cY1" firstAttribute="leading" secondItem="LmR-X3-UfN" secondAttribute="leading" constant="15" id="Ub3-Ul-la4"/>
                                     <constraint firstAttribute="trailing" secondItem="NuG-Ih-xTh" secondAttribute="trailing" constant="20" id="dfb-ut-Fta"/>
                                     <constraint firstItem="NuG-Ih-xTh" firstAttribute="leading" secondItem="sKx-Xf-XwI" secondAttribute="leading" id="faB-5M-NBO"/>
                                     <constraint firstItem="NuG-Ih-xTh" firstAttribute="leading" secondItem="bWe-OO-yMb" secondAttribute="leading" id="hUH-9K-L32"/>
@@ -4723,9 +4735,8 @@
         <image name="Trofeo_9_gris.png" width="367" height="367"/>
         <image name="boton_agenda.png" width="501" height="138"/>
         <image name="boton_camara.png" width="501" height="140"/>
-        <image name="boton_cancelar.png" width="380" height="124"/>
+        <image name="boton_cancelar_2.png" width="292" height="81"/>
         <image name="boton_continuar_2.png" width="292" height="81"/>
-        <image name="boton_enviar.png" width="338" height="128"/>
         <image name="boton_enviar_2.png" width="292" height="81"/>
         <image name="boton_info.png" width="96" height="96"/>
         <image name="boton_inicio.png" width="408" height="154"/>
@@ -4742,15 +4753,15 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="0X3-IW-PK3"/>
-        <segue reference="Xmf-fS-Qhr"/>
-        <segue reference="ORl-NL-Pw3"/>
+        <segue reference="40i-HF-ibD"/>
+        <segue reference="6kI-Uh-bRf"/>
         <segue reference="sgO-WR-ABg"/>
-        <segue reference="u2h-Ty-UO4"/>
-        <segue reference="nQs-ji-wdP"/>
+        <segue reference="ORl-NL-Pw3"/>
         <segue reference="lCw-Hx-POK"/>
+        <segue reference="nQs-ji-wdP"/>
+        <segue reference="u2h-Ty-UO4"/>
         <segue reference="6JG-cn-N9q"/>
-        <segue reference="cFV-iP-ipW"/>
-        <segue reference="r8r-QL-Fzv"/>
         <segue reference="nVD-LF-EI3"/>
+        <segue reference="r8r-QL-Fzv"/>
     </inferredMetricsTieBreakers>
 </document>

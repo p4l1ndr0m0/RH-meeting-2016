@@ -15,13 +15,13 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var selectedLocation : LocationDos = LocationDos()
     @IBOutlet weak var listTableView: UITableView!
     
-    let loadingView = UIView()
+    //let loadingView = UIView()
     
     /// Spinner shown during load the TableView
-    let spinner = UIActivityIndicatorView()
+    //let spinner = UIActivityIndicatorView()
     
     /// Text shown during load the TableView
-    let loadingLabel = UILabel()
+    //let loadingLabel = UILabel()
     
     
     
@@ -50,7 +50,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.didReceiveMemoryWarning()
     }
     
-    /*private func setLoadingScreen() {
+   /* private func setLoadingScreen() {
         
         // Sets the view which contains the loading text and the spinner
         let width: CGFloat = 120
@@ -79,13 +79,13 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }*/
     
     // Remove the activity indicator from the main view
-    private func removeLoadingScreen() {
+    /*private func removeLoadingScreen() {
         
         // Hides and stops the text and the spinner
         self.spinner.stopAnimating()
         self.loadingLabel.hidden = true
         
-    }
+    }*/
     
     
     
@@ -93,7 +93,7 @@ class dia2ViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         feedItems = items
         self.listTableView.reloadData()
-        self.removeLoadingScreen()
+        //self.removeLoadingScreen()
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
