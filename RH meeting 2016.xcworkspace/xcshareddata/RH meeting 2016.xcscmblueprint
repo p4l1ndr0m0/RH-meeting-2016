@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DDA1C06B54BE27B9B90E88A8A6A36C1DF52A8A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5FFE9BA923A2454566628C92B5378F0D2C72B153" : 0,
+    "1DDA1C06B54BE27B9B90E88A8A6A36C1DF52A8A4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9F046593-383A-496A-8A05-F593084B7047",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5FFE9BA923A2454566628C92B5378F0D2C72B153" : "Daimler\/",
+    "1DDA1C06B54BE27B9B90E88A8A6A36C1DF52A8A4" : "RH-meeting-2016\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RH meeting 2016",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RH meeting 2016.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/p4l1ndr0m0\/RH-meeting-2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DDA1C06B54BE27B9B90E88A8A6A36C1DF52A8A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/p4l1ndr0m0\/Daimler.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FFE9BA923A2454566628C92B5378F0D2C72B153"
+    }
+  ]
+}

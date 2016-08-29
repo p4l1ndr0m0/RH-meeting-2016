@@ -21,7 +21,7 @@ class pistaViewController: UIViewController {
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
         
-        nombre_imagen = "http://app-pepsico.palindromo.com.mx/pistas/p1.png"
+        nombre_imagen = "http://app-ecodsa.com.mx/daimler/galeria/p1.png"
         load_image(nombre_imagen)
         
         
